@@ -50,3 +50,5 @@ Ja tenim tota la informació necessària relativa a la factura, ara sols falta i
 # Factura de Compra
 ## Tenim creat el proveïdor?
 Igual que en el cas de venda, ens hem d'assegurar que existeix en cas contrari introduir les dades com ho faríem per client. 
+
+En el cas de les factures de proveïdors sempre adjuntarem una foto/pdf de la factura original a la factura de Odoo. 
