@@ -11,11 +11,33 @@ Entra al Odoo de Coopdevs
 (imatge)
 En primer lloc hem d'assegurar-nos quin tipus de factura volem introduir. Si es una factura a ingressar es una factura de venda i en cas de ser una despesa es una factura de proveïdor.
 
-Tant si introduïm una factura de **Venda** com una factura de **Compra** la estructura i el procediment és anàleg. Veiem un exemple de venda.
+Tant si introduïm una factura de **Venda** com una factura de **Compra** la estructura i el procediment és anàleg. 
 
-## Tenim creat el cient? 
+# Factura de Venda
+## Tenim creat el cient?
+(imatge) 
 Si el client no surt al llistat clients, hem de crear-lo per fer-ho serà indispensable introduir: 
 
 * Imatge
-* Nom de la empresa (tal i com apareix legalment, en cas de tenir un nom més facilment recordable tenim el camp `Nom Comercial`
-*   
+* Nom de la empresa (tal i com apareix legalment, en cas de tenir un nom més facilment recordable tenim el camp ```Nom Comercial```
+* NIF
+* Adreça
+* Idioma del client (serà l'idioma en que li sortirà factura impresa)
+
+Opcionalment podem omplir altres dades de contacte del client. 
+
+## Nova factura de client
+(imatge)
+1. Botó ```crea```
+2. Seleccionem el client en qüestió. 
+3. Introduïm Data factura i Data de Venciment, habitualment no cal omplir aquestes dades i per defecte la data es la actual.
+4. Mètode de pagament: Transferència
+5. A la pestanya de sota "Altra informació" seleccionar compte bancari pel fer el pagament. 
+
+Ja tenim tota la informació necessària relativa a la factura, ara sols falta introduir els conceptes, els conceptes son aquelles coses que volem facturar: "hores de programador", "SysAdmin",  "Optimització de processos empresarials", ... 
+
+1. Clic a Afegeix un element
+
+# Factura de Compra
+## Tenim creat el proveïdor?
+Igual que en el cas de venda, ens hem d'assegurar que existeix en cas contrari introduïr les dades com ho faríem per client. 
