@@ -7,7 +7,7 @@ Entra al Odoo de Coopdevs
 :warning: _Una factura ha de portar el NIF del emissor i el NIF del receptor, si tens només un ticket on no hi surt el NIF de Coopdevs no pots introduir-lo com factura i ho hauràs de fer com una despesa "Expense"_ :warning:
 
 
-## Entrem a Facturació (Invoicing) 
+## Mòdul a Facturació (Invoicing) 
 (imatge)
 En primer lloc hem d'assegurar-nos quin tipus de factura volem introduir. Si es una factura a ingressar es una factura de venda i en cas de ser una despesa es una factura de proveïdor.
 
