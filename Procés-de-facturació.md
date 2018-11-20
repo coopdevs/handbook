@@ -34,10 +34,11 @@ Opcionalment podem omplir altres dades de contacte del client.
 4. Mètode de pagament: Transferència
 5. A la pestanya de sota "Altra informació" seleccionar compte bancari pel fer el pagament. 
 
-Ja tenim tota la informació necessària relativa a la factura, ara sols falta introduir els conceptes, els conceptes son aquelles coses que volem facturar: "hores de programador", "SysAdmin",  "Optimització de processos empresarials", ... 
+Ja tenim tota la informació necessària relativa a la factura, ara sols falta introduir els conceptes, els conceptes son aquelles coses que volem facturar: "Hores de programador", "SysAdmin",  "Optimització de processos empresarials", ... 
 
-1. Clic a Afegeix un element
+1. Clic a afegeix un element (podem afegir tants com necessitem)
+2. 
 
 # Factura de Compra
 ## Tenim creat el proveïdor?
-Igual que en el cas de venda, ens hem d'assegurar que existeix en cas contrari introduïr les dades com ho faríem per client. 
+Igual que en el cas de venda, ens hem d'assegurar que existeix en cas contrari introduir les dades com ho faríem per client. 
