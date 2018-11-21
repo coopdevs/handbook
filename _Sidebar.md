@@ -6,6 +6,6 @@
 
 * [[finding_query]]
 
-**gestió Coopdevs**
+**Gestió Coopdevs**
 
-*[[Procés de facturació]]
+* [[Procés de facturació]]
