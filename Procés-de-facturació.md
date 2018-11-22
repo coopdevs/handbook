@@ -2,7 +2,7 @@ Entra al Odoo de Coopdevs
 
 :warning: _Assegurat a quina organització estás Associació o Cooperativa_ :warning:
 
-![Selector de Empresa](https://github.com/openfoodfoundation/openfoodnetwork/wiki/img/selector_company.png)
+![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/selector_company.png)
 
 :warning: _Una factura ha de portar el NIF del emissor i el NIF del receptor, si tens només un ticket on no hi surt el NIF de Coopdevs no pots introduir-lo com factura i ho hauràs de fer com una despesa "Expense"_ :warning:
 
