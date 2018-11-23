@@ -8,14 +8,19 @@ Entra al Odoo de Coopdevs
 
 
 ## Mòdul a Facturació (Invoicing) 
-(imatge)
+
+![Facturació](https://github.com/coopdevs/handbook/wiki/img/facturacio1.gif)
+
 En primer lloc hem d'assegurar-nos quin tipus de factura volem introduir. Si es una factura a ingressar es una factura de venda i en cas de ser una despesa es una factura de proveïdor.
 
 Tant si introduïm una factura de **Venda** com una factura de **Compra** la estructura i el procediment és anàleg. 
 
 # Factura de Venda
 ## Tenim creat el cient?
-(imatge) 
+
+![Client](https://github.com/coopdevs/handbook/wiki/img/client.png)
+
+
 Si el client no surt al llistat clients, hem de crear-lo per fer-ho serà indispensable introduir: 
 
 * Imatge
@@ -27,7 +32,9 @@ Si el client no surt al llistat clients, hem de crear-lo per fer-ho serà indisp
 Opcionalment podem omplir altres dades de contacte del client. 
 
 ## Nova factura de client
-(imatge)
+
+![Factura](https://github.com/coopdevs/handbook/wiki/img/factura.png)
+
 1. Botó ```crea```
 2. Seleccionem el client en qüestió. 
 3. Introduïm Data factura i Data de Venciment, habitualment no cal omplir aquestes dades i per defecte la data es la actual.
