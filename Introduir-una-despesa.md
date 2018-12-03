@@ -24,4 +24,7 @@ Un cop desat pots afegir un arxiu adjunt (un tiquet o altres tipus de comprovant
 
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/adjuntar_despesa.png)
 
+## Enviar al responsable
+
+Un cop estem segurs de que tota la informació és correcta i hem adjuntat el tiquet, fem clic al botó "Enviar al responsable" algun dia algú et tornarà els calers :grimacing: 
 
