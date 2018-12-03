@@ -16,7 +16,7 @@ Revisa que al total aparegui la quantitat exacta que apareix al tiquet.
 
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/crear_despesa.png)
 
-Seleccionem qui ha pagat: "Employee (to reimburse)" si el treballador ha pagat (s'haurà de tornar), "Company" si la empresa ha pagat. 
+Seleccionem qui ha pagat: "Employee (to reimburse)" si el treballador ha pagat (s'haurà de tornar), "Companyia" si la empresa ha pagat. 
 
 ## Afegir document adjunt
 
