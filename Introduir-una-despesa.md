@@ -10,13 +10,16 @@ Quan tenim un tiquet senzill, per exemple quan hem anat en taxi, un dinar, un tr
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/Despeses.gif)
 
 ## Creem una despesa 
-Fem clic a "Crea" i omplim tots els camps en blau. A producte ens apareixen les despeses més comuns, si no la trobem a la llista podem simplement escollir [EXP] Despeses
+Fem clic a "Crea" i omplim tots els camps en blau. A producte ens apareixen les despeses més comuns, si no la trobem a la llista podem simplement escollir [EXP] Despeses. 
+
+Revisa que al total aparegui la quantitat exacta que apareix al tiquet.
 
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/crear_despesa.png)
 
-Seleccionem qui ha pagat, si el treballador ha pagat (s'haurà de tornar) si la empresa ha pagat. 
+Seleccionem qui ha pagat: "Employee (to reimburse)" si el treballador ha pagat (s'haurà de tornar), "Company" si la empresa ha pagat. 
 
-##Afegir adjunt
+## Afegir document adjunt
+
 Un cop desat pots afegir un arxiu adjunt (un tiquet o altres tipus de comprovant del pagament)
 
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/adjuntar_despesa.png)
