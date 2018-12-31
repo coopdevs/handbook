@@ -1,4 +1,4 @@
-A continuació es detallen els passos per afegir o editar contingut de guia.katuma.org. Gitbook permet l'edició o bé a través dela seu editor visual o bé a través del repositori de Github que emmagatzema el text. En aquest cas és https://github.com/coopdevs/guia-usuaris-katuma.
+A continuació es detallen els passos per afegir o editar contingut de [guia.katuma.org](https://guia.katuma.org/). Gitbook permet l'edició o bé a través del seu editor visual o bé a través del [repositori](https://github.com/coopdevs/guia-usuaris-katuma) de Github que emmagatzema el text.
 
 ## Edició des de Gitbook
 
