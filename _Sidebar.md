@@ -1,6 +1,6 @@
 **Katuma**
 
-* [[Planning how to]]
+* [[Planficiació]]
 
 **PostgreSQL**
 
