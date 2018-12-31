@@ -14,6 +14,8 @@ Assegura't que tasques de llarga durada tenen un targeta de tipus Èpic (hi ha e
 
 Quan aquestes targetes filles es mouen de columnes i arriben a "Done" les marquem com completades a la checklist de l'èpic. Això aporta visibilitat sobre el progrés durant tot l'sprint i ajuda a entendre quan falta per completar tota la tasca.
 
+![Èpics a Trello](https://github.com/coopdevs/handbook/wiki/katuma/img/epics.png)
+
 ### Extres
 
 Pensa-t'ho dos cops al afegir una tasca extra a la meitat d'un sprint. Acostumem a estar d'acord en afegir aquelles que són petites i que comporten respondre a algun usuari, company, etc. o aquelles relacionades amb la infraestructura que no poden esperar al proper sprint. En tal cas, afegeix l'etiqueta "Extra" i fes-ne el seguiment també amb la mateixa etiqueta a Toggl. En qualsevol cas, és important remarcar que idealment no hauríem de tenir cap tasca que no hagi estat planificada però la vida és dura.
