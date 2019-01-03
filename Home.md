@@ -4,7 +4,7 @@ Welcome to the Coopdevs Handbook wiki!
 
 * [[Planificació]]
 * [[Retrospectives]]
-* [[Gestió-del-temps:-Toggl]]
+* [[Gestió del temps: Toggle|Gestió-del-temps:-Toggl]]
 
 ## PostgreSQL
 
