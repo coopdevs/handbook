@@ -23,6 +23,7 @@ Pensa-t'ho dos cops al afegir una tasca extra a la meitat d'un sprint. Acostumem
 ### Esdeveniments del calendari
 
 Al afegir esdeveniments al calendari tals com tallers, compta també amb el desplaçament, no només amb la durada estricta de l'esdeveniment. Això és especialment rellevant per aquells que passen fora de Barcelona. Fàcilment porten mig dia i afecten al temps que queda per a altres tasques.
+De la mateixa manera, qualsevol tasca o esdeveniment creat al calendari o al correu ha de tenir la seva card corresponent a Trello.
 
 ### Notes de la retrospectiva
 
