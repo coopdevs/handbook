@@ -17,3 +17,5 @@ Hi ha l'opció de descarregar-se l'aplicació al mòbil per a tasques que realit
 
 ### Extensions de Toggl a altres eines
 Tenim la possibilitat de descarregar-nos l'extensió de Toggl per a [Firefox](https://addons.mozilla.org/en-US/firefox/addon/toggl-button-time-tracker/) o [Chrome](https://chrome.google.com/webstore/detail/toggl-button-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn) per tenir sempre un botó de Toggl a la barra del navegador i inclús habilitar aquelles opcions en què volem que aparegui el botó de Toggl dins de les pròpies aplicacions (Calendar, Gmail, Trello o Github, entre d'altres). Això ultim podrem fer-ho des de l'apartat d'extensions del mateix Chrome, activant les webs on volem que funcioni el botó de Toggl.
+
+**Es molt recomonable fer-ne ús per assegurar que es comptabilitza tot el temps que invertim en el projecte** per després poder-ho analitzar.
