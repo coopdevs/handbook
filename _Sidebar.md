@@ -1,6 +1,7 @@
 **Katuma**
 
 * [[Planificació]]
+* [[Retrospectives]]
 
 **PostgreSQL**
 
