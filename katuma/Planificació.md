@@ -2,9 +2,10 @@
 
 Hi ha unes quantes coses que s'han de tenir en compte abans de la planficiació per assegurar l'èxit de l'sprint. Aquestes són:
 
-- [ ] Comprovar el volum de feina tots els membres de l'equip en altres projectes comprovant els seus respectius taulells a Trello. Pot ser que estiguem més ocupats del que ens pensem.
+- [ ] Comprova el volum de feina tots els membres de l'equip en altres projectes comprovant els seus respectius taulells a Trello. Pot ser que estiguem més ocupats del que ens pensem.
 - [ ] Vigila amb les vacances, dies lliures, cites, esdeveniments, etc. Comprova el calendari. A vegades passa que un membre de l'equip marxa aviat el divendres a la tarda i algunes coses s'han de ajornar. Que no t'agafi per sorpresa.
 - [ ] Estigues atent a grans esdeveniments i dates límit tals com la FESC amb prou antelació. Va bé tenir una mica de marge i preparar les coses amb temps. Pensa que algunes tasques pot ser que no s'acabin en un sol sprint.
+- [ ] Hi ha tasques de repetició que s'han de fer en cada sprint però, tanmateix, han de tenir les seves card corresponents perquè si no queden invisibilitzades: un clar exemple és "gestió del correu electrònic".
 
 ## Convencions
 
