@@ -2,6 +2,7 @@
 
 * [[Planificació]]
 * [[Retrospectives]]
+* [[Control del temps: ús de Toggl]]
 
 **PostgreSQL**
 
