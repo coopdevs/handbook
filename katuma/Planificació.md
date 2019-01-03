@@ -26,6 +26,6 @@ Pensa-t'ho dos cops al afegir una tasca extra a la meitat d'un sprint. Acostumem
 Al afegir esdeveniments al calendari tals com tallers, compta també amb el desplaçament, no només amb la durada estricta de l'esdeveniment. Això és especialment rellevant per aquells que passen fora de Barcelona. Fàcilment porten mig dia i afecten al temps que queda per a altres tasques.
 De la mateixa manera, qualsevol tasca o esdeveniment creat al calendari o al correu ha de tenir la seva card corresponent a Trello.
 
-### Notes de la retrospectiva
+### Tenir en compte les retrospectives
 
-Algú s'ha de fer càrrec d'anotar-les després de la retrospectiva i compartir-les amb la resta de l'equip a una targeta de Trello. Per això, s'hauria de crear una targeta per tenir-ho en compte a cada sprint.
+Hauríem d'organitzar i considerar les retrospectives com una card normal i incloure-les en cada sprint. De la mateixa manera, algú s'ha de fer càrrec d'anotar-les després de la retrospectiva i compartir-les amb la resta de l'equip a una targeta de Trello. Per això, s'hauria de crear una targeta per tenir-ho en compte a cada sprint.
