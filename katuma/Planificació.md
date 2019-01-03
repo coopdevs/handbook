@@ -29,3 +29,7 @@ De la mateixa manera, qualsevol tasca o esdeveniment creat al calendari o al cor
 ### Tenir en compte les retrospectives
 
 Hauríem d'organitzar i considerar les retrospectives com una card normal i incloure-les en cada sprint. De la mateixa manera, algú s'ha de fer càrrec d'anotar-les després de la retrospectiva i compartir-les amb la resta de l'equip a una targeta de Trello. Per això, s'hauria de crear una targeta per tenir-ho en compte a cada sprint.
+
+### Alerta amb les tasques tecnològiques
+
+Quan sabem que en un sprint hi han d'entrar tasques tecnològiques complexes n'hem de fer investigació durant l'sprint anterior per saber exactament com encarar-les.
