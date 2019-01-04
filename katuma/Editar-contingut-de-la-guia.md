@@ -10,7 +10,7 @@ Aquest és la manera recomanada per aquells usuaris que no estiguin abasats a us
 
 Primer de tot assegura't que tens un usuari amb permisos d'edició a l'equip de Gitbook. Si no és així demana accés al propietari del compte. En aquest cas en Pau.
 
-![Membres de Gitbook](https://github.com/coopdevs/handbook/wiki/katuma/img/membres_gitbook.png)
+![Membres de Gitbook](https://github.com/coopdevs/handbook/wiki/katuma/img/gitbook_members.png)
 
 ### Mode esborrany
 
