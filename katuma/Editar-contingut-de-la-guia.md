@@ -12,3 +12,20 @@ Primer de tot assegura't que tens un usuari amb permisos d'edició a l'equip de 
 
 ![Membres de Gitbook](https://github.com/coopdevs/handbook/wiki/katuma/img/membres_gitbook.png)
 
+### Mode esborrany
+
+Per afegir o modificar contingut només cal clicar al botó "Edit" que apareix al
+peu de la pàgina.
+
+Això permet l'edició del text des de la mateixa pàgina a través de diversos menús
+contextuals.
+
+![Com formatar text](https://github.com/coopdevs/handbook/wiki/katuma/img/gitbook_formatting_text.png)
+
+Un cop cliqueu a "Save" els canvis quedaran persistits però no seran públics sinó que de moment encara són un esborrany. Si cliqueu a l'etiqueta "DRAFT" podreu veure l'històric d'edicions i veure cada un dels canvis que s'han fet.
+
+![Llistar esborranys](https://github.com/coopdevs/handbook/wiki/katuma/img/gitbook_drafts.png)
+
+### Publicar els canvis
+
+Per fer els canvis visibles per a tothom que visiti el web, només s'han de publicar clicant al botó verd "Publish".
