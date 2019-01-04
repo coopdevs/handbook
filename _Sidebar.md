@@ -3,6 +3,7 @@
 * [[Planificació]]
 * [[Retrospectives]]
 * [[Gestió del temps: Toggl]]
+* [[Editar contingut de la Guia]]
 
 **PostgreSQL**
 
