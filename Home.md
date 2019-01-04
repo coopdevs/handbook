@@ -9,4 +9,4 @@ Welcome to the Coopdevs Handbook wiki!
 
 ## PostgreSQL
 
-* [[Finding query]]
+* [[Finding query|finding_query]]
