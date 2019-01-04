@@ -21,7 +21,7 @@ Això permet l'edició del text des de la mateixa pàgina a través de diversos 
 contextuals.
 
 <p align="center">
-  ![Com formatar text](https://github.com/coopdevs/handbook/wiki/katuma/img/gitbook_formatting_text.png)
+  <img src="https://github.com/coopdevs/handbook/wiki/katuma/img/gitbook_formatting_text.png" alt="Com formatar text">
 </p>
 
 Un cop cliqueu a "Save" els canvis quedaran persistits però no seran públics sinó que de moment encara són un esborrany. Si cliqueu a l'etiqueta "DRAFT" podreu veure l'històric d'edicions i veure cada un dels canvis que s'han fet.
