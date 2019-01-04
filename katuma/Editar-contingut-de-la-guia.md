@@ -29,3 +29,14 @@ Un cop cliqueu a "Save" els canvis quedaran persistits però no seran públics s
 ### Publicar els canvis
 
 Per fer els canvis visibles per a tothom que visiti el web, només s'han de publicar clicant al botó verd "Publish".
+
+## Edició des de Github
+
+Gitbook fa servir un repositori de Github per emmagatzemar el contingut del web.
+Quan publiquem canvis des de la web de Gitbook, els canvis es sincronitzant
+a Github. Per tant, té totes les característiques d'un repositori de git.
+
+Això permet modificar el contingut des del mateix editor de Github o, per als
+més abasats a programar, des de l'ordinador propi com qualsevol altre repositori git.
+
+![Editor de Github](https://github.com/coopdevs/handbook/wiki/katuma/img/github_editor.png)
