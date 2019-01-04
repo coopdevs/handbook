@@ -4,9 +4,9 @@ Welcome to the Coopdevs Handbook wiki!
 
 * [[Planificació]]
 * [[Retrospectives]]
-* [[Gestió del temps: Toggl|Gestió-del-temps:-Toggl]]
-* [[Editar contingut de la Guia|Editar-contingut-de-la-guia]]
+* [[Gestió del temps: Toggl]]
+* [[Editar contingut de la Guia]]
 
 ## PostgreSQL
 
-* [[Finding query|finding_query]]
+* [[Finding query]]
