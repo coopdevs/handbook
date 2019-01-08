@@ -1,3 +1,6 @@
+Les sessions de planificació de l'sprint es fan, presencialment sempre que és possible, cada 15 dies. Se celebren un dimarts cada 15 dies a les 10h. 
+Els dimarts és el dia setmanal de treball conjunt a l'oficina de l'equip de Katuma, obertes a tota la comunitat que s'hi vulgui afegir.
+
 ## Llista de comprovacions
 
 Hi ha unes quantes coses que s'han de tenir en compte abans de la planficiació per assegurar l'èxit de l'sprint. Aquestes són:
