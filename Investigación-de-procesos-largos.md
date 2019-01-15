@@ -113,6 +113,3 @@ Podemos ir reiniciando las metricas obtenidas utilizando `# SELECT pg_stat_state
 
 Una vez tenemos la consulta localizada, pasamos a analizar su ejecución. Para ello utilizamos el método `EXPLAIN` con el argumento `ANALYZE`.
 Este nos devuelve los pasos que realiza la consulta para ejecutarse y al añadir el `ANALYZE` nos devuelve además del coste estimado que devuelve el `EXPLAIN` al no llegar a ejecutarse la consulta, el coste real, ya que la consulta si que se ejecuta.
-
-
-## Insertar datos random en una tabla
