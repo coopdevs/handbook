@@ -4,7 +4,7 @@ Entra al Odoo de Coopdevs
 
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/selector_company.png)
 
-Quan tenim un tiquet senzill, per exemple quan hem anat en taxi, un dinar, un transport, hem comprat aigua, hem comprat material d'oficina, o qualsevol altre pagament que tinguem un document que demostri la despesa (un tiquet) però no tenim factura hem de crear una despesa.
+Quan tenim un tiquet senzill, per exemple quan hem anat en taxi, un dinar, un transport, hem comprat aigua, hem comprat material d'oficina, o qualsevol altre pagament que tinguem un document que demostri la despesa (per exemple un tiquet) però no tenim factura hem de crear una despesa.
 
 ## Mòdul de Despeses
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/Despeses.gif)
