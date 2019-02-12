@@ -31,7 +31,7 @@ Si el client no surt al llistat clients, hem de crear-lo per fer-ho serà indisp
 
 Opcionalment podem omplir altres dades de contacte del client. 
 
-## Nova factura de client
+## Emetre una nova factura
 
 ![Factura](https://github.com/coopdevs/handbook/wiki/img/factura.png)
 
@@ -53,15 +53,3 @@ Ja tenim tota la informació necessària relativa a la factura, ara sols falta i
 * Esborrany: sols en cas de que no estiguem segurs, encara no té un número de factura i és fàcil d'esborrar i crear una nova. 
 * Obert: Dins de la factura podem fer clic a validar i ens canviarà a l'estat Obert, ara la factura ja té una numeració i no s'hauria de canviar, tot i que amb els permisos necessàris es pot tornar a esborrany i modificar.
 * Pagat: Un cop s'ha rebut el pagament per aquesta factura i s'ha conciliat a la comptabilitat
-
-# Factura de Compra
-## Tenim creat el proveïdor?
-Igual que en el cas de venda, ens hem d'assegurar que existeix el proveïdor, en cas contrari introduir les dades com ho faríem per client.  
-
-Aspectes diferèncials respecte les factures de clients: 
- 
- * A la factura hem d'introduir "Referència de Proveïdor" que és el nº de factura que indica el proveïdor.
- * Ens hem d'assegurar que l'IVA quadra i si no el modifiquem(de tant en tant passa que el proveïdor arrodoneix el IVA diferent que Odoo i tenim que retocar-lo manualment a Odoo perqué coincideixi amb la factura del proveïdor)
- * Sempre adjuntarem una foto/pdf de la factura original a la factura de Odoo. Això ho podràs fer sols despres de desar la factura, apareixerà el menú. 
-
-![Adjuntar Factura](https://github.com/coopdevs/handbook/wiki/img/adjuntar_factura.png)
