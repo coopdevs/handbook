@@ -10,6 +10,7 @@ Welcome to the Coopdevs Handbook wiki!
 ## Gestió Coopdevs
 
 * [[Procés de facturació]]
+* [[Emetre una factura de venda]]
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
 
