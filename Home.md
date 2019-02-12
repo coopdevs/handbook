@@ -11,6 +11,7 @@ Welcome to the Coopdevs Handbook wiki!
 
 * [[Procés de facturació]]
 * [[Emetre una factura de venda]]
+* [[Registrar factures de proveïdors]]
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
 
