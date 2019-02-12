@@ -17,9 +17,9 @@ Email
 Informació sobre el nou contracte:
 ```
 Duració
-Dedicació(hores/setmana)
 Data inici
 Data termini
+Dedicació(hores/setmana)
 Posició
 Conveni
 Sou brut (mensual o annual)
