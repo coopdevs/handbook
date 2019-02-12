@@ -1,5 +1,4 @@
 ### Dades de la persona empleada
-Informació que hem de passar als serveis laborals de FACTO per fer un contracte nou:
 ```
 Nom complert
 Adreça
@@ -14,7 +13,6 @@ Email
 ```
 
 ### Detalls del contracte
-Informació sobre el nou contracte:
 ```
 Duració
 Data inici
