@@ -1,4 +1,4 @@
-## Dades de la persona empleada
+### Dades de la persona empleada
 Informació que hem de passar als serveis laborals de FACTO per fer un contracte nou:
 ```
 Nom complert
@@ -7,8 +7,18 @@ Codi Postal
 Població
 Data de naixement
 DNI/NIE
-Núm. afiliació seguretat social
+Número afiliació seguretat social
 Estudis
 Telèfon
 Email
+```
+
+### Detalls del contracte
+Informació sobre el nou contracte:
+```
+Duració (hores/setmana)
+Data inici
+Data termini
+Conveni
+Sou brut (mensual o annual)
 ```
