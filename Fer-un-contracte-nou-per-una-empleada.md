@@ -12,7 +12,7 @@ Data termini
 Dedicació(hores/setmana)
 Posició
 Conveni
-Sou brut (mensual o annual)
+Sou brut (mensual o anual)
 ```
 
 ### Dades de la persona empleada
