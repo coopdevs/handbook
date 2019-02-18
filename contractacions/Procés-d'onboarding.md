@@ -14,7 +14,19 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 
 És un important fer aquest pas el primer. D'aquesta manera totes les invitacions a serveis i aplicacions es podran fer usant aquest compte de correu separant així les qüestions laborals del compte de correu personal.
 
-Un cop ho hagis fet, comunica-li a la persona i indica-li que és preferible que se l'enllaci al seu client de correu habitual. A més, ha de tenir present que rebrà invitacions al seguit de serveis que s'expliquen a continuació. Per tant, serà necessari que comprovi que pot accedir al nou compte de correu.
+Accedeix des del [panell de CDmon](https://admin.cdmon.com/es/acceso) a la gestió de l'allotjament de mail clicant al _hosting mail_ corresponent a coopdevs.org. Des d'aquí clica a _Gestión de cuentas_ i _Crear cuenta_. Recorda seguir la convenció de nom.cognom@coopdevs.org i genera una contrasenya aleatòria inicial.
+
+Un cop ho hagis fet, comunica-li a la persona i indica-li que és preferible que se l'enllaci al seu client de correu habitual. CDmon té instruccions detallades de com [configurar](https://ticket.cdmon.com/es/support/solutions/articles/7000006292-c%C3%B3mo-configurar-el-correo-electr%C3%B3nico-de-cdmon-en-gmail) el compte a Gmail. Tot i així, CDmon ofereix un client web a [mail.coopdevs.org](mail.coopdevs.org).
+
+A més, ha de tenir present que rebrà invitacions al seguit de serveis que s'expliquen a continuació. Per tant, serà necessari que comprovi que pot accedir al nou compte de correu.
+
+Les dades específiques del servidor de correu són les següents
+
+```
+Servidor IMAP imap.coopdevs.org port: 143 / port SSL/TLS: 993
+Servidor POP3 pop3.coopdevs.org port: 110 / port SSL/TLS: 995
+Servidor SMTP smtp.coopdevs.org port i port SSL/TLS: 25, 578 o 587
+```
 
 ## Usuari a Odoo
 
