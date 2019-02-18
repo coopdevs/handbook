@@ -1,0 +1,1 @@
+A continuació es descriuen els passos per incorporar a un nou treballador a la dinàmica de treball. El que en anglès s'anomena com _Onboarding_. Sí, la nostra professió comporta un clar biax anglosaxó.
