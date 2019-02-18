@@ -16,6 +16,9 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Crear un projecte a Toggl]]
 * [[Fer un contracte nou per una empleada]]
 
+## Contractacions
+* [[Procés d'onboarding]]
+
 ## PostgreSQL
 
 * [[Finding query|finding_query]]
