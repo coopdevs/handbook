@@ -14,6 +14,8 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 
 És un important fer aquest pas el primer. D'aquesta manera totes les invitacions a serveis i aplicacions es podran fer usant aquest compte de correu separant així les qüestions laborals del compte de correu personal.
 
+Un cop ho hagis fet, comunica-li a la persona i indica-li que és preferible que se l'enllaci al seu client de correu habitual. A més, ha de tenir present que rebrà invitacions al seguit de serveis que s'expliquen a continuació. Per tant, serà necessari que comprovi que pot accedir al nou compte de correu.
+
 ## Usuari a Odoo
 
 ## Xat de treball
