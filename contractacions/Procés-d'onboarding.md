@@ -48,6 +48,14 @@ Per acabar, clica a _Guardar_.
 
 ## Permisos per repositoris
 
+A diferència de la resta de punts és millor evitar crear un compte nou associat al nou correu electrònic. Normalment, al tractar-se de programadors, és molt probable que la persona ja tingui compte com a mínim a Github. A banda, és millor tenir-hi una única identitat. En cas que no en tingui, cal que el creï previament.
+
+Per això aquí només es tracta de donar els permisos necessaris per tenir accés als repositoris que tenim allotjats a Github i Gitlab.
+
+### Github
+
+Cal afegir l'usuari a l'equip de _Contributors_ de l'organització de Coopdevs a Github. Això sembla ser que només ho poden fer els usuaris que tenin rol de _Maintainer_ de l'organització: a data d'avui l'Enrico i en Naoise.
+
 ## Gestió de projectes
 
 Per poder donar accés a Trello i poder assignar-li cards ha de formar part de l'equip de Coopdevs de Trello.
