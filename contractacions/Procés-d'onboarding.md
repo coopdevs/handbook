@@ -7,8 +7,8 @@ Usuari a Odoo<br>
 [Xat de treball](#xat-de-treball)<br>
 [Accés al gestor de contrasenyes](#accés-al-gestor-de-contrasenyes)<br>
 [Permisos per repositoris](#permisos-per-repositoris)<br>
-  * [Github](#github)
-  * [Gitlab](#gitlab)
+  [Github](#github)<br>
+  [Gitlab](#gitlab)<br>
 [Gestió de projectes](#gestió-de-projectes)<br>
 [Time tracking](#time-tracking)
 
