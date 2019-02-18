@@ -2,12 +2,12 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 
 ## Índex
 
-[Compte d'email](#compte-demail)
-Usuari a Odoo
-[Xat de treball](#xat-de-treball)
-[Accés al gestor de contrasenyes](#accés-al-gestor-de-contrasenyes)
-[Permisos per repositoris](#permisos-per-repositoris)
-[Gestió de projectes](#gestió-de-projectes)
+[Compte d'email](#compte-demail)<br>
+Usuari a Odoo<br>
+[Xat de treball](#xat-de-treball)<br>
+[Accés al gestor de contrasenyes](#accés-al-gestor-de-contrasenyes)<br>
+[Permisos per repositoris](#permisos-per-repositoris)<br>
+[Gestió de projectes](#gestió-de-projectes)<br>
 [Time tracking](#time-tracking)
 
 ## Compte d'email
