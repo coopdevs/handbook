@@ -18,6 +18,10 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 
 ## Xat de treball
 
+Ara per ara encara fem servir Telegram per a les comunicacions de feina, tot i que estem valorant alternatives.
+
+Per a afegir a la nova persona, des del client web, cal que la tinguis als contactes del telèfon prèviament. Un cop fet, entra al grup, accedeix a la seva informació clicant a la capçalera i a continuació a _Add member_. En aquest punt et permetrà cercar i seleccionar el contacte del teu telèfon. Un cop n'estiguis segur clica _Next_ i ja estarà fet.
+
 ## Accés al gestor de contrasenyes
 
 ## Permisos per repositoris
