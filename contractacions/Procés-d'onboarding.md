@@ -2,7 +2,7 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 
 ## Índex
 
-[Compte d'email](#Compte d'email)
+[Compte d'email](#Compte-d'email)
 [Usuari a Odoo](#Usuari a Odoo)
 [Xat de treball](#Xat de treball)
 [Accés al gestor de contrasenyes](#Accés al gestor de contrasenyes)
