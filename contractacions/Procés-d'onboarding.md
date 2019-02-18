@@ -24,6 +24,14 @@ Per a afegir a la nova persona, des del client web, cal que la tinguis als conta
 
 ## Accés al gestor de contrasenyes
 
+Això és necessari per disposar de les credencials d'accés als serveis externs que usem a Coopdevs.
+
+Primer de tot, navega a l'administració de l'organització Coopdevs clicant al nom al menú lateral anomenat _Organitzacions_ de la pàgina inicial del teu compte de Bitwarden. Seguidament desplaçat a la pestanya _Administra_. Des d'aquí pots convidar a la persona clicant a _Convida usuari_.
+
+Al modal que t'apereixerà, introdueix el correu electrònic de la persona, selecciona el tipus d'usuari _Usuari_ i marca _Aquest usuari pot accedir i modificar tots els elements._ com a control d'accés. Per ara, confiem plenament en els companys que contractem, cosa que simplifica la gestió.
+
+Per acabar, clica a _Guardar_.
+
 ## Permisos per repositoris
 
 ## Gestió de projectes
