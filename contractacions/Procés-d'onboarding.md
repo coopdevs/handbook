@@ -7,6 +7,8 @@ Usuari a Odoo<br>
 [Xat de treball](#xat-de-treball)<br>
 [Accés al gestor de contrasenyes](#accés-al-gestor-de-contrasenyes)<br>
 [Permisos per repositoris](#permisos-per-repositoris)<br>
+  [Github](#github)
+  [Gitlab](#gitlab)
 [Gestió de projectes](#gestió-de-projectes)<br>
 [Time tracking](#time-tracking)
 
@@ -55,6 +57,8 @@ Per això aquí només es tracta de donar els permisos necessaris per tenir acc�
 ### Github
 
 Cal afegir l'usuari a l'equip de _Contributors_ de l'organització de Coopdevs a Github. Això sembla ser que només ho poden fer els usuaris que tenin rol de _Maintainer_ de l'organització: a data d'avui l'Enrico i en Naoise.
+
+### Gitlab
 
 ## Gestió de projectes
 
