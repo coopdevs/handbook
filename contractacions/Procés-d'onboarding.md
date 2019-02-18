@@ -38,6 +38,10 @@ Per acabar, clica a _Guardar_.
 
 ## Gestió de projectes
 
+Per poder donar accés a Trello i poder assignar-li cards ha de formar part de l'equip de Coopdevs de Trello.
+
+Navega a la pàgina inicial del teu compte de Trello. A la secció _Teams_ del menú lateral selecciona coopdevs i _Member_. Des d'aquesta nova pàgina, clica a _Invite Team Members_ i introdueix el seu email. Això li donarà accés a tots els boards que tinguin visibilitat _Team_ assignada, és a dir, tots els membres de l'equip poden veure i editar el board. Assegura't que el board on començarà treballant tingui aquesta visibilitat.
+
 ## Time tracking
 
 Per afegir a un usuari nou a Toggl cal primer de tot seleccionar el workspace de Coopdevs, com és habitual.
