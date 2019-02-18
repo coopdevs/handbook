@@ -58,8 +58,6 @@ Per això aquí només es tracta de donar els permisos necessaris per tenir acc�
 
 Cal afegir l'usuari a l'equip de _Contributors_ de l'organització de Coopdevs a Github. Això sembla ser que només ho poden fer els usuaris que tenin rol de _Maintainer_ de l'organització: a data d'avui l'Enrico i en Naoise.
 
-![Equips a Github](https://github.com/coopdevs/handbook/wiki/img/github_teams.png)
-
 ### Gitlab
 
 ## Gestió de projectes
