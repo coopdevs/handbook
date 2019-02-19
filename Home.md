@@ -6,6 +6,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Retrospectives]]
 * [[Gestió del temps: Toggl]]
 * [[Editar contingut de la guia]]
+* [[Integració de Katuma amb Mailchimp]]
 
 ## Gestió Coopdevs
 
