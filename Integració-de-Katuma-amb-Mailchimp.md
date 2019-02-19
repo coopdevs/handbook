@@ -12,6 +12,12 @@ openfoodnetwork=> \COPY (select email as "Email Address" from spree_users) TO '/
 
 Això crearà l'arxiu `/tmp/users_emails.csv` amb el format que s'espera Mailchimp i no hauria de caldre cap modificació.
 
+Ara pots descarregar l'arxiu al teu ordinador executant la següent comanda:
+
+```sh
+$ scp openfoodnetwork@app.katuma.org:/tmp/user_emails.csv ~/Documents/.
+```
+
 Open Food Network no emmagatzema el nom de l'usuari i per tant a Mailchimp només disposarem del mail. Una opció a valorar seria exportar els consumidors però això només contindria els membres de grups de consum o qualsevol organització que els afegeixi com a consumidors per a qualsevol altre ús.
 
 ## Importar CSV a Mailchimp
