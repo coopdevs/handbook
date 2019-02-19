@@ -1,0 +1,1 @@
+A continuació es detalla com es sincronitzen actualment usuaris de Katuma a una llista de Mailchimp per a poder adreçar-nos-hi amb campanyes de mail.
