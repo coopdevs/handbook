@@ -50,6 +50,12 @@ Al modal que t'apereixerà, introdueix el correu electrònic de la persona, sele
 
 Per acabar, clica a _Guardar_.
 
+### Confirmar usuari
+
+Per poder finalitzar el procés, un cop la persona hagi acceptat la invitació caldrà que des del compte de Coopdevs de Bitwarden la confirmem.
+
+Des de la mateixa secció d'administració del compte esmentada al punt anterior, clica a la pestanya Acceptat i a l'engranatge que apareix sobre el nou usuari. Si selecciones confirma, això obrirà un diàleg per confirmar definitivament l'acceptació de l'usuari. Fins que no facis aquest pas no hi podrà accedir.
+
 ## Permisos per repositoris
 
 A diferència de la resta de punts és millor evitar crear un compte nou associat al nou correu electrònic. Normalment, al tractar-se de programadors, és molt probable que la persona ja tingui compte com a mínim a Github. A banda, és millor tenir-hi una única identitat. En cas que no en tingui, cal que el creï previament.
