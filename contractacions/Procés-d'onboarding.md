@@ -62,6 +62,10 @@ Cal afegir l'usuari a l'equip de _Contributors_ de l'organització de Coopdevs a
 
 ### Gitlab
 
+Idealment el millor seria poder replicar els dos equips que tenim configurats a Github però sembla que els permisos de Gitlab a nivell d'organització només funcionen amb rols. Així doncs, tant en Dani com l'Enrico i en Pau són _Owners_ de de coopdevs. La resta han de ser _Maintainers_. Això els atorga permisos suficients per no haver de dependre de la resta.
+
+Navega a _Members_ des del menú lateral de la [pàgina d'organització](https://gitlab.com/coopdevs). Des de la nova pàgina senzillament afegeix el nom d'usuari o mail de la persona, assignali el rol _Mantainer_ i clica a _Add to group_.
+
 ## Gestió de projectes
 
 Per poder donar accés a Trello i poder assignar-li cards ha de formar part de l'equip de Coopdevs de Trello.
