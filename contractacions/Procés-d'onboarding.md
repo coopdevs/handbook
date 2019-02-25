@@ -10,7 +10,8 @@ Usuari a Odoo<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Github](#github)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Gitlab](#gitlab)<br>
 [Gestió de projectes](#gestió-de-projectes)<br>
-[Time tracking](#time-tracking)
+[Time tracking](#time-tracking)<br>
+[Calendari](#calendari)
 
 ## Compte d'email
 
@@ -83,3 +84,11 @@ Navega a la pàgina inicial del teu compte de Trello. A la secció _Teams_ del m
 Per afegir a un usuari nou a Toggl cal primer de tot seleccionar el workspace de Coopdevs, com és habitual.
 
 Tot seguit, selecciona _Team_ des del menú lateral, introdueix el mail de la persona i clica a _Invite_.
+
+## Calendari
+
+Per compartir el calendari de Coopdevs, actualment de Google, navega a _Configuratició i compartir_ clicant sobre el calendari. Un cop a la configuració, clica al botó _Afegeix persones_, afegeix el seu mail i selecciona l'opció _Veure tota la informació de l'esdeveniment_.
+
+### Configuració amb un gestor de calendari
+
+Per aquells que vulguin configurar-se el calendari al seu gestor local, des de la mateixa pàgina de configuració, desplaça't a la secció _Integra el calendari_ i comparteix les adreces en format iCal amb la persona interessada. Amb això hauria de ser suficient.
