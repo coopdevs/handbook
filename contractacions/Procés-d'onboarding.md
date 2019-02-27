@@ -33,7 +33,26 @@ Servidor POP3 pop3.coopdevs.org port: 110 / port SSL/TLS: 995
 Servidor SMTP smtp.coopdevs.org port i port SSL/TLS: 25, 578 o 587
 ```
 
-## Usuari a Odoo
+## Usuari i empleat a Odoo
+
+###Crear usuari a Odoo
+
+Anem a Configuració > Users & Companies > Usuaris i creem un nou usuari
+Omplim el nom, mail i empresa (poden ser varies)
+
+#### Permisos d'accès 
+
+Depenent de les aplicacions que tinguem instal·lades ens apareixeran un seguit d'opcions de permissos. Si seleccionem la opció buida l'usuari no tindrà accés a aquesta aplicació, les següents opcions per ordre ascendent aniran atorgant més i més permisos dins de cada aplicació. 
+
+#### Preferències de l'usuari 
+
+A la pestanya **Preferències** podrem seleccionar aspectes com l'idioma del usuari, zona horària o si volem que rebi les comunicacions d'Odoo per email o bé a través del mateix Odoo.  
+
+### Crear Empleat a Odoo
+
+Feu clic al submenú "empleats" de l'esquerra (hi ha els empleats existents) i després en el botó "Crea". Es mostra un formulari. Completa tota la informació que necessitis en les diferents pestanyes.
+
+A la pestanya "Configuració RH", **vinculem l'empleat al usuari en qüestió**. 
 
 ## Xat de treball
 
