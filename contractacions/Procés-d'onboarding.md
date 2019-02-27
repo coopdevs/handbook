@@ -37,7 +37,7 @@ Servidor SMTP smtp.coopdevs.org port i port SSL/TLS: 25, 578 o 587
 
 ### Crear usuari a Odoo
 
-Anem a Configuració > Users & Companies > Usuaris i creem un nou usuari. Omplim el nom, mail i empresa (poden ser varies)
+Anem a Configuració > Users & Companies > Usuaris i creem un nou usuari. Omplim el nom, mail i Companyies permeses (poden ser varies)
 
 #### Permisos d'accès 
 
