@@ -4,7 +4,6 @@
 * [[Retrospectives]]
 * [[Gestió del temps: Toggl]]
 * [[Editar contingut de la guia]]
-* [[Integrar Katuma amb Mailchimp]]
 * [[Projecte PLUS]]
 
 **Gestió Coopdevs**
