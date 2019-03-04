@@ -4,7 +4,7 @@
 * [[Retrospectives]]
 * [[Gestió del temps: Toggl]]
 * [[Editar contingut de la guia]]
-* [[[Comunicació projecte PLUS](https://github.com/coopdevs/handbook/wiki/Comunicaci%C3%B3-projecte-PLUS)]]
+* [[Comunicació projecte PLUS](https://github.com/coopdevs/handbook/wiki/Comunicaci%C3%B3-projecte-PLUS)]]
 
 **Gestió Coopdevs**
 
