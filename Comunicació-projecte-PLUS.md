@@ -1,4 +1,4 @@
-Katuma està participant com a pilot en el projecte [PLUS](https://project-plus.eu/)(Platform Labour in Urban Spaces. Fariness, Wellness, Development) en el marc de l'Horizon 2020 de la Comissió Europea. 
+Katuma està participant com a pilot en el projecte [PLUS](https://project-plus.eu/) (Platform Labour in Urban Spaces. Fariness, Wellness, Development) en el marc de l'Horizon 2020 de la Comissió Europea. 
 
 Com a copartíceps en el projecte, es recomana seguir aquesta metodologia per compartir continguts relacionats amb el PLUS:
 
