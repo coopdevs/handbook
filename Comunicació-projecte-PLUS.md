@@ -3,7 +3,7 @@ Katuma està participant com a pilot en el projecte [PLUS](https://project-plus.
 Com a copartíceps en el projecte, es recomana seguir aquesta metodologia per compartir continguts relacionats amb el PLUS:
 
 ## Divulgar continguts
-Divulgar al màxim possible els continguts del compte oficial del projecte a les xarxes: @projectpluseu
+Divulgar al màxim possible els continguts del compte oficial del projecte a les xarxes: `@projectpluseu`
 
 ## Ús d'etiquetes
 Com a recomanació, es recullen un seguit de hashtags interessants: _platformeconomy_, _platformcapitalism_, _surveillancecapitalism_, _digitallabour_, _digital_, _futureofwork_, _algorithmicgovernance_, _AI_, _workplacemonitoring_, _h2020_, _SSH_, _SSHIMPACT_, _sc6_, _societalchallenges_, _reto6_, _gigeconomy_ (usar-lo amb precaució), _sharingeconomy_ (usar-lo amb precaució).
