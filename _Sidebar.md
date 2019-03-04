@@ -4,6 +4,7 @@
 * [[Retrospectives]]
 * [[Gestió del temps: Toggl]]
 * [[Editar contingut de la guia]]
+* [[Projecte PLUS]]
 
 **Gestió Coopdevs**
 
