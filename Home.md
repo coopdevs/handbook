@@ -8,6 +8,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Editar contingut de la guia]]
 * [[Integració de Katuma amb Mailchimp]]
 * [Comunicació projecte PLUS](https://github.com/coopdevs/handbook/wiki/Comunicaci%C3%B3-projecte-PLUS)
+* [[Katuma en una diapositiva]]
 
 ## Gestió Coopdevs
 
