@@ -22,4 +22,4 @@
 **Ansible**
 
 * [[Publish a new module in Ansible Galaxy]]
-* [[Useful cli options]]
+* [[Useful Ansible cli options]]
