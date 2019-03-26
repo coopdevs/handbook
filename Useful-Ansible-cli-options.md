@@ -49,6 +49,24 @@ tasks:
       tags:
          - configuration
 ```
+---
+
+## Sobreescriure variables a l'hora d'executar el playbook
+
+Pot ser útil per provar valors diferents sense modificar inventoris, o per activar flags que es es respecten a les tasques. Per exemple, per activar development environment i evitar que es facin backups:
+
+En el playbook `playbooks/provision.yml`:
+```yaml
+- name: provision
+  roles:
+    - role: backups
+      when: not development_environment
+```
+En la cli:
+```bash
+ansible-playbook -i inventory/hosts playbooks/provision.yml  --extra-vars="development_environment=true"
+```
+La versió curta d'`--extra-vars` és `-e`.
 
 ---
 
