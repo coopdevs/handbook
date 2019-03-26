@@ -4,7 +4,7 @@
 
 _Font [[https://tech.aabouzaid.com/2015/11/run-playbook-starting-of-a-certain-task-ansible.html]]_
 
-> With "--start-at-task" you can start a playbook at a particular task, as following it will start from that task called "xTASK" regardless its place in playbook.
+> With "--start-at-task" you can start a playbook at a particular task, as following it will start from that task called "Init Odoo database" regardless its place in playbook.
 
 ```
 ansible-playbook playbook.yml --start-at-task="Init Odoo database"
