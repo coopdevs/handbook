@@ -53,6 +53,8 @@ tasks:
 
 ## Sobreescriure variables a l'hora d'executar el playbook
 
+_Font: https://docs.ansible.com/ansible/latest/user_guide/playbooks_variables.html#passing-variables-on-the-command-line_
+
 Pot ser útil per provar valors diferents sense modificar inventoris, o per activar flags que es es respecten a les tasques. Per exemple, per activar development environment i evitar que es facin backups:
 
 En el playbook `playbooks/provision.yml`:
