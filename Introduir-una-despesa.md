@@ -26,5 +26,5 @@ Un cop desat pots afegir un arxiu adjunt (un tiquet o altres tipus de comprovant
 
 ## Enviar al responsable
 
-Un cop estem segurs de que tota la informació és correcta i hem adjuntat el tiquet, fem clic al botó "Enviar al responsable" algun dia algú et tornarà els calers :grimacing: 
+Un cop estem segurs de que tota la informació és correcta i hem adjuntat el tiquet, fem clic al botó "Enviar al responsable" i "Desar" i algun dia algú et tornarà els calers :grimacing: Important, si no desem la despesa seguirà en estat "A Enviar" i el responsable no la veurà.
 
