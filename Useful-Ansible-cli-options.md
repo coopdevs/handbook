@@ -66,9 +66,19 @@ En el playbook `playbooks/provision.yml`:
 ```
 En la cli:
 ```bash
-ansible-playbook -i inventory/hosts playbooks/provision.yml  --extra-vars="development_environment=true"
+ansible-playbook -i inventory/hosts playbooks/provision.yml  --extra-vars='{"development_environment": true}'
 ```
-La versió curta d'`--extra-vars` és `-e`.
+La versió curta d'`--extra-vars` és `-e`.  
+Existeix una sintaxi més senzilla però només sap tractar amb strings. Per exemple
+```sh
+# backups_role_enabled = string("true")
+-e '{backups_role_enabled: "true"}'
+-e "backups_role_enabled=true"
+
+# backups_role_enabled = boolean(true)
+-e '{backups_role_enabled: true}'
+```
+
 
 ---
 
