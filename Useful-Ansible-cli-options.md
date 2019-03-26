@@ -1,5 +1,7 @@
 ## Executar només parts d'un playbook
 
+### Sense modificar els playbooks
+
 _Font [[https://tech.aabouzaid.com/2015/11/run-playbook-starting-of-a-certain-task-ansible.html]]_
 
 > With "--start-at-task" you can start a playbook at a particular task, as following it will start from that task called "xTASK" regardless its place in playbook.
@@ -15,6 +17,39 @@ ansible-playbook playbook.yml --step
 Perform task: Init Odoo database? (y/n/c):
 ```
 **Note**: It's important not to skip ansible's facts gathering task or any other task that the one we want to try depends on.
+
+### Afegint etiquetes a les tasques o als rols
+
+També es pot preparar el playbook amb _tags_ per tal de poder filtrar a l'hora d'executar. Equivaldria a crear altres playbooks.
+
+_Font: [[https://docs.ansible.com/ansible/latest/user_guide/playbooks_tags.html]]_
+
+> If you wanted to just run the “configuration” and “packages” part of a very long playbook, you can use the --tags option on the command line:
+
+`ansible-playbook example.yml --tags "configuration,packages"`
+
+> On the other hand, if you want to run a playbook without certain tagged tasks, you can use the --skip-tags command-line option:
+
+`ansible-playbook example.yml --skip-tags "packages"`
+
+```yaml
+tasks:
+    - yum:
+        name: "{{ item }}"
+        state: installed
+      loop:
+         - httpd
+         - memcached
+      tags:
+         - packages
+
+    - template:
+        src: templates/src.j2
+        dest: /etc/foo.conf
+      tags:
+         - configuration
+```
+
 
 ## Provar templates jinja2 sense executar tot un playbook
 
