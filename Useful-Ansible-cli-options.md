@@ -110,3 +110,25 @@ _Font: [[https://stackoverflow.com/a/41682944]]_
 o bé
 
 `ansible all -i localhost, -c local -m template -a "src=test.j2 dest=./test.txt" --extra-vars=@group_vars/all.yml`
+
+---
+
+## Claus SSH
+
+_Font: https://docs.ansible.com/ansible/latest/cli/ansible-playbook.html#common-options_
+
+Ansible es connecta als hosts especificats al fitxer `hosts` aplicant els filtres de `--limit`. S'hi connectarà per ssh respectant la configuració de ssh, per tant, si amb ssh et pots connectar sense contrasenya, amb ansible també. Ara bé, si no tens configurat un host, o has de modificar els paràmetres, necessitaràs:
+```sh
+--private-key # el certificat d'identitat. Equivalent a -i de ssh
+--user        # l'usuària del sistema remot. Equival a **user**@host de ssh
+--port        # el port ssh remot. Equival a -p de ssh
+```
+Exemple:
+```
+ansible-playbook \
+  -i inventory/hosts \
+  --private-key ~/.ssh/example-org_id_rsa \
+  --user ubuntu \
+  --port 2255 \
+  playbooks/provision.yml
+```
