@@ -1,3 +1,21 @@
+## Executar només parts d'un playbook
+
+_Font [[https://tech.aabouzaid.com/2015/11/run-playbook-starting-of-a-certain-task-ansible.html]]_
+
+> With "--start-at-task" you can start a playbook at a particular task, as following it will start from that task called "xTASK" regardless its place in playbook.
+
+```
+ansible-playbook playbook.yml --start-at-task="Init Odoo database"
+```
+
+> Other option is "--step", which will ask you before each task, and you can choose if you want to run this task or not.
+
+```
+ansible-playbook playbook.yml --step
+Perform task: Init Odoo database? (y/n/c):
+```
+**Note**: It's important not to skip ansible's facts gathering task or any other task that the one we want to try depends on.
+
 ## Provar templates jinja2 sense executar tot un playbook
 
 ### Amb la consola de python
