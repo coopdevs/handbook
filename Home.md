@@ -25,3 +25,8 @@ Welcome to the Coopdevs Handbook wiki!
 ## PostgreSQL
 
 * [[Finding query|finding_query]]
+
+## Ansible
+
+* [[Publish a new module in Ansible Galaxy]]
+* [[Useful Ansible cli options]]
