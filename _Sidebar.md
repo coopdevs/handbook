@@ -23,3 +23,12 @@
 
 * [[Publish a new module in Ansible Galaxy]]
 * [[Useful Ansible cli options]]
+
+**Odoo**
+
+* [[How to install modules for Odoo]]
+
+**Misc**
+
+* [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
+* [[Gitlab and Github group member permissions]]
