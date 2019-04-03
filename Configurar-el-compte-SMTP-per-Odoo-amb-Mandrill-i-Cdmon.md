@@ -12,7 +12,8 @@ L'objectiu d'aquest tutorial és de configurar tot el necessari perquè una apli
 
 ![smtp-mandrill](https://trello-attachments.s3.amazonaws.com/5ba263b6542ddf55e313f2b3/5c910535f97b3b6e51dd6408/c15d6deea41147099c0cafad60adbdaa/imatge.png)
 
-## En el cas d'Odoo (docs oficials)
+## En el cas d'Odoo
+_[docs oficials](https://www.odoo.com/documentation/user/11.0/discuss/email_servers.html)_
 
 1. Inicia sessió amb un compte amb permisos d'admin
 2. Ves a Settings / General Settings i habilita External Email Servers
@@ -23,7 +24,7 @@ L'objectiu d'aquest tutorial és de configurar tot el necessari perquè una apli
 ![smtp-odoo](https://trello-attachments.s3.amazonaws.com/5c910535f97b3b6e51dd6408/946x653/77ae655bd4083e862c1a6a28635e99fd/imatge.png)
 
 ## Verificar el domini per a Mandrill
-[font](https://mandrill.zendesk.com/hc/en-us/articles/205582247-About-Domain-Verification))
+_[font](https://mandrill.zendesk.com/hc/en-us/articles/205582247-About-Domain-Verification)_
 
 1. A Mandrill, _[Sending Domains](https://mandrillapp.com/settings/sending-domains)_ comprova que  hi ha tres "tics" que falten
 2. Clica a _View DKIM Settings_ i copia la línia que et dóna.
