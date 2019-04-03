@@ -37,7 +37,7 @@ L'objectiu d'aquest tutorial és de configurar tot el necessari perquè una apli
 ![spf-cdmon](https://trello-attachments.s3.amazonaws.com/5c910535f97b3b6e51dd6408/940x233/76e0e98d13899fe3bf2aa973039560c4/imatge.png)
 ![spf-cdmon](https://trello-attachments.s3.amazonaws.com/5ba263b6542ddf55e313f2b3/5c910535f97b3b6e51dd6408/3cada7e7dc7bcbe5545e464551328910/imatge.png)
 
-** Registre de mail pel subdomini **
+**Registre de mail pel subdomini**
 
 7. Verifica el correu. A cdmon, [crea un registre MX](https://ticket.cdmon.com/es/support/solutions/articles/7000006119-c%c3%b3mo-configurar-el-registro-de-correo-o-registro-mx) per al subdomini desitjat. El contingut ha de ser el mateix domini que el del domini principal.
 8. Crea el compte de correu amb subdomini dins de cdmon (?¿)
