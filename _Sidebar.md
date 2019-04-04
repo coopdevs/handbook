@@ -14,7 +14,7 @@
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
 
-## Contractacions
+**Contractacions**
 * [[Procés d'onboarding]]
 * [[Fer un contracte nou per una empleada]]
 
