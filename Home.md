@@ -17,10 +17,10 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Registrar factures de proveïdors]]
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
-* [[Fer un contracte nou per una empleada]]
 
 ## Contractacions
 * [[Procés d'onboarding]]
+* [[Fer un contracte nou per una empleada]]
 
 ## PostgreSQL
 
