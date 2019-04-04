@@ -13,6 +13,9 @@
 * [[Registrar factures de proveïdors]]
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
+
+## Contractacions
+* [[Procés d'onboarding]]
 * [[Fer un contracte nou per una empleada]]
 
 **PostgreSQL**
