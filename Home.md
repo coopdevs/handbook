@@ -32,7 +32,6 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Publish a new module in Ansible Galaxy]]
 * [[Useful Ansible cli options]]
 
-
 ## Odoo
 
 * [[How to install modules for Odoo]]
