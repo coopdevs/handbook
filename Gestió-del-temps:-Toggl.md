@@ -8,16 +8,16 @@ El primer que cal fer és crear-se un compte personal a Toggl. Cal obtenir els p
 
 Toggl és un temporitzador que permet anomenar, etiquetar i classificar les tasques que fas durant una jornada de treball segons el tipus de feina que sigui o el projecte al qual pertanyin. Cada vegada que s'inicia una nova tasca, s'inicia el temporitzador i se li atorga un títol (per exemple, "enviar acta per la llista interna"), un projecte (en aquest cas, "Katuma") i una etiqueta, segons el tipus de tasca que sigui.
 
-Ara per ara n'hem afegit de genèriques tals com comunicació, administració, comunicació o tech que són útils per a qualsevol projecte. Reutilitzar-les permet tenir una visió global més enllà de projectes concrets. Així podem saber la proporció d'esforços que dediquem a comunicació comparat amb els que dediquem a administració, per exemple.
+Ara per ara n'hem afegit de genèriques tals com comunicació, administració o tech que són útils per a qualsevol projecte. Reutilitzar-les permet tenir una visió global més enllà de projectes concrets. Així podem saber la proporció d'esforços que dediquem a comunicació comparat amb els que dediquem a administració, per exemple.
 
 Cada membre de l'equip té un compte personal i es poden obtenir en tot moment dades de quant temps es dedica a cada tasca, filtrar per etiquetes o per projectes, per dates, etcètera.
 
-Malgrat que es pot treballar des de la pàgina de [Toggl](www.toggl.com), hi ha opcions que faciliten fer-ne un millor ús:
+Malgrat que es pot treballar des de la pàgina de [Toggl](www.toggl.com), hi ha opcions que faciliten fer-ne un millor ús.
 
 ### App mòbil
-Hi ha l'opció de descarregar-se l'aplicació al mòbil per a tasques que realitzem quan no som davant de l'ordinador.
+Hi ha l'opció de descarregar-se l'aplicació al mòbil per a tasques que realitzem quan no som davant de l'ordinador. Cal anar alerta però, perquè a vegades l'app peta i quan tenim problemes de xarxa hi poden haver errors a l'hora de sincronitzar les entrades de temps.
 
 ### Extensions de Toggl a altres eines
 Tenim la possibilitat de descarregar-nos l'extensió de Toggl per a [Firefox](https://addons.mozilla.org/en-US/firefox/addon/toggl-button-time-tracker/) o [Chrome](https://chrome.google.com/webstore/detail/toggl-button-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn) per tenir sempre un botó de Toggl a la barra del navegador i inclús habilitar aquelles opcions en què volem que aparegui el botó de Toggl dins de les pròpies aplicacions (Calendar, Gmail, Trello o Github, entre d'altres). Això ultim podrem fer-ho des de l'apartat d'extensions del mateix Chrome, activant les webs on volem que funcioni el botó de Toggl.
 
-**Es molt recomonable fer-ne ús per assegurar que es comptabilitza tot el temps que invertim en el projecte** per després poder-ho analitzar.
+**Es imprescindible fer-ne ús per assegurar que es comptabilitza tot el temps que invertim en el projecte** per després poder-ho analitzar. No hi ha res millor que veuré el botó de Toggl per tot arreu per recordar-ho.
