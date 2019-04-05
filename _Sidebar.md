@@ -33,6 +33,7 @@
 **Odoo**
 
 * [[How to install modules for Odoo]]
+* [[How to restore an Odoo backup]]
 
 **Misc**
 
