@@ -35,6 +35,7 @@ Welcome to the Coopdevs Handbook wiki!
 ## Odoo
 
 * [[How to install modules for Odoo]]
+* [[How to restore an Odoo backup]]
 
 ## Misc
 
