@@ -6,7 +6,7 @@ El primer que cal fer és crear-se un compte personal a Toggl. Cal obtenir els p
 
 ## Ús de Toggl
 
-Toggl és un temporitzador que permet anomenar, etiquetar i classificar les tasques que fas durant una jornada de treball segons el tipus de feina que sigui o el projecte al qual pertanyin. Cada vegada que s'inicia una nova tasca, s'inicia el temporitzador i se li atorga un títol (per exemple, "enviar acta per la llista interna"), un projecte (en aquest cas, "Katuma") i una etiqueta, segons el tipus de tasca que sigui.
+   Toggl és un temporitzador que permet anomenar, etiquetar i classificar les tasques que fas durant una jornada de treball segons el tipus de feina que sigui o el projecte al qual pertanyin. Cada vegada que s'inicia una nova tasca, s'inicia el temporitzador i se li atorga un títol (per exemple, "enviar acta per la llista interna"), un projecte (per exemple, "Katuma") i una etiqueta, segons el tipus de tasca que sigui.
 
 Ara per ara n'hem afegit de genèriques tals com comunicació, administració o tech que són útils per a qualsevol projecte. Reutilitzar-les permet tenir una visió global més enllà de projectes concrets. Així podem saber la proporció d'esforços que dediquem a comunicació comparat amb els que dediquem a administració, per exemple.
 
