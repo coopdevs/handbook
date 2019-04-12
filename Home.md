@@ -20,9 +20,9 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Gestió del temps: Toggl]]
 
 ## Contractacions
-* [[Procés d'onboarding]]
-* [[Fer un contracte nou per una empleada]]
 * [[Procés de contractació]]
+* [[Fer un contracte nou per una empleada]]
+* [[Procés d'onboarding]]
 
 ## PostgreSQL
 
