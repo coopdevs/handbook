@@ -20,6 +20,7 @@
 **Contractacions**
 * [[Procés d'onboarding]]
 * [[Fer un contracte nou per una empleada]]
+* [[Procés de contractació]]
 
 **PostgreSQL**
 
