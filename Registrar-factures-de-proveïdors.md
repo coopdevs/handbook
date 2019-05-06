@@ -21,7 +21,7 @@ La regla general es que si tant el proveïdor com el client estan registrats al 
 
 :warning: Coopdevs Associació **NO** està al Registre d'IVA intracomunitari
 
-Al cas de Coopdevs Treball SCCL els codis d'IVA que es poden utilitzar per productes/serveis de proveïdors que estan al registre son:
+Al cas de Coopdevs Treball SCCL els codis d'IVA que es poden utilitzar per productes/serveis de proveïdors que estan al registre són:
 * `IVA 21% Adquisición de servicios intracomunitarios` (en cas de serveis)
 * `IVA 21% Adquisición Intracomunitaria. Bienes corrientes` (en cas de productes)
 
