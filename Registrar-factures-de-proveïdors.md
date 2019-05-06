@@ -3,7 +3,7 @@ Igual que en el cas de venda, ens hem d'assegurar que existeix el proveïdor, en
 
 ## Elements a introduir 
  * "Referència de Proveïdor": és el nº de factura que indica el proveïdor
- * "Data de factura": data de emisio' de la factura
+ * "Data de factura": data de emisió de la factura
  * Els productes amb l'IVA que pertoqui
 
 ## Adjuntar factura original
@@ -17,9 +17,9 @@ Sempre adjuntarem una foto/pdf de la factura original a la factura de Odoo. Aix�
 ## Factures de empreses fora de Espanya
 La regla general es que si tant el proveïdor com el client estan registrats al Registre d'IVA intracomunitari l'import de l'IVA es 0.
 
-:warning: Coopdevs Treball SCCL **SI** esta' al Registre d'IVA intracomunitari
+:warning: Coopdevs Treball SCCL **SI** està al Registre d'IVA intracomunitari
 
-:warning: Coopdevs Associacio **NO** esta' al Registre d'IVA intracomunitari
+:warning: Coopdevs Associació **NO** està al Registre d'IVA intracomunitari
 
 Al cas de Coopdevs Treball SCCL els codis d'IVA que es poden utilitzar per productes/serveis de proveïdors que estan al registre son:
 * `IVA 21% Adquisición de servicios intracomunitarios` (en cas de serveis)
