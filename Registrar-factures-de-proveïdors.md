@@ -1,5 +1,5 @@
 ## Tenim creat el proveïdor?
-Igual que en el cas de venda, ens hem d'assegurar que existeix el proveïdor, en cas contrari introduir les dades com ho faríem per client.  
+Igual que en el cas de venda, ens hem d'assegurar que existeix el proveïdor, en cas contrari [introduir les dades](https://github.com/coopdevs/handbook/wiki/Emetre-una-factura-de-venda#tenim-creat-el-client) com ho faríem per client.  
 
 ## Elements a introduir 
  * "Referència de Proveïdor": és el nº de factura que indica el proveïdor
