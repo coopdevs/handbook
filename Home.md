@@ -27,6 +27,7 @@ Welcome to the Coopdevs Handbook wiki!
 ## PostgreSQL
 
 * [[Investigar queries lentas]]
+* [[Postgresql Tuning Tools]]
 
 ## Ansible
 
