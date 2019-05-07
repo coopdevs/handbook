@@ -26,7 +26,7 @@ Welcome to the Coopdevs Handbook wiki!
 
 ## PostgreSQL
 
-* [[Finding query|finding_query]]
+* [[Investigar queries lentas]]
 
 ## Ansible
 
