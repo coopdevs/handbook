@@ -24,7 +24,7 @@
 
 **PostgreSQL**
 
-* [[finding_query]]
+* [[Investigar queries lentas]]
 
 **Ansible**
 
