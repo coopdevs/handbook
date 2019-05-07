@@ -2,7 +2,7 @@
 
 Comenzamos a investigar las queries que se realizaban al investigar un importador de CSVs que se utilizaba en una instancia de tryton 3.8.
 
-Este importador cargaba en base de datos una serie de registros de consumo. Para ello se necesitaba conocer el contrato al que iban asociados, el tipo de producto al que pertenecía el consumo y la linea de factura a la que se enlazaría. 
+Este importador cargaba en base de datos una serie de registros de consumo. Para ello se necesitaba conocer el contrato al que iban asociados, el tipo de producto al que pertenecía el consumo y la linea de factura a la que se enlazaría.
 
 > *Podemos aprovechar para estudiar el modelo de datos que utilizamos, ya que la linea de factura ya contiene el tipo de producto y el contrato relacionadas. No se aprovecha el modelo relacional de Postgresql.*
 este proceso, con todas sus comprobaciones, era muy costoso.
@@ -26,9 +26,9 @@ Esta primera iteración sobre el algoritmo de importación mejoro la *performanc
 Al ver que aun así habían procesos de Postgresql que permanecían abiertos durante horas utilizando el comando `top`, investigamos que tipo de consultas se realizaban y cual era su coste.
 
 ```
-  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM     HORA+ ORDEN                                                                                                                                                                                                         
-  986 postgres  20   0  311008 134888 129732 R  77,0  1,7   1h:36.80 postgres                                                                                                                                                                                                      
-  887 ubuntu    20   0  853556 209940  26852 S  26,0  2,6   1h:20.66 python  
+  PID USUARIO   PR  NI    VIRT    RES    SHR S  %CPU %MEM     HORA+ ORDEN
+  986 postgres  20   0  311008 134888 129732 R  77,0  1,7   1h:36.80 postgres
+  887 ubuntu    20   0  853556 209940  26852 S  26,0  2,6   1h:20.66 python
 ```
 Utilizando `htop` podemos saber que acción esta realizando en concreto:
 
@@ -113,6 +113,3 @@ Podemos ir reiniciando las metricas obtenidas utilizando `# SELECT pg_stat_state
 
 Una vez tenemos la consulta localizada, pasamos a analizar su ejecución. Para ello utilizamos el método `EXPLAIN` con el argumento `ANALYZE`.
 Este nos devuelve los pasos que realiza la consulta para ejecutarse y al añadir el `ANALYZE` nos devuelve además del coste estimado que devuelve el `EXPLAIN` al no llegar a ejecutarse la consulta, el coste real, ya que la consulta si que se ejecuta.
-
-
-## Insertar datos random en una tabla
