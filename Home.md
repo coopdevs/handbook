@@ -43,3 +43,4 @@ Welcome to the Coopdevs Handbook wiki!
 
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[Gitlab and Github group member permissions]]
+* [[How to manage fail2ban]]
