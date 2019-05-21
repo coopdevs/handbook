@@ -96,7 +96,7 @@ myloader.list_templates()
 # OUTPUT
 # ['cron-main.sh.j2', 'cron-prepare.sh.j2', 'cron-upload.sh.j2', 'sudoers.j2']
 
-mytemplate = myloader.load(env, 'sudoers.j2')
+mytemplate = myloader.load(myenv, 'sudoers.j2')
 # End loading from templates dir
 
 # You can also load a template as a string like:
