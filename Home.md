@@ -18,6 +18,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
 * [[Gestió del temps: Toggl]]
+* [[Procés d'alta de nova sòcia associació Coopdevs]]
 
 ## Contractacions
 * [[Procés de contractació]]
