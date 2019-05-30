@@ -25,7 +25,7 @@ Opcionalment podem omplir altres dades de contacte del client.
 
 Ja tenim tota la informació necessària relativa a la factura, ara sols falta introduir els conceptes. Són aquelles coses que volem facturar: "Hores de programador", "SysAdmin",  "Optimització de processos empresarials", ... 
 
-1. Clic a "Afegeix un element" (podem afegir tants com necessitem)
+1. Clic a "Afegeix un element" (en podem afegir tants com necessitem)
 2. Seleccionem un producte, al llistat apareixen tots els productes que oferim com Coopdevs
 3. Si es necessari podem afegir una descripció per exemple "hores per al projecte X setembre 2018"
 4. Podem modificar la quantitat(per exemple les hores dedicades) i el preu (per exemple en el cas que ho haguem vengut a un preu diferent a les tarifes)
