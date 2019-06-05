@@ -12,6 +12,7 @@ Data finalització
 Dedicació(hores/setmana)
 Posició
 Conveni
+Tipus (obra i servei o eventual)
 Sou brut (mensual o anual)
 ```
 
