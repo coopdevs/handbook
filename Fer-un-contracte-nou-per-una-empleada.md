@@ -8,7 +8,7 @@
 ```
 Duració
 Data inici
-Data termini
+Data finalització
 Dedicació(hores/setmana)
 Posició
 Conveni
