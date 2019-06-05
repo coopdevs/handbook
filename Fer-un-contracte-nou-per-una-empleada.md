@@ -13,6 +13,7 @@ Dedicació(hores/setmana)
 Posició
 Conveni
 Tipus (obra i servei o eventual)
+Període de prova (fins ara hem fet 3 mesos)
 Sou brut (mensual o anual)
 ```
 
