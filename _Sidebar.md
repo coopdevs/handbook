@@ -26,6 +26,7 @@
 
 * [[Investigar queries lentas]]
 * [[Postgresql Tuning Tools]]
+* [[Useful queries]]
 
 **Ansible**
 
