@@ -1,4 +1,4 @@
-# SEPA Direct Debit in Odoo 11 - Català
+# SEPA Direct Debit in Odoo 11
 
 ## Que és SEPA?
 
