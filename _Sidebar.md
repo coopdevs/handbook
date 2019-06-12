@@ -1,5 +1,4 @@
 **Katuma**
-
 * [[Planificació]]
 * [[Retrospectives]]
 * [[Gestió del temps: Toggl]]
@@ -9,7 +8,6 @@
 * [[Katuma en una diapositiva]]
 
 **Gestió Coopdevs**
-
 * [[Procés de facturació]]
 * [[Emetre una factura de venda]]
 * [[Registrar factures de proveïdors]]
@@ -23,24 +21,23 @@
 * [[Procés d'onboarding]]
 
 **PostgreSQL**
-
 * [[Investigar queries lentas]]
 * [[Postgresql Tuning Tools]]
 * [[Useful queries]]
 
 **Ansible**
-
 * [[Publish a new module in Ansible Galaxy]]
 * [[Useful Ansible cli options]]
 
 **Odoo**
-
 * [[How to install modules for Odoo]]
 * [[How to restore an Odoo backup]]
 * [How to extract the list of Odoo modules from a running instance](https://gitlab.com/coopdevs/odoo-provisioning/wikis/How-to-extract-the-list-of-Odoo-modules-from-a-running-instance)
 
-**Misc**
+**Discourse**
+* [[Discourse Management]]
 
+**Misc**
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[Gitlab and Github group member permissions]]
 * [[How to manage fail2ban]]
