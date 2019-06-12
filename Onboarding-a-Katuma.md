@@ -1,3 +1,9 @@
+## Índex
+- [Trello](#trello)
+- [Toggl](#toggl)
+- [Calendari](#calendari)
+- [Bitwarden](#bitwarden)
+
 ## Trello
 
 Des del board de Katuma, clica a "Invite" i introdueix el mail de la persona. Això la permetrà crear-se el compte i entrar al board per ella mateixa. Des del moment en que està convidada ja se la pot mencionar i assignar a cards.

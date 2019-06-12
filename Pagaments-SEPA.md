@@ -21,7 +21,7 @@ Per poder generar el fitxer SEPA que pujarem a la nostra entitat bancaria per re
 Anant a `Facturació > Configuració > Configuració` accedim a la configuració de la part de comptabilitat/facturació.
 En aquest punt, trobem el camp *Initiating Party Identifier*, el qual hem d'omplir amb el valor que ens proporcioni la nostra entitat bancaria com identificador. Aquest valor es indispensable per generar el fitxer SEPA correctament amb el tag `OrgId` al seu lloc.
 
-![2019-06-06-114601_3286x1080_scrot](uploads/29e8b535449a63d493d96ad0ed4e0bab/2019-06-06-114601_3286x1080_scrot.png) 
+![2019-06-06-114601_3286x1080_scrot](img/SEPA/2019-06-06-114601_3286x1080_scrot.png) 
 
 ### SEPA Creditor Identificador
 Anant a `Facturació > Configuració > Configuració` accedim a la configuració de la part de comptabilitat/facturació.
@@ -46,7 +46,7 @@ En aquesta pantalla hem de crear un mode de pagament indicant els següents valo
 - Payment Method: *SEPA Direct Debit for customers* o *SEPA Credit Transfer to suppliers*
 - Link to Bank Account: *Fixed* si només fem servir un compte o *Variant* si tenim definits els comptes bancaris per als diferents comptes del pla comptable.
 
-![SEPA Credit Transfer to suppliers](attachments/sepa-payments1.png)
+![SEPA Credit Transfer to suppliers](img/SEPA/sepa-payments1.png)
 
 
 ## Ús dels fitxers SEPA
@@ -67,7 +67,7 @@ Un cop creat el mandat, podem adjuntar un escaneig del mandat real per tenir-ho 
 
 Abans de començar ens hem de assegurar que els proveïdors que desitgem pagar per aquest mètode tinguin un compte Bancari definit i el Mode de Pagament "SEPA Credit Transfer to suppliers". Podem editar aquests camps a `Facturació > Compres > Proveïdors` així totes les factures que rebem d'aquests proveïdors automàticament les podrem afegir a Payment Orders tipus "SEPA Credit Transfer to suppliers"
 
-![SEPA Credit Transfer to suppliers](attachments/sepa-payments2.gif)
+![SEPA Credit Transfer to suppliers](img/SEPA/sepa-payments2.gif)
 
 1. Creem un Payment Order
 
@@ -81,7 +81,7 @@ Un cop tenim el Payment Order, podem accedir a `Facturació > Compres > Factures
 
 Per finalitzar el procés necessitem extreure el fitxer SEPA que importarem a l'aplicatiu de la nostra entitat bancaria, dins del Payment Order en qüestió podrem fer clic al botó `Confirm Payments` i descarregar el fitxer. 
 
-![SEPA Credit Transfer to suppliers](attachments/sepa-payments3.gif)
+![SEPA Credit Transfer to suppliers](img/SEPA/sepa-payments3.gif)
 
 (WIP: provar que fa el botó `File Successfully Uploaded` un cop estigui el fitxer enviat al banc) 
 
