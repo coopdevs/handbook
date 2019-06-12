@@ -48,9 +48,3 @@ Un cop la despesa hagi estat aprovada i es faci clic al botó "Assentar assentam
   * "Due Date" avui
   * fem clic al botó "Create Payment Lines from Journal Items"
   * Afegim assentaments "Afegeix un element" > "Agrupar per" "Afegeix un grup personalitzat" "Despeses"
-
-## Trucs
-
-* Com fer que els números de compte surten a les factures:
-
-En generar les factures, cal que indiquem el mode de pagament que hem creat anteriorment associat al nostre número de compte.
