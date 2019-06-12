@@ -1,69 +1,4 @@
-# SEPA Direct Debit in Odoo 11
-
-## Que és SEPA?
-
-https://es.wikipedia.org/wiki/Zona_%C3%9Anica_de_Pagos_en_Euros
-
-## Mòduls SEPA para Odoo
-
-Al voltant d'Odoo trobem diferents mòduls per gestionar tant mandats com debit/payment ordres.
-
-Nosaltres farem servir els següents mòduls de l'OCA:
-- [Account Banking SEPA Direct Debit](https://github.com/OCA/bank-payment)
-
-
-## Configuracions
-1. Configuració de la companyia
-
-Per poder generar el fitxer SEPA que pujarem a la nostra entitat bancaria per realitzar les remeses, cal una configuració prèvia.
-
-### Initiating Party Identifier
-Anant a `Facturació > Configuració > Configuració` accedim a la configuració de la part de comptabilitat/facturació.
-En aquest punt, trobem el camp *Initiating Party Identifier*, el qual hem d'omplir amb el valor que ens proporcioni la nostra entitat bancaria com identificador. Aquest valor es indispensable per generar el fitxer SEPA correctament amb el tag `OrgId` al seu lloc.
-
-![2019-06-06-114601_3286x1080_scrot](img/SEPA/2019-06-06-114601_3286x1080_scrot.png) 
-
-### SEPA Creditor Identificador
-Anant a `Facturació > Configuració > Configuració` accedim a la configuració de la part de comptabilitat/facturació.
-En aquest punt, trobem el camp *SEPA Creditor Identifier*, el qual hem d'omplir amb el valor que ens proporcioni la nostra entitat bancaria com identificador.
-
-> Podem calcular l'Identificador SEPA amb: https://academy.holded.com/tesoreria/remesas/como-calcular-el-id-de-acreedor-sepa
-
-### Compte bancari
-
-Cal tenir un compte bancari associat amb la nostra companyia, per fer això podem fer:
-
-Anem a `Facturació > Configuració > Comptes Bancaris`, aquí hem de crear el compte bancari de la nostra companyia i associar-lo a aquesta amb el camp `Empresa`. Són necessaris tant l'IBAN com el banc on tenim el compte.
-
-> Per generar el compte bancari de la companyia cal tenir permisos d'Administrador o bé tenir actiu els permisos de *Bank Account* al panell de permisos de l'Usuari, apartat *Other extra rights*.
-
-2. Configuració Modo de Pago
-
-Per finalitzar la configuració cal crear un mètode de pagament associat al compte bancari de la companyia que acabem de crear. Per fer això podem accedir a `Facturació > Configuració > Modes de pagament`.
-
-En aquesta pantalla hem de crear un mode de pagament indicant els següents valors:
-
-- Payment Method: *SEPA Direct Debit for customers* o *SEPA Credit Transfer to suppliers*
-- Link to Bank Account: *Fixed* si només fem servir un compte o *Variant* si tenim definits els comptes bancaris per als diferents comptes del pla comptable.
-
-![SEPA Credit Transfer to suppliers](img/SEPA/sepa-payments1.png)
-
-
-## Ús dels fitxers SEPA
-## Creació de Mandats SEPA
-
-Per cada client o proveïdor al que volem girar un rebut SEPA, cal tenir un mandat signat. Aquest mandat es el contracte amb el qual aquella persona o entitat autoritza a realitzar cobraments directament al seu compte bancari.
-
-Per generar els mandats SEPA a Odoo anem a la fitxa del client, a l'apartat `Vendes i Compres > Pagamanets` i fem clic a *Mandate(s)*.
-
-Hem d'aportar un compte bancari (que ja ens ve filtrat pel titular), una data de signament del mandat i de quin tipus és.
-
-Un cop creat el mandat, podem adjuntar un escaneig del mandat real per tenir-ho tot a l'abast
-
-
-## Creació de Payment Orders
-
-### Pagament de factures de proveïdors amb SEPA
+## Pagament de factures de proveïdors amb SEPA
 
 Abans de començar ens hem de assegurar que els proveïdors que desitgem pagar per aquest mètode tinguin un compte Bancari definit i el Mode de Pagament "SEPA Credit Transfer to suppliers". Podem editar aquests camps a `Facturació > Compres > Proveïdors` així totes les factures que rebem d'aquests proveïdors automàticament les podrem afegir a Payment Orders tipus "SEPA Credit Transfer to suppliers"
 
@@ -86,7 +21,7 @@ Per finalitzar el procés necessitem extreure el fitxer SEPA que importarem a l'
 (WIP: provar que fa el botó `File Successfully Uploaded` un cop estigui el fitxer enviat al banc) 
 
 
-### Pagament de nòmines de treballadors amb SEPA
+## Pagament de nòmines de treballadors amb SEPA
 
 1. Els empleats poden tenir mètode de cobrament (SEPA) i compte bancari, al igual que una empresa proveïdora.  Si anem a `Empleats` seleccionem l'empleat i anem a la pestanya `Private information > Private Address` aquí podrem associar l'empleat amb un "Contacte" dins del qual haurà de tenir un Compte Bancari dins la pestanya `Vendes i Compres` i Supplier Payment Mode: SEPA a dins la pestanya `Facturació`
 
@@ -98,7 +33,7 @@ Per finalitzar el procés necessitem extreure el fitxer SEPA que importarem a l'
   * "Due Date" avui
   * Afegim els assentaments comptables fent  "Afegeix un element" > "Filtrar" > "Afegir un filtre personalitzat "per "compte" conté "465" trobarem els assentaments per afegir
 
-### Retorn dels diners de despeses a treballadors amb SEPA
+## Retorn dels diners de despeses a treballadors amb SEPA
 
 1. Els empleats poden tenir mètode de cobrament (SEPA) i compte bancari, al igual que una empresa proveïdora.  Si anem a `Empleats` seleccionem l'empleat i anem a la pestanya `Private information > Private Address` aquí podrem associar l'empleat amb un "Contacte" dins del qual haurà de tenir un Compte Bancari dins la pestanya `Vendes i Compres` i Supplier Payment Mode: SEPA a dins la pestanya `Facturació`
 
