@@ -38,33 +38,6 @@ Obrim la pantalla de Contract Templates: `Facturació > Configuració > Contract
 
 8.  Desar
 
-
-## Llista de Preus
-
-### Canviar el llistat de preus
-
-Els preus dels serveis facturats mensualment es marquen a unes llistes anomenades 'Llistes de preus'. Aquestes llistes tenen un període de temps en què són valides (normalment un trimestre o quadrimestre).
-
-Fent servir aquest llistat de preus i una quantitat que pot ser fixa o variant a les factures, calcularem automàticament el preu total de la factura.
-
-Així doncs, haurem d'anar renovant aquests llistats de preu cada cert període de temps així com actualitzar als contractes vius quin és el llistat de preus que volem fer servir per a les properes factures.
-
-### Creació de Llistats de preus
-
-Per crear una nova llista de preus accedim a `Vendes > Catàleg > Llistes de Preus`.
-
-Un cop en aquesta pantalla podem crear un nou llistat de preus fent clic a 'Crear' indicant al formulari el nom del nou llistat de preus, per exemple: 'Preus serveis 1r trimestre 2018'.
-
-### Actualitzar preus en productes
-
-Un cop creat aquest llistat de preus, accedim al llistat de productes (o serveis en el nostre cas) accedint a Vendes → Catàleg → Productes. Obrim un a un tots els productes que volem actualitzar el llistat de preus y a la pestanya de Vendes, afegim una nova tarifa indicant el llistat de preus y quin és el preu per aquesta tarifa d'aquest producte en concret.
-
-### Actualitzar llistat de preus en contractes
-
-Un cop tenim el llistat de preus el producte amb el preu actualitzat, podem actualitzar el Llistat de preus que fem servir a cada contracte actiu que tenim. Per fer això accedim al llistat de contractes actius accedint a Facturació → Vendes → Contractes. Un cop al llistat, seleccionem tots els contractes que volem actualitzar amb el checkbox de l'esquerra i executem l'acció: Acció → Canvi de llistat de preus.
-
-Això obre un popup on podem indicar quin llistat de preus volem fer servir
-
 ## Seqüències de factura per cada tipologia de contracte 
 
 És possible que necessitem diferents tipus de seqüències de factura per generar el nº/codi de factura per cada tipologia de contracte. Per exemple per un tipus concret de contracte (TCC) podríem voler que les factures fossin amb la seqüència TCC0001, TCC0002, ...
