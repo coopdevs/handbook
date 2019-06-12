@@ -18,6 +18,8 @@ Revisa que al total aparegui la quantitat exacta que apareix al tiquet.
 
 Seleccionem qui ha pagat: "Employee (to reimburse)" si el treballador ha pagat (s'haurà de tornar), "Companyia" si la empresa ha pagat. 
 
+Cal tenir en compte que no afegim IVA en el cas de despeses.
+
 ## Afegir document adjunt
 
 Un cop desat pots afegir un arxiu adjunt (un tiquet o altres tipus de comprovant del pagament)
