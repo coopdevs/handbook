@@ -1,5 +1,3 @@
-[[_TOC_]]
-
 ## Creació d'un nou contracte
 
 Els passos per crear el contracte son:
@@ -15,7 +13,7 @@ Els passos per crear el contracte son:
 9.  Desem
 
 
-![Contractes](attachments/contracts2.png)
+![Contractes](img/contracts/contracts2.png)
 
 
 ## Creació de factures partint d'un contracte
@@ -24,13 +22,13 @@ Les factures es crearan la data d'inici del contracte.
 
 Un administrador veu el botó "Create Invoices" que simularà el moment en què s'hauria de crear la següent factura. 
 
-![Contractes](attachments/contracts3.png)
+![Contractes](img/contracts/contracts3.png)
 
 ## Crear un Contract Template
 
 Obrim la pantalla de Contract Templates: `Facturació > Configuració > Contract Templates` fem clic al botó Crear
 
-![Contractes](attachments/contracts1.png)
+![Contractes](img/contracts/contracts1.png)
 
 4.  Omplim el formulari
   * Afegir les línies de factura que sabem que es cobraran periòdicament amb regularitat.
@@ -81,9 +79,9 @@ Per a fer-ho haurem de definir el diari (journal) del contracte amb la seqüènc
 6. Finalment anem a `Vendes > Contracts` escollim el contracte al qual volem aplicar el diari que hem creat
 
 
-![Contractes](attachments/contracts4.gif)
+![Contractes](img/contracts/contracts4.gif)
 
 Un cop s'executi la creació de factura del contracte ja ens el crearà amb la nova seqüència. 
 
-![Contractes](attachments/contracts5.png)
+![Contractes](img/contracts/contracts5.png)
 
