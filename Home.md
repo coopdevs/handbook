@@ -16,6 +16,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Emetre una factura de venda]]
 * [[Registrar factures de proveïdors]]
 * [[Introduir una despesa]]
+* [[Pagament SEPA]]
 * [[Crear un projecte a Toggl]]
 * [[Gestió del temps: Toggl]]
 * [[Procés d'alta de nova sòcia associació Coopdevs]]
