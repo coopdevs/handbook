@@ -12,6 +12,7 @@
 * [[Emetre una factura de venda]]
 * [[Registrar factures de proveïdors]]
 * [[Pagaments SEPA]]
+* [[Contractes]]
 * [[Introduir una despesa]]
 * [[Crear un projecte a Toggl]]
 * [[Gestió del temps: Toggl]]
