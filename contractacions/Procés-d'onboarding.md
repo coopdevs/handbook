@@ -105,7 +105,7 @@ Tot seguit, selecciona _Team_ des del menú lateral, introdueix el mail de la pe
 
 ## Calendari
 
-Per compartir el calendari de Coopdevs, actualment de Google, navega a _Configuratició i compartir_ clicant sobre el calendari. Un cop a la configuració, clica al botó _Afegeix persones_, afegeix el seu mail i selecciona l'opció _Veure tota la informació de l'esdeveniment_.
+Per compartir el calendari de Coopdevs, actualment de Google, navega a _Configuratició i compartir_ clicant sobre el calendari. Un cop a la configuració, clica al botó _Afegeix persones_, afegeix el seu mail i selecciona l'opció _Veure tota la informació de l'esdeveniment_ o fer _Fer canvis a esdeveniments_ segons convingui.
 
 ### Configuració amb un gestor de calendari
 
