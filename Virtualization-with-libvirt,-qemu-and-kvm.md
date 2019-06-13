@@ -1,7 +1,7 @@
 ## Goal
 To make it easy to create virtual machines in qemu almost as easy as [devenv project](https://github.com/coopdevs/devenv/) does with linux containers.
 
-## Platforms tested
+## Host OS where this focused on
 * Debian 9
 * Ubuntu 18.04
 
@@ -30,25 +30,25 @@ There are secondary flags as explained in the already referenced article.
 
 ## Download the desired guest OS image
 
-We chose to use "cloud" images because they are in qcow2 format, and may ease transition from local to public cloud or reverse.
+We chose to use "cloud" images because they are in qcow2 format, qemu's native format. At the same time, it's used on public clouds, so it may ease moving between environments (local and remote).
 
 * ubuntu https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img
 * debian https://cdimage.debian.org/cdimage/openstack/current/
 
-As of June 2019, we are using Ubuntu in most of our deployments. Choose whatever fits you.
+As of June 2019, we are using Ubuntu in most of our deployments
 
 ## Prepare permissions
 
 To be able to run and manage vm's with non-root user, we need to ensure that our user joins a couple of additional groups, that the daemon runs from the desired user/group and the property of a file. This should fix any "permission denied" when trying to connect or run a vm or "domain".
 
-### grups
+### Groups
 
 ```
 # adduser <youruser> libvirt
 # adduser <youruser> libvirt-qemu
 ```
 
-### config
+### Config
 
 ```bash
 # ~/.local/etc/libvirt/qemu.conf
@@ -56,11 +56,11 @@ user = "<youruser>"
 group = "libvirt-qemu"
 ```
 
-### kvm device
+### KVM device
 
 `sudo chown :kvm /dev/kvm`
 
-### images
+### Images
 
 ```bash
 chown <youruser>:libvirt-qemu .local/var/lib/libvirt/images/
@@ -68,20 +68,41 @@ chmod 770 .local/var/lib/libvirt/images/
 ```
 Note: default directory is `/var/lib/libvirt/images`, but we prefer to use a directory local to our user. Later on, from the UI we will have to add the 
 
-### Crea una imatge de configuració per canviar les credencials
+## Configure credentials for the cloud image
+
+_You can skip this step if you downloaded a regular USB installation image._
+
+Cloud-init "handles early initialization of a cloud instance", setting up from user and groups, to execution of chef and puppet recipes. However, we only want to change the default and unknown password to another one. Think if it's more convenient in your case to set up an ssh key.
 
 ```bash
 apt install cloud-image-utils
+```
+To use password
 
-echo '#cloud-config
+```bash
+cat << EOF > cloud-init.conf
+#cloud-config
 password: contrasenyainseguraohno
-chpasswd: { expire: False }
+chpasswd: { expire: False } 
 ssh_pwauth: True
-' > cloud-init.conf
+EOF
+```
 
+To use certificate
+
+```bash
+cat << EOF > cloud-init.conf
+#cloud-config
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+THISisANexampleXlukKoUPND/RRClWz2s5TCzIkd3Ou5+Cyz71X0XmazM3l5WgeErvtIwQMyT1KjNoMhoJMrJnWqQPOt5Q8zWd9qG7PBl9+eiH5qV7NZ mykey@host
+EOF
+```
+
+```bash
 cloud-localds cloud-init.img cloud-init.conf
 cp cloud-init.img ~/.local/var/lib/libvirt/images/
 ```
+
 Aquesta imatge la inserirem com un CD a la màquina virtual, i això farà que activi l'autenticació per contrasenya després d'un reboot.
 
 ### Crea la imatge amb la GUI (corba d'aprn. més ràpida)
