@@ -24,47 +24,49 @@ echo "Hardware virtualization is NOT supported"
 ```
 There are secondary flags as explained in the already referenced article.
 
-### Install packages from repos. Other distros may have different package names.
+## Install packages from repos. Other distros may have different package names.
 
 `# apt install qemu-kvm libvirt-clients libvirt-daemon-system virt-manager`
 
-### descarregar images en format cow2:
+## Download the desired guest OS image
+
+We chose to use "cloud" images because they are in qcow2 format, and may ease transition from local to public cloud or reverse.
 
 * ubuntu https://cloud-images.ubuntu.com/bionic/current/bionic-server-cloudimg-amd64.img
 * debian https://cdimage.debian.org/cdimage/openstack/current/
 
-### assegurem permisos
+As of June 2019, we are using Ubuntu in most of our deployments. Choose whatever fits you.
 
-#### grups
+## Prepare permissions
+
+To be able to run and manage vm's with non-root user, we need to ensure that our user joins a couple of additional groups, that the daemon runs from the desired user/group and the property of a file. This should fix any "permission denied" when trying to connect or run a vm or "domain".
+
+### grups
 
 ```
 # adduser <youruser> libvirt
 # adduser <youruser> libvirt-qemu
 ```
 
-#### config
+### config
 
-```
-#  /etc/libvirt/qemu.conf
-# caldria provar amb ~/.local/etc/libvirt/qemu.conf
+```bash
+# ~/.local/etc/libvirt/qemu.conf
 user = "<youruser>"
 group = "libvirt-qemu"
 ```
 
-#### kvm device
+### kvm device
 
 `sudo chown :kvm /dev/kvm`
 
-#### images
+### images
 
+```bash
+chown <youruser>:libvirt-qemu .local/var/lib/libvirt/images/
+chmod 770 .local/var/lib/libvirt/images/
 ```
-permisos 660 (perquè el grup pugui també escriure)
-user propietari: youruser
-grup propietari: libvirt-qemu
-
-.local/var/lib/libvirt/images/
-```
-Nota: per defecte, molta docu assumeix la ubicació com /var/lib/libvirt/images/ , però això és propietat de root, i nosaltres volem executar les vm com a usuari normal.
+Note: default directory is `/var/lib/libvirt/images`, but we prefer to use a directory local to our user. Later on, from the UI we will have to add the 
 
 ### Crea una imatge de configuració per canviar les credencials
 
@@ -75,7 +77,7 @@ echo '#cloud-config
 password: contrasenyainseguraohno
 chpasswd: { expire: False }
 ssh_pwauth: True
-' > cloud-config.conf
+' > cloud-init.conf
 
 cloud-localds cloud-init.img cloud-init.conf
 cp cloud-init.img ~/.local/var/lib/libvirt/images/
