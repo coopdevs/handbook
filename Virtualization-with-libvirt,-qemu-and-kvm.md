@@ -1,18 +1,32 @@
 ## Goal
 To make it easy to create virtual machines in qemu almost as easy as [devenv project](https://github.com/coopdevs/devenv/) does with linux containers.
 
-## References
+## Platforms tested
+* Debian 9
+* Ubuntu 18.04
+
+## General references
 
 * [Debian wiki on KVM, qemu and libvirt](https://wiki.debian.org/KVM)
 * [Libvirt wiki](https://wiki.libvirt.org/page/Main_Page)
 
-Com que l'entorn instaŀla nginx i docker al host, ho fico dins una màquina virtual amb qemu.
+---
 
-## tuto per a un host debian 9:
+## Check for hardware virtualization
 
-### instaŀlem paquets
+Intel and AMD will show different flags to announce hardware virtualization support. Both are used by KVM, Xen and others to do a "full virtualization", that is, hardware based and not software based.
 
-`# apt install qemu-kvm libvirt-clients libvirt-daemon-system`
+As they show in [cyberciti.biz](https://www.cyberciti.biz/faq/linux-xen-vmware-kvm-intel-vt-amd-v-support/), we have compatible hardware.
+```
+egrep -q 'vmx|svm' /proc/cpuinfo &&
+echo "Hardware virtualization is supported" ||
+echo "Hardware virtualization is NOT supported"
+```
+There are secondary flags as explained in the already referenced article.
+
+### Install packages from repos. Other distros may have different package names.
+
+`# apt install qemu-kvm libvirt-clients libvirt-daemon-system virt-manager`
 
 ### descarregar images en format cow2:
 
@@ -54,16 +68,16 @@ Nota: per defecte, molta docu assumeix la ubicació com /var/lib/libvirt/images/
 
 ### Crea una imatge de configuració per canviar les credencials
 
-```
-# apt install cloud-image-utils
+```bash
+apt install cloud-image-utils
 
-# echo '#cloud-config
+echo '#cloud-config
 password: contrasenyainseguraohno
 chpasswd: { expire: False }
 ssh_pwauth: True
 ' > cloud-config.conf
 
-# cloud-localds cloud-init.img cloud-init.conf
+cloud-localds cloud-init.img cloud-init.conf
 cp cloud-init.img ~/.local/var/lib/libvirt/images/
 ```
 Aquesta imatge la inserirem com un CD a la màquina virtual, i això farà que activi l'autenticació per contrasenya després d'un reboot.
