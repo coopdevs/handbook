@@ -86,7 +86,7 @@ To configure a password login
 ```bash
 cat << EOF > cloud-init.conf
 #cloud-config
-password: contrasenyainseguraohno
+password: unsafepassword
 chpasswd: { expire: False } 
 ssh_pwauth: True
 EOF
@@ -107,13 +107,32 @@ cloud-localds cloud-init.img cloud-init.conf
 cp cloud-init.img ~/.local/var/lib/libvirt/images/
 ```
 
-### Crea la imatge amb la GUI (corba d'aprn. més ràpida)
+## Gather all pieces together: create the "domain" for libvirt
+
+As qemu by itself doesn't store vm's description and settings, libvirt does this job for us. We can use a one shot `virt-install` command or use the convenient GUI.
 
 1. connexió amb kvm està creada
 2. crea nova imatge
 3. tria "una imatge existent" i selecciona la teva img cow2
 4. tria xarxa nat
 5. siguiente siguiente fins que es queixi: "custom cpu not suported" → vas a editar les opcions abans d'instaŀlar, cpu, "copia la cpu del host" → aplica → instaŀla
+
+Alternatively, via cli:
+
+```bash
+virt-install \
+ --name ubuntu-bionic \
+ --memory 4000 \
+ --vcpus 2 \
+ --import \
+ --disk path=/path/to/bionic-server-cloudimg-amd64.img,format=qcow2,bus=virtio,size=10 \
+ --disk path=/path/to/cloud-init.img,device=cdrom \
+ --network bridge=virbr0,model=virtio \
+ --os-type=linux \
+ --os-variant=ubuntubionic \
+ --connect qemu:///system \
+ --noautoconsole
+```
 
 ### Arrenca la màquina per consola
 
