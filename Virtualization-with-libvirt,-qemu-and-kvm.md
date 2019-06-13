@@ -26,7 +26,7 @@ There are secondary flags as explained in the already referenced article.
 
 ## Install packages from repos. Other distros may have different package names.
 
-`# apt install qemu-kvm libvirt-clients libvirt-daemon-system virt-manager`
+`apt install qemu-kvm libvirt-clients libvirt-daemon-system virt-manager`
 
 ## Download the desired guest OS image
 
@@ -72,12 +72,16 @@ Note: default directory is `/var/lib/libvirt/images`, but we prefer to use a dir
 
 _You can skip this step if you downloaded a regular USB installation image._
 
-Cloud-init "handles early initialization of a cloud instance", setting up from user and groups, to execution of chef and puppet recipes. However, we only want to change the default and unknown password to another one. Think if it's more convenient in your case to set up an ssh key.
+Cloud-init is a standard that "handles early initialization of a cloud instance", setting up from user and groups, to execution of chef and puppet recipes. However, we only want to change the default and unknown password to another one. Think if it's more convenient in your case to set up an ssh key.
+
+Cloud init is also a service that is installed by default at cloud images. It checks for external media (virtual or not) at start up, and if it finds devices such as CD-ROM suitable to its format, it will apply the recorded configuration.
+
+We will need an official tool to convert text config files to CD-ROM image.
 
 ```bash
 apt install cloud-image-utils
 ```
-To use password
+To configure a password login
 
 ```bash
 cat << EOF > cloud-init.conf
@@ -88,7 +92,7 @@ ssh_pwauth: True
 EOF
 ```
 
-To use certificate
+To  configure an SSH certificate login
 
 ```bash
 cat << EOF > cloud-init.conf
@@ -97,13 +101,11 @@ ssh_authorized_keys:
   - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+THISisANexampleXlukKoUPND/RRClWz2s5TCzIkd3Ou5+Cyz71X0XmazM3l5WgeErvtIwQMyT1KjNoMhoJMrJnWqQPOt5Q8zWd9qG7PBl9+eiH5qV7NZ mykey@host
 EOF
 ```
-
+Once we've got the config file, only remains converting it to CD image.
 ```bash
 cloud-localds cloud-init.img cloud-init.conf
 cp cloud-init.img ~/.local/var/lib/libvirt/images/
 ```
-
-Aquesta imatge la inserirem com un CD a la màquina virtual, i això farà que activi l'autenticació per contrasenya després d'un reboot.
 
 ### Crea la imatge amb la GUI (corba d'aprn. més ràpida)
 
