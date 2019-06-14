@@ -10,6 +10,20 @@ To make it easy to create virtual machines in qemu almost as easy as [devenv pro
 * [Debian wiki on KVM, qemu and libvirt](https://wiki.debian.org/KVM)
 * [Libvirt wiki](https://wiki.libvirt.org/page/Main_Page)
 
+
+## Glossary
+
+* [kvm](https://www.linux-kvm.org): linux kernel suport for hardware virtualization of Intel VT-x and ARM's SVM
+* [qemu](https://www.qemu.org/): emulator and virtualizer that can use kvm for near-real performance.
+* [libvirt](https://libvirt.org): suite of tools to manage qemu, xen, lxc and saving vm settings such as granted memory and number of cpus, disks, etc.
+  * domain: libvirt's generic word for vm, container, or whatever.
+  * connection: as libvirt only uses engines to virtualize, it must "connect" to them to start, stop, etc.
+  * `libvirtd`: the server side daemon component of the libvirt virtualization management system. Below programs are clients of it.
+  * `virsh`: libvirt shell. It autocompletes, has internal history, useful helps, etc. Nice!
+  * `virt-manager`: GUI with a feeling of Virtualbox. User friendly.
+  * `virt-install`: creates a configuration file for a new "domain" and starts it.
+  * `virt-admin`: don't know, we are not using it
+
 ---
 
 ## Check for hardware virtualization
@@ -175,12 +189,3 @@ ferran@debian:~$ sudo systemd-analyze blame
            100ms systemd-udev-trigger.service
 ```
 This is cloud-init staring at the clouds instead of saying "no config device here, my job's done!". Therefore we can either disable the service with `sudo systemctl disable cloud-init` or safely uninstall the package with `sudo apt purge cloud-init`.
-
-## Glossary
-
-* kvm: suport hardware de virtualització
-* qemu: virtualització que pot fer servir kvm. Pot gestionar vm, però a cada crida cal dir-li amb quanta ram, cpus, etc. un pal.
-* libvirt gestiona qemu, xen, lxc... i permet desar configs de vm i gestionar-les de forma similar
-* `virsh` consola de libvirt. cheatsheet abaix. CLI que farem servir
-* `virt-admin` consola que no sé què fa.
-* `virt-manager` GUI tipus vbox molt amable. Conceptes: connection és amb el dimoni qemu+kvm o qemu sense kvm, o altres motors. Imatge és equivalent a vbox.
