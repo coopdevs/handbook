@@ -111,11 +111,15 @@ cp cloud-init.img ~/.local/var/lib/libvirt/images/
 
 As qemu by itself doesn't store vm's description and settings, libvirt does this job for us. We can use a one shot `virt-install` command or use the convenient GUI.
 
-1. connexió amb kvm està creada
-2. crea nova imatge
-3. tria "una imatge existent" i selecciona la teva img cow2
-4. tria xarxa nat
-5. siguiente siguiente fins que es queixi: "custom cpu not suported" → vas a editar les opcions abans d'instaŀlar, cpu, "copia la cpu del host" → aplica → instaŀla
+**WARNING** We don't know yet how to create the image with more virtual space. It looks like `size` parameter of `--disk ...,size=XX` is ignored with `--import`.
+
+1. Check that there's a "connection" with QEMU/KVM
+2. Create new image
+3. Import from an existing image, and select your qcow2 image
+4. Network NAT (the default one)
+5. Edit before starting
+6. Add new hardware → Storage → select an existing image: the cloud-init.img ; device type: cd-rom → Apply/save/end
+7. Start vm
 
 Alternatively, via cli:
 
@@ -134,25 +138,28 @@ virt-install \
  --noautoconsole
 ```
 
-### Arrenca la màquina per consola
+### How to attach cloud-init cd-rom if domain is already installed or created
 
 ```
 # virsh
 > connect qemu:///system
-> list
+> list --all
+> start debian9
 > attach-disk debian9 /path/to/cloud-init.img sdb
 > reboot debian9
 > console debian9
 ```
-Aquest últim pas ens hauria de donar un login on autenticar-nos amb `debian` i `contrasenyainseguraohno`. Fem ping a coopdevs.org per comprovar que tenim sortida ip i dns funcionant :)
 
-### Neteja posterior
+Once started the vm with the cloud init image attached, we will be able to log in with the credentials we set in the cloud-init config file :)
+
+### Troubleshooting slow start
 
 El paquet cloud-init està instaŀlat a la màquina host. El primer cop està bé que hi sigui, perquè ens permet canviar configuració, però després molestarà molt perquè ralenteix una barbaritat l'arrencada. Systemd calcula quant ha trigat cada servei en cadena:
 
+There may be cases where cloud-init delays the OS booting a long time. The first time, when the config device is attached, it won't delay and it will just work. However, in subsequent vm boots, we may find ourselves with this:
+
 ```
 ferran@debian:~$ sudo systemd-analyze blame
-sudo: unable to resolve host debian.localdomain
     4min 34.162s cloud-init.service
           1.513s cloud-init-local.service
            922ms cloud-config.service
@@ -167,9 +174,9 @@ sudo: unable to resolve host debian.localdomain
            100ms systemd-journal-flush.service
            100ms systemd-udev-trigger.service
 ```
-per tant, un cop hem comprovat que ens podem loguejar amb les credencials que volem, deshabilitem el servei fent `sudo systemctl disable cloud-init`
+This is cloud-init staring at the clouds instead of saying "no config device here, my job's done!". Therefore we can either disable the service with `sudo systemctl disable cloud-init` or safely uninstall the package with `sudo apt purge cloud-init`.
 
-### glossari
+## Glossary
 
 * kvm: suport hardware de virtualització
 * qemu: virtualització que pot fer servir kvm. Pot gestionar vm, però a cada crida cal dir-li amb quanta ram, cpus, etc. un pal.
