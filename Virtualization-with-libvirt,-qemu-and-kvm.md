@@ -1,5 +1,5 @@
 ## Goal
-To make it easy to create virtual machines in qemu almost as easy as [devenv project](https://github.com/coopdevs/devenv/) does with linux containers.
+To make that creating virtual machines in qemu is almost as easy as [devenv project](https://github.com/coopdevs/devenv/) does with linux containers.
 
 ## Host OS where this focused on
 * Debian 9
