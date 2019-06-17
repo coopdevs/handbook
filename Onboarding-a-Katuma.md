@@ -29,3 +29,11 @@ Primer de tot, navega a l'administració de l'organització Coopdevs clicant al 
 Al modal que t'apereixerà, introdueix el correu electrònic de la persona, selecciona el tipus d'usuari _Usuari_ i marca _Aquest usuari només pot accedir a les col·leccions seleccionades._ com a control d'accés. De la llista de col·leccions selecciona només _Katuma_.
 
 Per acabar, clica a _Guardar_.
+
+## Google Drive
+
+Hem de donar accés a la carpeta "Katuma", que és on guardem tota la documentació del projecte.
+
+![](img/share_gdrive.png)
+
+Des del mateix nom de carpeta, clica a l'ítem _comparteix_ del menú i introdueix el seu mail al camp _Persones_ del diàleg que haurà aparegut. Assegura't que dones permisos per afegir i editar.
