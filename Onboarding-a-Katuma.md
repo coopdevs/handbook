@@ -47,6 +47,6 @@ Per donar accés a forms.coopdevs.org hem de crear un nou usuari. Ho podem fer d
 
 Els permisos concrets es poden modificar posteriorment des de la llista d'usuaris clicant a la icona del candau descrit amb _Establir permisos globals per a aquest usuari_. Sí, aquest missatge és una mica confús. Des de la pàgina següent especifiqueu els permisos que es mostren a continuació.
 
-![](img/img/limesurvey_user_permissions.png)
+![](img/limesurvey_user_permissions.png)
 
 Ara només cal que cliqueu a _Desa_.
