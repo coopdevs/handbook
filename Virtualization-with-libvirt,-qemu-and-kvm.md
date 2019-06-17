@@ -152,19 +152,27 @@ virt-install \
  --noautoconsole
 ```
 
-### How to attach cloud-init cd-rom if domain is already installed or created
 
-```
-# virsh
-> connect qemu:///system
-> list --all
-> start debian9
-> attach-disk debian9 /path/to/cloud-init.img sdb
-> reboot debian9
-> console debian9
-```
+### Set qcow2 image size at install time
 
-Once started the vm with the cloud init image attached, we will be able to log in with the credentials we set in the cloud-init config file :)
+We expect that with the argument `size=10` in the `--dick` declarations we have 10G available inside the vm, but for any unknown reason, we don't have all these space and when we try to deploy the OC application, it fails because the vm disk is full...
+
+We ask in `superuser.com`: https://superuser.com/questions/1448820/set-qcow2-image-size-at-install-time
+
+By now, we have a work around using the GParter ISO image to modify the disk space inside the vm:
+
+1. Modify the virtual space reserved by `libvirt`:
+
+```bash
+qemu-img resize /path/to/image 10G
+```
+This command resize the qemu image to 10Gb.
+
+2. With the `virt-manage` add the GParter ISO in a CDROM and use the boot loader to select the GParter image as first.
+
+3. Reboot the VM.
+4. Use GParter to resize the disk to use the unassigned space inside the VM.
+5. Shutdown the VM and remove the GParter CDROM.
 
 ### Troubleshooting slow start
 
