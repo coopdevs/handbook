@@ -8,7 +8,7 @@
 * [[Katuma en una diapositiva]]
 * [[Onboarding a Katuma]]
 * [[Guàrdies durant vacances]]
-* [[Vies-de-comunicació-amb-OFN]]
+* [[Vies de comunicació amb OFN]]
 
 **Gestió Coopdevs**
 * [[Procés de facturació]]
