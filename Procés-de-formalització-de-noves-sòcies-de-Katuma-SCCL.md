@@ -28,15 +28,13 @@ Una vegada tenim les dades dels últims formularis des de la darrera consulta, h
 
 # Actualització de dades del full de sòcies
 
-## Un cop feta l'aportació de capital
-* Marcar en verd la casella de l'aportació de capital al llibre de sòcies,
+* Un cop feta l'aportació de capital, marcar en verd la casella de l'aportació de capital al llibre de sòcies,
+* Un cop ratificades com a sòcies per l'assemblea general, marcar en verd la casella del nom de l'organització.
+* En cas de denegació com a sòcies, esborrar la línia de l'organització al llibre de sòcies.
 
-## Un cop ratificades com a sòcies per l'assemblea general
-* Marcar en verd la casella del nom de l'organització.
+# Afegir noves sòcies als canals de comunicació interna
 
-## En cas de denegació com a sòcies
-* Esborrar la línia de l'organització al llibre de sòcies.
-
+* En cas que hagin expressat la seva voluntat de ser-hi, afegir-los al Canal de Telegram de Katuma.
 
 
 
