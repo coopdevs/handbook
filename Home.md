@@ -10,6 +10,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [Comunicació projecte PLUS](https://github.com/coopdevs/handbook/wiki/Comunicaci%C3%B3-projecte-PLUS)
 * [[Katuma en una diapositiva]]
 * [[Onboarding a Katuma]]
+* [[Guàrdies durant vacances]]
 
 ## Gestió Coopdevs
 
