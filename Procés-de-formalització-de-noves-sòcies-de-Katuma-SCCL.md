@@ -9,6 +9,7 @@ Com que els formularis de sol·licitud d'adhesió de noves sòcies a la cooperat
 * Exportar dades anant a **Exportar > Exportar tots els resultats**, escollir el format preferit (CSV) aplicant els filtres **Només les respostes complertes** i **Text abreujat de la pregunta**. El document CSV generat exporta les respostes en ordre cronològic i es pot fer un seguiment fàcil dels últims formularis omplerts.
 
 
+
 # Traspassar les dades exportades al llibre de sòcies
 
 Una vegada tenim les dades dels últims formularis des de la darrera consulta, hem de fer diverses accions:
@@ -22,8 +23,11 @@ Una vegada tenim les dades dels últims formularis des de la darrera consulta, h
 * Descarregar-lo fent clic al botó del clip i penjar-lo a la carpeta del Drive **Sòcies de Katuma SCCL > Estatuts_sol·licituds_sòcies**
 
 
+
 # Notificar al Consell Rector les noves sol·licituds
+
 * Mensualment, a final de mes, enviar un correu electrònic als membres del Consell Rector amb el llistat de noves sòcies. Si no es produeix cap comentari al respecte en el termini d'un mes s'entén com a acceptades provisionalment les noves sòcies fins a ratificació en la següent assemblea general.
+
 
 
 # Actualització de dades del full de sòcies
@@ -31,6 +35,8 @@ Una vegada tenim les dades dels últims formularis des de la darrera consulta, h
 * Un cop feta l'aportació de capital, marcar en verd la casella de l'aportació de capital al llibre de sòcies,
 * Un cop ratificades com a sòcies per l'assemblea general, marcar en verd la casella del nom de l'organització.
 * En cas de denegació com a sòcies, esborrar la línia de l'organització al llibre de sòcies.
+
+
 
 # Afegir noves sòcies als canals de comunicació interna
 
