@@ -40,8 +40,9 @@ To be investigated. pip supports [installing packages served by git+transports](
 Odoo needs to refresh and detect all addons that are available on its virtual env.
 
 ### via cli
+To do it via command line, the kind of official way to do it is to "update" any installed module. This makes Odoo to look for undetected modules.
 ```sh
-(.odoo_venv) odoo@host:~$ python /path/to/odoo -c /path/to/odoo.conf -d "odoo_db_name" --update all --stop-after-init --without-demo=all
+(.odoo_venv) odoo@host:~$ python /path/to/odoo -c /path/to/odoo.conf -d "odoo_db_name" --update base --stop-after-init --without-demo=all
 ```
 
 ### via web UI
@@ -53,7 +54,6 @@ Odoo needs to refresh and detect all addons that are available on its virtual en
 ## Install Odoo app
 
 ### via cli
-
 
 ```sh
 (.odoo_venv) odoo@host:~$ python /path/to/odoo -c /path/to/odoo.conf -d "odoo_db_name" --init "project-key" --stop-after-init --without-demo=all
