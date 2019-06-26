@@ -4,10 +4,6 @@
 2. Update Odoo's app list
 3. Install internally the module or "app"
 
-Correcte, els moduls que no estan en pip els podem instalar amb pip també des de git, pero aquesta part jo encara no l'he testejat
-
-https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support
-
 ## Enter the virtual env
 
 ```sh
@@ -15,7 +11,6 @@ user@host:/opt$ sudo su odoo
 odoo@host:/opt$ source .odoo_venv/bin/activate
 (.odoo_venv) odoo@host:/opt$ 
 ```
-
 
 ## Install via `pip` the python package for the module.  
 The name will be on the form of `odoo<VERSION>-addon-<ADDON-NAME>`, as in `odoo11-addon-project-key`.
@@ -32,8 +27,9 @@ To be investigated. pip supports [installing packages served by git+transports](
 
 ```sh
 (.odoo_venv) odoo@host:/opt$ pip install -e git+https://github.com/OCA/project.git/#egg=project_key&subdirectory=/project_key
-
 ```
+
+https://pip.pypa.io/en/stable/reference/pip_install/#vcs-support
 
 ## Update Odoo app list
 
