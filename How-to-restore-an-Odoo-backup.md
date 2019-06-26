@@ -1,3 +1,11 @@
+# Using prepared playbooks (recommended)
+
+If you have access to the inventory of the odoo instance you want to restore, you can use the [restore playbook of odoo-provisioning](https://gitlab.com/coopdevs/odoo-provisioning#restoreyml). For more details, visit [restore playbook of backups-role](https://github.com/coopdevs/backups_role#playbook-to-restore-a-backup-to-the-controller).
+
+Note that the `restore-to-controller` task list is intended to install restic and download it in the same machine where you execute ansible, i.e., the controller. If you want to restore it to the source server, you can use the `restore-to-host` task file to create a [simple playbook](https://github.com/coopdevs/backups_role#playbook-to-restore-a-backup-to-the-host)
+
+# Without ansible
+
 ## Gather credentials for
   * Backblaze bucket
     * name
