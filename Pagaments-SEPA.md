@@ -1,3 +1,7 @@
+## Advertències
+
+1. Caixa d'Enginyers només accepta el fitxer XML SEPA d'una categoria: proveïdors (SUPP), nomines (SALA), etc. Si posem pagaments de diferents categories al mateix Payment Order, Caixa d'Enginyers no ens permetrà processar el fitxer. Per això tenim dos Payment Orders per mes: un de proveïdors i un altre de nòmines.
+
 ## Pagament de factures de proveïdors amb SEPA
 
 Abans de començar ens hem de assegurar que els proveïdors que desitgem pagar per aquest mètode tinguin un compte Bancari definit i el Mode de Pagament "SEPA Credit Transfer to suppliers". Podem editar aquests camps a `Facturació > Compres > Proveïdors` així totes les factures que rebem d'aquests proveïdors automàticament les podrem afegir a Payment Orders tipus "SEPA Credit Transfer to suppliers"
