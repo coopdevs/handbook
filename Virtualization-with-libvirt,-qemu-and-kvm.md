@@ -125,8 +125,6 @@ cp cloud-init.img ~/.local/var/lib/libvirt/images/
 
 As qemu by itself doesn't store vm's description and settings, libvirt does this job for us. We can use a one shot `virt-install` command or use the convenient GUI.
 
-**WARNING** We don't know yet how to create the image with more virtual space. It looks like `size` parameter of `--disk ...,size=XX` is ignored with `--import`.
-
 1. Check that there's a "connection" with QEMU/KVM
 2. Create new image
 3. Import from an existing image, and select your qcow2 image
@@ -151,6 +149,8 @@ virt-install \
  --connect qemu:///system \
  --noautoconsole
 ```
+
+> If your host OS is Ubuntu, in the `--os-variant` you need to define the value as `ubuntu18.10` instead of `ubuntubionic`.
 
 
 ### Set qcow2 image size at install time
