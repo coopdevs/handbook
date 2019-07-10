@@ -120,6 +120,14 @@ Once we've got the config file, only remains converting it to CD image.
 cloud-localds cloud-init.img cloud-init.conf
 cp cloud-init.img ~/.local/var/lib/libvirt/images/
 ```
+## Resize the qemu image
+
+Before to create the vm we need resize the qcow2 image with the next command:
+
+```bash
+$ sudo qemu-img resize bionic-server-test.img 10G
+```
+With this command, we resize the qemu image to 10Gb. We can add space or set the total amount. In this case, we specify the total amount of the disk.
 
 ## Gather all pieces together: create the "domain" for libvirt
 
@@ -152,6 +160,7 @@ virt-install \
 
 > If your host OS is Ubuntu, in the `--os-variant` you need to define the value as `ubuntu18.10` instead of `ubuntubionic`.
 
+## Troubleshooting
 
 ### Set qcow2 image size at install time
 

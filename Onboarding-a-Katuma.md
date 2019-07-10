@@ -1,8 +1,11 @@
 ## Índex
+
 - [Trello](#trello)
 - [Toggl](#toggl)
 - [Calendari](#calendari)
 - [Bitwarden](#bitwarden)
+- [Google Drive](#google-drive)
+- [LimeSurvey](#limesurvey)
 
 ## Trello
 
@@ -37,3 +40,13 @@ Hem de donar accés a la carpeta "Katuma", que és on guardem tota la documentac
 ![](img/share_gdrive.png)
 
 Des del mateix nom de carpeta, clica a l'ítem _comparteix_ del menú i introdueix el seu mail al camp _Persones_ del diàleg que haurà aparegut. Assegura't que dones permisos per afegir i editar.
+
+## LimeSurvey
+
+Per donar accés a forms.coopdevs.org hem de crear un nou usuari. Ho podem fer des del menú desplegable _Configuració_, situat a la cantonada superior dreta. A continuació clica a _Gestió d'usuaris i/o administradors_. Des de la nova pàgina clica a _Afegeix un usuari_ i introdueix les dades. Això enviarà una invitació a la persona especificada.
+
+Els permisos concrets es poden modificar posteriorment des de la llista d'usuaris clicant a la icona del candau descrit amb _Establir permisos globals per a aquest usuari_. Sí, aquest missatge és una mica confús. Des de la pàgina següent especifiqueu els permisos que es mostren a continuació.
+
+![](img/limesurvey_user_permissions.png)
+
+Ara només cal que cliqueu a _Desa_.

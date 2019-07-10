@@ -2,7 +2,9 @@
 1. Concretar amb la nova empleada les [condicions](https://github.com/coopdevs/handbook/wiki/Fer-un-contracte-nou-per-una-empleada#detalls-del-contracte) del contracte
 2. Demanar les [dades personals](https://github.com/coopdevs/handbook/wiki/Fer-un-contracte-nou-per-una-empleada#dades-de-la-persona-empleada)
 3. Passar tota la info a laboral@facto.cat
-4. Fer dues copies i firmar el contracte (tant Coopdevs com la nova empleada)
+4. Fer tres copies (copia basica i dos normals) i firmar el contracte (tant Coopdevs com la nova empleada)
+5. La copia basica i una copia normal queda a Coopdevs i l'altra normal va a la treballadora
+6. Crear fitxa empleada a Odoo amb compte bancari relacionat
 
 ### Detalls del contracte
 ```
@@ -29,4 +31,5 @@ Número afiliació seguretat social
 Estudis
 Telèfon
 Email
+IBAN
 ```
