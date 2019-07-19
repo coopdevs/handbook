@@ -14,12 +14,6 @@ Cada membre de l'equip té un compte personal i es poden obtenir en tot moment d
 
 Malgrat que es pot treballar des de la pàgina de [Toggl](www.toggl.com), hi ha opcions que faciliten fer-ne un millor ús.
 
-### Inbox
-
-Entenem per *Inbox* totes les tasques relacionades amb l'organització personal de cadascú a Coopdevs: revisar el correu electrònic, planificar les tasques del dia, llegir les notificacions de Trello, etc. Aquestes hores hem acordat que comptabilitzaran sota el projecte Inbox de Toggl i en cas que siguin totes específiques d'un projecte concret, hauran d'anar associades al seu projecte de Toggl corresponen i amb l'etiqueta Inbox.
-
-Això és necessari per aquelles persones que tenen una dedicació molt alta a algun projecte i permet visbilitzar les hores que s'hi dediquen en tasques organizatives. Per contra, quan organitzem la feina de forma transversal entre tots els nostres projectes, l'única manera és amb un projecte de Toggl dedicat a tal fi.
-
 ### App mòbil
 Hi ha l'opció de descarregar-se l'aplicació al mòbil per a tasques que realitzem quan no som davant de l'ordinador. Cal anar alerta però, perquè a vegades l'app peta i quan tenim problemes de xarxa hi poden haver errors a l'hora de sincronitzar les entrades de temps.
 
@@ -27,3 +21,11 @@ Hi ha l'opció de descarregar-se l'aplicació al mòbil per a tasques que realit
 Tenim la possibilitat de descarregar-nos l'extensió de Toggl per a [Firefox](https://addons.mozilla.org/en-US/firefox/addon/toggl-button-time-tracker/) o [Chrome](https://chrome.google.com/webstore/detail/toggl-button-productivity/oejgccbfbmkkpaidnkphaiaecficdnfn) per tenir sempre un botó de Toggl a la barra del navegador i inclús habilitar aquelles opcions en què volem que aparegui el botó de Toggl dins de les pròpies aplicacions (Calendar, Gmail, Trello o Github, entre d'altres). Això ultim podrem fer-ho des de l'apartat d'extensions del mateix Chrome, activant les webs on volem que funcioni el botó de Toggl.
 
 **Es imprescindible fer-ne ús per assegurar que es comptabilitza tot el temps que invertim en el projecte** per després poder-ho analitzar. No hi ha res millor que veuré el botó de Toggl per tot arreu per recordar-ho.
+
+## Convencions
+
+### Inbox
+
+Entenem per *Inbox* totes les tasques relacionades amb l'organització personal de cadascú a Coopdevs: revisar el correu electrònic, planificar les tasques del dia, llegir les notificacions de Trello, etc. Aquestes hores hem acordat que comptabilitzaran sota el projecte Inbox de Toggl i en cas que siguin totes específiques d'un projecte concret, hauran d'anar associades al seu projecte de Toggl corresponen i amb l'etiqueta Inbox.
+
+Això és necessari per aquelles persones que tenen una dedicació molt alta a algun projecte i permet visbilitzar les hores que s'hi dediquen en tasques organizatives. Per contra, quan organitzem la feina de forma transversal entre tots els nostres projectes, l'única manera és amb un projecte de Toggl dedicat a tal fi.
