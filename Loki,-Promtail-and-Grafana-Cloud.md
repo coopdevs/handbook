@@ -33,4 +33,4 @@ More resources:
 * [Grafana docs](https://grafana.com/docs/): installation, usage, concepts...
 * [Syntax for querying loki](https://github.com/grafana/loki/blob/master/docs/usage.md)
 * [Syntax for querying prometheus](https://prometheus.io/docs/prometheus/latest/querying/basics/)
-* API Keys policy: [[Grafana cloud credentials]]
+* [[Grafana cloud credentials]]: API Keys policy
