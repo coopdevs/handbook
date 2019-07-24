@@ -46,6 +46,8 @@ Welcome to the Coopdevs Handbook wiki!
 * [[How to manage fail2ban]]
 * [[Virtualization with libvirt, qemu and kvm]]
 * [[Loki, Promtail and Grafana Cloud]]
+* [[Grafana cloud credentials]]
+* [[Add monitoring to a new host]]
 
 ## Odoo
 
