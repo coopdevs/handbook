@@ -20,6 +20,8 @@ Seleccionem qui ha pagat: "Employee (to reimburse)" si el treballador ha pagat (
 
 Cal tenir en compte que no afegim IVA en el cas de despeses.
 
+Si cal, afegir el compte analitic que toqui. Si teniu dubtes sobre aixó pregunteu a algú de administració.
+
 ## Afegir document adjunt
 
 Un cop desat pots afegir un arxiu adjunt (un tiquet o altres tipus de comprovant del pagament)
