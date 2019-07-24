@@ -4,6 +4,8 @@ In order to feed our data sources for our Grafana, we need to ensure proper auth
 * Prometheus data source (Hosted metrics)
 * Loki data source (Hosted logs)
 
+If you need more context, read [[Loki, Promtail and Grafana Cloud]] and then come back.
+
 ## tl;dr
 
 The fastest, dirty way to try something is to use api keys that are shared between clients. We must use these only for testing purposes and not rely on them. We remove and recreate them from time to time in order to let hanging insecure configs around.
