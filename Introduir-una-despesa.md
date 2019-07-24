@@ -9,7 +9,7 @@ Quan tenim un tiquet senzill, per exemple quan hem anat en taxi, un dinar, un tr
 ## Mòdul de Despeses
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/Despeses.gif)
 
-## Creem una despesa 
+## Creem una despesa
 Fem clic a "Crea" i omplim tots els camps en blau. A producte ens apareixen les despeses més comuns, si no la trobem a la llista podem simplement escollir [EXP] Despeses. 
 
 Revisa que al total aparegui la quantitat exacta que apareix al tiquet.
@@ -22,13 +22,20 @@ Cal tenir en compte que no afegim IVA en el cas de despeses.
 
 Si cal, afegir el compte analitic que toqui. Si teniu dubtes sobre aixó pregunteu a algú de administració.
 
+Si tenim varios tiquets hem de afegir al report una despesa per cada tiquet.
+
 ## Afegir document adjunt
 
 Un cop desat pots afegir un arxiu adjunt (un tiquet o altres tipus de comprovant del pagament)
 
 ![Selector de Empresa](https://github.com/coopdevs/handbook/wiki/img/adjuntar_despesa.png)
 
-## Enviar al responsable
+## Enviar el report a la persona responsable
+Un cop estem segurs de que tota la informació és correcta i hem adjuntat el tiquet a cada despesa podem crear un *Expense Report*. Un *Expense Report* es un informe que pot contenir una o mes despeses i es el document que s'enviara' a la persona responsable.
 
-Un cop estem segurs de que tota la informació és correcta i hem adjuntat el tiquet, fem clic al botó "Enviar al responsable" i "Desar" i algun dia algú et tornarà els calers :grimacing: Important, si no desem la despesa seguirà en estat "A Enviar" i el responsable no la veurà.
+Entrem al menu "Les meves despeses > Expense Reports" i fem clic a "Crea". Omplim tots els camps en blau, al titul (*Expense Report Summary*) si per eixample tenim varios tiquets per un viatge a algun lloc podem posar alguna cosa com "Viatge a Delta de l'Ebre".
+
+A *Linies de despeses" podem afegir totes les despeses que necessitem. Si fem clic a "Afegeix un element" surt un llistat de despeses que encara no s'han reportat.
+
+Desar i fer clic al botó "Enviar al responsable", algun dia algú et tornarà els calers :grimacing: Important, si no desem el report seguirà en estat "A Enviar" i el responsable no la veurà.
 
