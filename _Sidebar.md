@@ -40,10 +40,10 @@
 * [[How to restore an Odoo backup]]
 * [How to extract the list of Odoo modules from a running instance](https://gitlab.com/coopdevs/odoo-provisioning/wikis/How-to-extract-the-list-of-Odoo-modules-from-a-running-instance)
 
-**Sysadmin
+**Sysadmin**
 * [[How to manage fail2ban]]
 * [[Virtualization with libvirt, qemu and kvm]]
-* [[Loki, Promtail i Grafana Cloud]]
+* [[Loki, Promtail and Grafana Cloud]]
 
 **Discourse**
 * [[Discourse Management]]
