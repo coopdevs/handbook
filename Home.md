@@ -42,6 +42,11 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Publish a new module in Ansible Galaxy]]
 * [[Useful Ansible cli options]]
 
+## Sysadmin
+* [[How to manage fail2ban]]
+* [[Virtualization with libvirt, qemu and kvm]]
+* [[Loki, Promtail and Grafana Cloud]]
+
 ## Odoo
 
 * [[How to install modules for Odoo]]
@@ -55,5 +60,3 @@ Welcome to the Coopdevs Handbook wiki!
 
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[Gitlab and Github group member permissions]]
-* [[How to manage fail2ban]]
-* [[Virtualization with libvirt, qemu and kvm]]
