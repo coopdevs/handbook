@@ -44,6 +44,8 @@
 * [[How to manage fail2ban]]
 * [[Virtualization with libvirt, qemu and kvm]]
 * [[Loki, Promtail and Grafana Cloud]]
+* [[Grafana cloud credentials]]
+* [[Add monitoring to a new host]]
 
 **Discourse**
 * [[Discourse Management]]
