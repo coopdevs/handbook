@@ -40,11 +40,14 @@
 * [[How to restore an Odoo backup]]
 * [How to extract the list of Odoo modules from a running instance](https://gitlab.com/coopdevs/odoo-provisioning/wikis/How-to-extract-the-list-of-Odoo-modules-from-a-running-instance)
 
+**Sysadmin
+* [[How to manage fail2ban]]
+* [[Virtualization with libvirt, qemu and kvm]]
+* [[Loki, Promtail i Grafana Cloud]]
+
 **Discourse**
 * [[Discourse Management]]
 
 **Misc**
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[Gitlab and Github group member permissions]]
-* [[How to manage fail2ban]]
-* [[Virtualization with libvirt, qemu and kvm]]
