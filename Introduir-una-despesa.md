@@ -1,4 +1,4 @@
-Entra al Odoo de Coopdevs
+Entra al [Odoo de Coopdevs](https://odoo.coopdevs.org)
 
 :warning: _Assegurat a quina organització estás Associació o Cooperativa_ :warning:
 
