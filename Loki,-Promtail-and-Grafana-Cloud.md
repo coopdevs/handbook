@@ -3,6 +3,7 @@ Hot links:
 * [Grafana instance](https://coopdevs.grafana.net/): Actual grafana site.
   * [Explore](https://coopdevs.grafana.net/explore) (query) data sources directly. Loads automatically labels.
   * Use and manage [Dashboards](https://coopdevs.grafana.net/dashboards): prepared queries shown in panels - tiled graphs.
+* [[Grafana cloud credentials]] onboarding process
 
 ---
 
@@ -32,3 +33,4 @@ More resources:
 * [Grafana docs](https://grafana.com/docs/): installation, usage, concepts...
 * [Syntax for querying loki](https://github.com/grafana/loki/blob/master/docs/usage.md)
 * [Syntax for querying prometheus](https://prometheus.io/docs/prometheus/latest/querying/basics/)
+* API Keys policy: [[Grafana cloud credentials]]
