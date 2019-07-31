@@ -6,6 +6,7 @@
 - [Bitwarden](#bitwarden)
 - [Google Drive](#google-drive)
 - [LimeSurvey](#limesurvey)
+- [Gitbook](#gitbook)
 
 ## Trello
 
@@ -50,3 +51,9 @@ Els permisos concrets es poden modificar posteriorment des de la llista d'usuari
 ![](img/limesurvey_user_permissions.png)
 
 Ara només cal que cliqueu a _Desa_.
+
+## Gitbook
+
+Perquè la persona responsable de Katuma pugui modificar la guia ha de tenir accés a [Gitbook](https://www.gitbook.com/). Per això, des del dashboard de Gitbook, clicant a _+_ s'obrirà el diàleg _Invite new members_. Només cal seleccionar-ne el tipus, en aquest cas _Writers_ i passar-li l'URL a la persona.
+
+Ha [Editar contingut de la guia](https://github.com/coopdevs/handbook/wiki/Editar-contingut-de-la-guia) està detallat com modificar-la.
