@@ -2,7 +2,7 @@
 To make that creating virtual machines in qemu is almost as easy as [devenv project](https://github.com/coopdevs/devenv/) does with linux containers.
 
 ## Host OS where this focused on
-* Debian 9
+* Debian 9 and 10
 * Ubuntu 18.04
 
 ## General references
@@ -57,13 +57,15 @@ To be able to run and manage vm's with non-root user, we need to ensure that our
 
 ### Groups
 
-```
-# adduser <youruser> libvirt
-# adduser <youruser> libvirt-qemu
+```bash
+# as root
+adduser $USER libvirt
+adduser $USER libvirt-qemu
 ```
 
 ### Config
 
+Create a local config file with this content:
 ```bash
 # ~/.local/etc/libvirt/qemu.conf
 user = "<youruser>"
@@ -76,11 +78,12 @@ group = "libvirt-qemu"
 
 ### Images
 
+Create a local directory for images. We prefer it this way, but the default directory is `/var/lib/libvirt/images`.
+
 ```bash
-chown <youruser>:libvirt-qemu .local/var/lib/libvirt/images/
+chown $USER:libvirt-qemu .local/var/lib/libvirt/images/
 chmod 770 .local/var/lib/libvirt/images/
 ```
-Note: default directory is `/var/lib/libvirt/images`, but we prefer to use a directory local to our user. Later on, from the UI we will have to add the 
 
 ## Configure credentials for the cloud image
 
@@ -93,9 +96,20 @@ Cloud init is also a service that is installed by default at cloud images. It ch
 We will need an official tool to convert text config files to CD-ROM image.
 
 ```bash
+# as root
 apt install cloud-image-utils
 ```
-To configure a password login
+To  configure an SSH certificate login, create this file:
+
+```bash
+cat << EOF > cloud-init.conf
+#cloud-config
+ssh_authorized_keys:
+  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+THISisANexampleXlukKoUPND/RRClWz2s5TCzIkd3Ou5+Cyz71X0XmazM3l5WgeErvtIwQMyT1KjNoMhoJMrJnWqQPOt5Q8zWd9qG7PBl9+eiH5qV7NZ mykey@host
+EOF
+```
+
+But if you prefer a password login: 
 
 ```bash
 cat << EOF > cloud-init.conf
@@ -106,15 +120,6 @@ ssh_pwauth: True
 EOF
 ```
 
-To  configure an SSH certificate login
-
-```bash
-cat << EOF > cloud-init.conf
-#cloud-config
-ssh_authorized_keys:
-  - ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAGEA3FSyQwBI6Z+THISisANexampleXlukKoUPND/RRClWz2s5TCzIkd3Ou5+Cyz71X0XmazM3l5WgeErvtIwQMyT1KjNoMhoJMrJnWqQPOt5Q8zWd9qG7PBl9+eiH5qV7NZ mykey@host
-EOF
-```
 Once we've got the config file, only remains converting it to CD image.
 ```bash
 cloud-localds cloud-init.img cloud-init.conf
@@ -133,32 +138,70 @@ With this command, we resize the qemu image to 10Gb. We can add space or set the
 
 As qemu by itself doesn't store vm's description and settings, libvirt does this job for us. We can use a one shot `virt-install` command or use the convenient GUI.
 
-1. Check that there's a "connection" with QEMU/KVM
-2. Create new image
-3. Import from an existing image, and select your qcow2 image
-4. Network NAT (the default one)
-5. Edit before starting
-6. Add new hardware → Storage → select an existing image: the cloud-init.img ; device type: cd-rom → Apply/save/end
-7. Start vm
+### Through the GUI
 
-Alternatively, via cli:
+0. run `virt-manager`
+1. Check that there's a "connection" with QEMU/KVM. If it's listed, that's it.
+2. Create new "domain"
+3. Select "Import from an existing image", then and select your downloaded qcow2 image
+4. Select the default option for network: "Network NAT"
+5. Start.
+6. Add new hardware → Storage → select an existing image: the cloud-init.img ; device type: cd-rom → Apply/save/end
+7. Restart vm
+
+### Alternatively, via cli:
+
+Collect and substitute at the command below:
+* path to your desired guest OS image file
+* path to your compiled cloud init config file
+
+And decide the name you want to give to your domain. It's the one virsh uses to reference it, both in printed info and in input commands such as `shutdown ubuntu-bionic` and `domstats ubuntu-bionic`.
 
 ```bash
+PATH_TO_ISO="/path/to/bionic-server-cloudimg-amd64.img"
+PATH_TO_CONFIG="/path/to/cloud-init.img"
+
 virt-install \
  --name ubuntu-bionic \
  --memory 4000 \
  --vcpus 2 \
  --import \
- --disk path=/path/to/bionic-server-cloudimg-amd64.img,format=qcow2,bus=virtio,size=10 \
- --disk path=/path/to/cloud-init.img,device=cdrom \
+ --disk path="$PATH_TO_ISO,format=qcow2,bus=virtio,size=10" \
+ --disk path="$PATH_TO_CONFIG,device=cdrom" \
  --network bridge=virbr0,model=virtio \
  --os-type=linux \
- --os-variant=ubuntubionic \
+ --os-variant=ubuntu18.04 \
  --connect qemu:///system \
  --noautoconsole
 ```
+Note
+> If your host OS is Debian 9, in the `--os-variant` you need to define the value as `ubuntubionic` instead of `ubuntu18.04`.
 
-> If your host OS is Ubuntu, in the `--os-variant` you need to define the value as `ubuntu18.10` instead of `ubuntubionic`.
+Note
+> If you want to use other images as guest OS, it's important to change the `os-type` and `os-variant` due to customizations and optimizations. For a list of compatible `os-variant`s, install the `libosinfo-bin` package and then run `osinfo-query os`. [Source with more tips](https://blog.programster.org/kvm-cheatsheet)
+
+## Connect via network
+
+Once started, your vm should have received an IP address. You can obtain it by:
+* GUI: Go to the details page of your domain, click at the NIC icon, see the IP addr below the MAC addr.
+* CLI: `virsh -c qemu:///system domifaddr ubuntu-bionic --interface vnet0`.
+
+Note
+> If you have any issue with this, visit the [libvirt wiki](https://wiki.libvirt.org/page/Networking)
+
+If you wish, you can give it a hostname like `ubuntu.local`. If the IP addr you discovered is 192.168.122.72, do:
+```bash
+echo '192.168.122.72   ubuntu.local' | sudo tee -a /etc/hosts
+```
+And then you can ssh into it, either with password
+```bash
+ssh root@ubuntu.local
+```
+or with certificate (for example, id_rsa under ssh's dir)
+```bash
+ssh root@ubuntu.local -i ~/.ssh/id_rsa
+```
+---
 
 ## Troubleshooting
 
