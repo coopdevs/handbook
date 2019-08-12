@@ -35,10 +35,10 @@ Les sòcies poden contactar amb l’equip via correu electrònic (info@katuma.or
 ## Comunicació externa
 Comunicació externa, dirigida a persones properes al projecte, potencials usuaris, gent del mon de la tecnologia, economia social, agroecologia... i qualsevol persona interessada en Katuma	
 
-*** Newsletter** butlletí de notícies una mica més extenses, recull de tasques realitzades, anuncis, informació més desenvolupada
+* **Newsletter** butlletí de notícies una mica més extenses, recull de tasques realitzades, anuncis, informació més desenvolupada
 * **Twitter**espai d’interacció amb la comunitat, seguidores, altres actors del sector, institució…
 * **Facebook** espai d’interacció amb les seguidores, publicació de notícies de sector, etc
-* ** Community de Coopdevs (Fòrum)**	fòrum per a tot: debats, propostes, relació amb la comunitata
+* **Community de Coopdevs (Fòrum)**	fòrum per a tot: debats, propostes, relació amb la comunitata
 * **Community d’OFN**	fòrum de la comunitat internacional d’Open Food Network
 
 
