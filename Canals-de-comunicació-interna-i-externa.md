@@ -38,7 +38,7 @@ Comunicació externa, dirigida a persones properes al projecte, potencials usuar
 * **Newsletter** butlletí de notícies una mica més extenses, recull de tasques realitzades, anuncis, informació més desenvolupada
 * **Twitter**espai d’interacció amb la comunitat, seguidores, altres actors del sector, institució…
 * **Facebook** espai d’interacció amb les seguidores, publicació de notícies de sector, etc
-* **Community de Coopdevs (Fòrum)**	fòrum per a tot: debats, propostes, relació amb la comunitata
+* **Community de Coopdevs (Fòrum)**	fòrum per a tot: debats, propostes, relació amb la comunitat
 * **Community d’OFN**	fòrum de la comunitat internacional d’Open Food Network
 
 
