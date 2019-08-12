@@ -21,7 +21,7 @@ Fòrum de la comunitat internacional d’Open Food Network
 ### Comunicació dirigida a les sòcies o contacte amb les sòcies
 
 Notícies breus, convocatòries, recordatoris, informació
-* ** Newsletter**
+* **Newsletter**
 Butlletí de notícies una mica més extenses, recull de tasques realitzades, anuncis, informació més desenvolupada
 * **Decidim***
 *valorant futura implantació
