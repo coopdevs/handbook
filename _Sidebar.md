@@ -8,6 +8,7 @@
 * [[Katuma en una diapositiva]]
 * [[Onboarding a Katuma]]
 * [[Guàrdies durant vacances]]
+* [[Canals de comunicació interna i externa]]
 * [[Vies de comunicació amb OFN]]
 * [Procés de formalització de sòcies](https://github.com/coopdevs/handbook/wiki/Proc%C3%A9s-de-formalitzaci%C3%B3-de-noves-s%C3%B2cies-de-Katuma-SCCL)
 
