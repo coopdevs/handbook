@@ -1,8 +1,8 @@
 # Secure TCP/IP Connections with SSL
 
-One requeriment in the OTRS project is to expose the database to read the clients of them. OTRS need a URL, User and Password to access to our DB.
+One requirement in some projects is to expose the database to read the clients of them. The client need a URL, User and Password to access to our DB.
 
-Exevit proposes to use a VPN to secure the connection, but this is a overkill security requirement beacuse need a lot of mantainance to be working propertly.
+Use a VPN to secure the connection, but this is a overkill security requirement because need a lot of maintenance to be working property.
 
 On the other hand, we propose a [Secure TCP/IP Connection with SSL](https://www.postgresql.org/docs/9.6/static/ssl-tcp.html).
 
@@ -12,7 +12,7 @@ To create this secure connection we need do the nexts steps:
 In the Postgres configuration file we need to change the next lines:
 
 * Enable TCP/IP connections to listen IPv4: `listen_addresses = 0.0.0.0`
-* Change the default listening port: `port = 11392` --> Use a secure port, out of next range 1024 - 10000
+* Change the default listening port: `port = 12345` --> Use a secure port, out of next range 1024 - 10000
 
 > One tip to be more secure is deny the superuser access: `superuser_reserved_connections = 0` and remove the superuser line of the `pg_hba.conf` if exists.
 
@@ -24,12 +24,10 @@ In the Postgres configuration file we need to change the next lines:
 ### 3º Creates the SQL view with the data needed
 We propose create a SQL view to acces to the data. We do not expose the entire data schema, only the data that the provider needs. By this reason, we create a SQL `view` to expose only the data that we want expose:
 
-* Create a SQL `view` with the script `psql -U eticom -W eticom < scripts/sql/party_otrs_view.sql`
+* Create a SQL `view` to access to the required data.
 
 ### 4º Creates a user (role) and add GRANT permissions
 We need create a user to access our data:
-
-* Create user using the script: `./create_OTRS_readonly_role.sh <db-name> <new-password>`
 
 ### 5º Add access in the `pg_hba.conf`
 Once time we have the user, the view with the data and the GRANT permissions, we need access to this user from out of the server with a URI, user and password.
