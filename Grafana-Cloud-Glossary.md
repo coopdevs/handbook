@@ -1,14 +1,12 @@
-## Glossary
-
-### Metric name
+## Metric name
 
 [metric name](https://prometheus.io/docs/concepts/data_model/#metric-names-and-labels) refers to a measured feature of the system such as *node_cpu_guest_seconds_total*.
 
-### Labels
+## Labels
 
 [Labels](https://prometheus.io/docs/concepts/data_model/#metric-names-and-labels) identify particular instances of a metric name such as *cpu="0",mode="nice"*.
 
-### Time Series
+## Time Series
 
 A time series is the list of datapoints (or samples) of the same metric name and set of label name/value pairs. Following the example above *node_cpu_guest_seconds_total{cpu="0",mode="nice"}* identifies time series.
 
@@ -36,7 +34,7 @@ This list has 1 metric and 4 datapoints. Note that the last value in the line is
 
 In Prometheus [Query Examples](https://prometheus.io/docs/prometheus/latest/querying/examples/) you'll find an in-depth explanation of all this through its query capabilities.
 
-### Active Series
+## Active Series
 
 In the context of Grafana Cloud, an active series is one that you are actively sending datapoints to. When you stop updating a time-series, it is no longer considered "active" for billing purposes.
 

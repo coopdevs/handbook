@@ -48,6 +48,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Virtualization with libvirt, qemu and kvm]]
 * [[Loki, Promtail and Grafana Cloud]]
 * [[Grafana cloud credentials]]
+* [[Grafana Cloud Glossary]]
 * [[Add monitoring to a new host]]
 
 ## Odoo
