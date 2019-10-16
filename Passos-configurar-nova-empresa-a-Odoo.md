@@ -1,4 +1,4 @@
-Un cop creat la nova instància o base de dades de Odoo hem de realitzar les següents accions per tal de configurar la nova empresa. 
+Un cop creada la nova instància o base de dades de Odoo hem de realitzar les següents accions per tal de configurar la nova empresa. 
 
 ## Canviar password usuari admin
 Per defecte es crear un usuari admin/admin, entrem al usuari 
