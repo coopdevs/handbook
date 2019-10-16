@@ -8,6 +8,7 @@ Si volem tenir accès guardar a Bitwarden (collection: Odoo)
 
 ## Afegir llengües
 `Menú Principal > Configuració > Traduccions`
+
 Per defecte ve instal·lat l'anglès. Afegim habitualment castellà (es_ES) i català (ca_ES)
 Cal fer clic al "botó d'actualitzar termes" 🔄
 
@@ -31,6 +32,7 @@ odoo@processos.org
 
 ##  Crear un usuari principal al Client 
 A `Menú Principal > Configuració > Users & Companies > Usuaris`
+
 Amb accès top a tots els mòduls i `Administració` amb **poder assignar permisos**
 
 Enviar invitació al usuari per mail 
