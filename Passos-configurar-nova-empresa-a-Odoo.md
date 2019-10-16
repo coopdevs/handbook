@@ -6,20 +6,19 @@ Si volem tenir accès guardar a Bitwarden (collection: Odoo)
 
 ![Canviar pass](img/odoo-canviar-pass.gif)
 
+Canviar també la llengua del usuari admin al català, si es vol, tota la docu que fem es pel odoo en català
+
 ## Afegir llengües
 `Menú Principal > Configuració > Traduccions`
 
 Per defecte ve instal·lat l'anglès. Afegim habitualment castellà (es_ES) i català (ca_ES)
 Cal fer clic al "botó d'actualitzar termes" 🔄
 
-## Canviar llengüa admin al català 
-Si es vol, tota la docu que fem es pel odoo en català
-
 ##  Editar empresa, nom, logo, altres dades...
 
-odoo@processos.org
+`Menú Principal > Configuració > Users & Companies > Empreses`
 
-## Configuració general -> check "Restablir contrasenya"
+Fixar-se en el mail de la Empresa que és per on per defecte s'enviaran els mails d'Odoo. Per exemple: odoo@processos.org
 
 ##  Configurar SMTP: Configuració/Servidors de correu sortint
 
@@ -28,7 +27,14 @@ odoo@processos.org
 * Seguretat TLS
 * Port 587
 * SMTP Username Coopdevs
-* SMTP Password any valid API key (Entrar a Maigun)
+* SMTP Password any valid API key (Entrar a mandrillapp.com)
+
+## Activar link de restablir contrasenya al login
+
+`Menú Principal > Configuració > Configuració general`
+
+Marcar check "Restablir contrasenya"
+
 
 ##  Crear un usuari principal al Client 
 A `Menú Principal > Configuració > Users & Companies > Usuaris`
