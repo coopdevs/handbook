@@ -56,7 +56,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[How to install modules for Odoo]]
 * [[How to restore an Odoo backup]]
 * [How to extract the list of Odoo modules from a running instance](https://gitlab.com/coopdevs/odoo-provisioning/wikis/How-to-extract-the-list-of-Odoo-modules-from-a-running-instance)
-
+* [[Passos configurar nova empresa a Odoo]]
 ## Discourse
 * [[Discourse Management]]
 
