@@ -22,6 +22,8 @@ Fixar-se en el mail de la Empresa que és per on per defecte s'enviaran els mail
 
 ##  Configurar SMTP: Configuració/Servidors de correu sortint
 
+`Menú Principal > Configuració > Configuració general` fem clic a `Outgoing Email Servers` Creem un nou
+
 * Mandrillapp
 * Host smtp.mandrillapp.com
 * Seguretat TLS
