@@ -1,12 +1,12 @@
 Un cop creada la nova instància o base de dades de Odoo hem de realitzar les següents accions per tal de configurar la nova empresa. 
 
 ## Canviar password usuari admin
-Per defecte es crear un usuari admin/admin, entrem al usuari 
+Per defecte es crea un usuari admin/admin, entrem a l'usuari 
 Si volem tenir accès guardar a Bitwarden (collection: Odoo)
 
 ![Canviar pass](img/odoo-canviar-pass.gif)
 
-Canviar també la llengua del usuari admin al català, si es vol, tota la docu que fem es pel odoo en català
+Canviar també la llengua de l'usuari admin al català, si es vol, tota la documentació que fem és per l' odoo en català
 
 ## Afegir llengües
 `Menú Principal > Configuració > Traduccions`
@@ -18,7 +18,7 @@ Cal fer clic al "botó d'actualitzar termes" 🔄
 
 `Menú Principal > Configuració > Users & Companies > Empreses`
 
-Fixar-se en el mail de la Empresa que és per on per defecte s'enviaran els mails d'Odoo. Per exemple: odoo@processos.org
+Fixar-se en el mail de l'Empresa que és per on per defecte s'enviaran els mails d'Odoo. Per exemple: odoo@processos.org
 
 ##  Configurar SMTP: Configuració/Servidors de correu sortint
 
@@ -41,6 +41,6 @@ Marcar check "Restablir contrasenya"
 ##  Crear un usuari principal al Client 
 A `Menú Principal > Configuració > Users & Companies > Usuaris`
 
-Amb accès top a tots els mòduls i `Administració` amb **poder assignar permisos**
+Amb accés top a tots els mòduls i `Administració` amb **poder assignar permisos**
 
-Enviar invitació al usuari per mail 
+Enviar invitació a l'usuari per mail 
