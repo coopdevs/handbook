@@ -4,7 +4,7 @@ Un cop creat la nova instància o base de dades de Odoo hem de realitzar les seg
 Per defecte es crear un usuari admin/admin, entrem al usuari 
 Si volem tenir accès guardar a Bitwarden (collection: Odoo)
 
-![Canviar pass](/img/odoo-canviar-pass.gif)
+![Canviar pass](img/odoo-canviar-pass.gif)
 
 ## Afegir llengües
 castellà (es_ES) i català (ca_ES), bug: "cal fer clic al botó d'actualitzar copies, això es fa quan es provisiona?"
