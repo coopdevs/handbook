@@ -14,13 +14,13 @@ Cal fer clic al "botó d'actualitzar termes" 🔄
 ## Canviar llengüa admin al català 
 Si es vol, tota la docu que fem es pel odoo en català
 
-Editar empresa, nom, logo, altres dades...
+##  Editar empresa, nom, logo, altres dades...
 
 odoo@processos.org
 
-Configuració general -> check "Restablir contrasenya"
+## Configuració general -> check "Restablir contrasenya"
 
-Configurar SMTP: Configuració/Servidors de correu sortint
+##  Configurar SMTP: Configuració/Servidors de correu sortint
 
 Mandrillapp
 
@@ -32,8 +32,8 @@ Port 587
 
 SMTP Username Coopdevs
 
-SMTP Password any valid API key (proves.processos.org 4NziyTPydAgKihgYzODWug)
+SMTP Password any valid API key (Entrar a Maigun)
 
-Crear un usuari amb accès top a tots els mòduls i admin: poder asiganar permisos
+##  Crear un usuari amb accès top a tots els mòduls i admin: poder asiganar permisos
 
 Enviar invitació al usuari per mail 
