@@ -22,18 +22,15 @@ odoo@processos.org
 
 ##  Configurar SMTP: Configuració/Servidors de correu sortint
 
-Mandrillapp
+* Mandrillapp
+* Host smtp.mandrillapp.com
+* Seguretat TLS
+* Port 587
+* SMTP Username Coopdevs
+* SMTP Password any valid API key (Entrar a Maigun)
 
-Host smtp.mandrillapp.com
-
-Seguretat TLS
-
-Port 587
-
-SMTP Username Coopdevs
-
-SMTP Password any valid API key (Entrar a Maigun)
-
-##  Crear un usuari amb accès top a tots els mòduls i admin: poder asiganar permisos
+##  Crear un usuari principal al Client 
+A `Menú Principal > Configuració > Users & Companies > Usuaris`
+Amb accès top a tots els mòduls i `Administració` amb **poder assignar permisos**
 
 Enviar invitació al usuari per mail 
