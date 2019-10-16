@@ -7,9 +7,12 @@ Si volem tenir accès guardar a Bitwarden (collection: Odoo)
 ![Canviar pass](img/odoo-canviar-pass.gif)
 
 ## Afegir llengües
-castellà (es_ES) i català (ca_ES), bug: "cal fer clic al botó d'actualitzar copies, això es fa quan es provisiona?"
+Per defecte ve instal·lat l'anglès. 
+Afegin castellà (es_ES) i català (ca_ES)
+Cal fer clic al "botó d'actualitzar termes"
 
-Canviar llengüa admin al català (si es vol, tota la docu que fem es pel odoo català)
+## Canviar llengüa admin al català 
+Si es vol, tota la docu que fem es pel odoo en català
 
 Editar empresa, nom, logo, altres dades...
 
