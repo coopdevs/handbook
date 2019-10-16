@@ -2,7 +2,7 @@ Un cop creat la nova instància o base de dades de Odoo hem de realitzar les seg
 
 ## Canviar password usuari admin
 Per defecte es crear un usuari admin/admin, entrem al usuari 
-Si volem tenir accès guardar a Bitwarden (collection:Odoo)
+Si volem tenir accès guardar a Bitwarden (collection: Odoo)
 
 
 
