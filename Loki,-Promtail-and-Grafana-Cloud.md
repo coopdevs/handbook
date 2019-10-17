@@ -18,12 +18,7 @@ This doesn't provide us:
   See [Ansible playbook to provision a Prometheus instance](https://gitlab.com/coopdevs/monitor-provisioning/)  
   middle-person role: remote-read _from many hosts_ → remote-write _to single prometheus db_
 * Logs: [Promtail](https://github.com/grafana/loki/blob/master/docs/promtail.md), logs collector agent
-* Mixed logs/metrics dashboards: currently [Loki can only be visualized through Grafana explore](https://grafana.com/docs/features/datasources/loki/#querying-logs).  
-  Current progress on this:
-  * [Issue in Github: epic](https://github.com/grafana/grafana/issues/14860)
-  * [Issue in Github: task](https://github.com/grafana/grafana/issues/14576)
-  * [Milestone for this feature](https://github.com/grafana/grafana/milestone/134) (it's being pushed: 6.1, 6.2, 6.3, 6.3.0-beta1, 6.4)
-  * [Release publication frequency](https://github.com/grafana/grafana/releases)
+* Mixed logs/metrics dashboards: ~~currently Loki can only be visualized through Grafana explore~~. Since v6.4 [logs can be visualized from Grafana](https://grafana.com/docs/features/panels/logs/).
 
 ---
 
