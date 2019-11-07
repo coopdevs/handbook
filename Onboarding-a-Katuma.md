@@ -7,6 +7,7 @@
 - [Google Drive](#google-drive)
 - [LimeSurvey](#limesurvey)
 - [Gitbook](#gitbook)
+- [Superadmin](#superadmin)
 
 ## Trello
 
@@ -59,3 +60,9 @@ Perquè la persona responsable de Katuma pugui modificar la guia ha de tenir acc
 ![](img/gitbook_invite.png)
 
 Ha [Editar contingut de la guia](https://github.com/coopdevs/handbook/wiki/Editar-contingut-de-la-guia) està detallat com modificar-la.
+
+## Superadmin
+
+Per què la persona pugui realitzar tasques administratives a Katuma, principalment tasques de suport a usuaris, cal crear-li un compte personal de superadmin (nom que rep un administrador d'instància d'OFN). Per fer-ho, segueix els passos especificats a [Administering Users as Superadmin](https://ofn-user-guide.gitbook.io/ofn-super-admin-guide/managing-users#administering-users-as-superadmin) a la secció _Adding a SuperAdmin user_.
+
+Un cop fet això, [OFN super-admin guide](https://ofn-user-guide.gitbook.io/ofn-super-admin-guide/) conté tota la informació que pugui necessitar.
