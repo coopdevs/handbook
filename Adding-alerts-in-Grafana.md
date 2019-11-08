@@ -4,6 +4,8 @@ Grafana alerts are attached to dashboard panels so to get notified on a particul
 
 Create or choose a graph to base your aler on. Then edit it. This will open the graph's details among which you can configure the alert. You can tweak the evaluation frequency but the default one will surely be fine most of the times. What you need to define always is the threshold above or below which you want to get notified. That is, what you consider a failure that requires us to take action. You can do so from the _Conditions_ section or using the handler from the graph to move the bar up or down.
 
+Note however that queries with variables don't seem to be supported in alerts. You'll have to add a separate query for each variable value instead.
+
 You can see the list of configured alerts and their state at https://coopdevs.grafana.net/alerting/list. There you'll be able to pause/play and edit them without having to reach the graph again.
 
 ## Notifications
