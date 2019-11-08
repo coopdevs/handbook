@@ -49,6 +49,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Loki, Promtail and Grafana Cloud]]
 * [[Grafana cloud credentials]]
 * [[Grafana Cloud Glossary]]
+* [[Adding alerts in Grafana]]
 * [[Add monitoring to a new host]]
 
 ## Odoo
