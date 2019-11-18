@@ -9,3 +9,5 @@ Per això, entrant com a superadmin a la secció d'administració, cerca l'usuar
 ![Edició d'usuari](katuma/img/edit_user.png)
 
 Des d'aquí, introdueix el valor `2147483647` al camp _límit d'organitzacions_ i prem a _actualitzar_ amb això hauràs eliminat la limitació de forma efectiva.
+
+Paral·lelament, el canvi també es pot fer des de línia de comandes fent ús de https://github.com/openfoodfoundation/openfoodnetwork/pull/4400, executant la comanda `bundle exec rake ofn:remove_enterprise_limit[<user_id>]` des del servidor de producció.
