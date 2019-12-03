@@ -17,7 +17,59 @@ We can imagine some scenarios where that's not possible. We want to make sure we
   1. Check if your user has this permission with `select * from res_groups_users_rel where gid=1 and uid=3`. If it's not, then:
   2. Create this membership: `insert into res_groups_users_rel(gid, uid) values(1,2);` using your values.
 
-### Tables
+* * *
+
+### Example case
+
+If you changed the permission "Administration = Configuration" inside the "Application Accesses" section, the id you need are:
+
+#### User ID
+```
+odoo=> select id,active,login from res_users where login='admin';
+ id | active | login 
+----+--------+-------
+  1 | t      | admin
+(1 row)
+```
+
+#### Permission group ID
+odoo=> select id,name,category_id from res_groups where name='Settings';
+ id |   name   | category_id 
+----+----------+-------------
+  4 | Settings |          62
+
+#### Other
+```
+odoo=> select id,name,sequence from ir_module_category where name='Administration';
+ id |      name      | sequence 
+----+----------------+----------
+ 62 | Administration |      100
+```
+Other permission groups from the same category:
+```
+odoo=> select id,name,category_id from res_groups where category_id=62;
+ id |     name      | category_id
+----+---------------+-------------
+  3 | Access Rights |          62
+  4 | Settings      |          62
+(2 rows)
+```
+So maybe you also want to check "Access Rights" to ensure you can do everything related to all "Administration" modules.
+
+#### Command
+So you would do:
+```
+INSERT INTO res_groups_users_rel(gid, uid) VALUES(4,1);
+INSERT INTO res_groups_users_rel(gid, uid) VALUES(3,1);
+```
+
+
+***
+
+
+
+
+### Reference of useful tables
 The managing happens inside `base` module, but modules can create new permission groups for their own needs.
 
 We list the interesting tables below.
