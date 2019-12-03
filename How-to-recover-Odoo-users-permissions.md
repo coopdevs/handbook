@@ -1,5 +1,5 @@
 ## Problem
-An admin can remove their own permissions
+An admin can accidentally remove their own permissions and there is no config entry to revert it. It's either GUI or database.
 
 ## GUI solution
 If available, create a user with admin powers, then use that user to recover your permissions back.
