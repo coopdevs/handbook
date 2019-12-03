@@ -9,13 +9,30 @@ We can imagine some scenarios where that's not possible. We want to make sure we
 
 ### Summary
 
-1. Identify your user. Do `select id,login from res_users where login='MY_LOGIN_NAME';`
+1. Identify your user and keep its `id` field:
+    ```sql
+    SELECT id,login FROM res_users WHERE login='MY_LOGIN_NAME';
+    ```
 2. Identify the module this permission comes from. You can look at the url to find something like `account_banking_pain_base`.
-3. Identify the module category that module belongs to. Use its name like `select name,category_id from ir_module_module where name='account_banking_pain_base'`
-4. Identify the permission you want back. It will be one of the id listed by `select id,name,category_id from res_groups where category_id=1 order by id;`, where `category_id` will be the one from the previous step.
+3. Identify the module category that module belongs to. Use its name like
+   ```sql
+   SELECT name,category_id FROM ir_module_module WEHRE name='account_banking_pain_base';
+   ```
+4. Identify the permission you want back. It will be one of the id listed by
+   ```sql
+   SELECT id,name,category_id FROM res_groups WHERE category_id=1 ORDER BY id;
+   ```
+    where `category_id` will be the one from the previous step.
+
 5. Using the user id from `res_users` and the permission id from `res_groups`:
-  1. Check if your user has this permission with `select * from res_groups_users_rel where gid=1 and uid=3`. If it's not, then:
-  2. Create this membership: `insert into res_groups_users_rel(gid, uid) values(1,2);` using your values.
+    1. Check if your user has this permission with next command.
+    ```sql
+    SELECT * FROM res_groups_users_rel WHERE gid=1 AND uid=3
+    ```
+    2. Create this membership using your values:
+    ```sql
+    INSERT INTO res_groups_users_rel(gid, uid) VALUES(1,2);
+    ```
 
 * * *
 
@@ -24,7 +41,7 @@ We can imagine some scenarios where that's not possible. We want to make sure we
 If you changed the permission "Administration = Configuration" inside the "Application Accesses" section, the id you need are:
 
 #### User ID
-```
+```sql
 odoo=> select id,active,login from res_users where login='admin';
  id | active | login 
 ----+--------+-------
@@ -33,20 +50,21 @@ odoo=> select id,active,login from res_users where login='admin';
 ```
 
 #### Permission group ID
+```sql
 odoo=> select id,name,category_id from res_groups where name='Settings';
  id |   name   | category_id 
 ----+----------+-------------
   4 | Settings |          62
-
-#### Other
 ```
+#### Other
+```sql
 odoo=> select id,name,sequence from ir_module_category where name='Administration';
  id |      name      | sequence 
 ----+----------------+----------
  62 | Administration |      100
 ```
 Other permission groups from the same category:
-```
+```sql
 odoo=> select id,name,category_id from res_groups where category_id=62;
  id |     name      | category_id
 ----+---------------+-------------
@@ -56,9 +74,9 @@ odoo=> select id,name,category_id from res_groups where category_id=62;
 ```
 So maybe you also want to check "Access Rights" to ensure you can do everything related to all "Administration" modules.
 
-#### Command
+#### Solution command
 So you would do:
-```
+```sql
 INSERT INTO res_groups_users_rel(gid, uid) VALUES(4,1);
 INSERT INTO res_groups_users_rel(gid, uid) VALUES(3,1);
 ```
