@@ -59,10 +59,10 @@ Welcome to the Coopdevs Handbook wiki!
 * [[How to restore an Odoo backup]]
 * [How to extract the list of Odoo modules from a running instance](https://gitlab.com/coopdevs/odoo-provisioning/wikis/How-to-extract-the-list-of-Odoo-modules-from-a-running-instance)
 * [[Passos configurar nova empresa a Odoo]]
+* [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
+* [[How-to-recover-Odoo-users-permissions]]
 ## Discourse
 * [[Discourse Management]]
 
 ## Misc
-
-* [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[Gitlab and Github group member permissions]]
