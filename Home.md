@@ -61,6 +61,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Passos configurar nova empresa a Odoo]]
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[How to recover Odoo users permissions]]
+* [[Debugging Odoo]]
 ## Discourse
 * [[Discourse Management]]
 
