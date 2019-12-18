@@ -45,6 +45,7 @@
 * [[Passos configurar nova empresa a Odoo]]
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[How to recover Odoo users permissions]]
+* [[How to import postal codes for a country]]
 
 **Sysadmin**
 * [[How to manage fail2ban]]
