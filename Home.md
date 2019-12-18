@@ -62,6 +62,8 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[How to recover Odoo users permissions]]
 * [[Debugging Odoo]]
+* [[How to import postal codes for a country]]
+
 ## Discourse
 * [[Discourse Management]]
 
