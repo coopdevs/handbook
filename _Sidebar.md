@@ -54,6 +54,7 @@
 * [[Grafana cloud credentials]]
 * [[Grafana Cloud Glossary]]
 * [[Adding alerts in Grafana]]
+* [[Alerting from Grafana on events of log entries managed by Loki]]
 * [[Add monitoring to a new host]]
 
 **Discourse**
