@@ -26,6 +26,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Crear un projecte a Toggl]]
 * [[Gestió del temps: Toggl]]
 * [[Procés d'alta de nova sòcia associació Coopdevs]]
+* [[Processos de treball]]
 
 ## Contractacions
 * [[Procés de contractació]]
@@ -64,6 +65,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[How to recover Odoo users permissions]]
 * [[Debugging Odoo]]
 * [[How to import postal codes for a country]]
+* [[Traduccions de plantilles de correu a Odoo]]
 
 ## Discourse
 * [[Discourse Management]]
