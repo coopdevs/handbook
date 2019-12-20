@@ -46,6 +46,7 @@
 * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
 * [[How to recover Odoo users permissions]]
 * [[How to import postal codes for a country]]
+* [[Traduccions de plantilles de correu a Odoo]]
 
 **Sysadmin**
 * [[How to manage fail2ban]]
