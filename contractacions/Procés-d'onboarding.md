@@ -15,7 +15,7 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 
 ## Compte d'email
 
-És un important fer aquest pas el primer. D'aquesta manera totes les invitacions a serveis i aplicacions es podran fer usant aquest compte de correu separant així les qüestions laborals del compte de correu personal.
+És important fer aquest pas el primer. D'aquesta manera totes les invitacions a serveis i aplicacions es podran fer usant aquest compte de correu separant així les qüestions laborals del compte de correu personal.
 
 Accedeix des del [panell de CDmon](https://admin.cdmon.com/es/acceso) a la gestió de l'allotjament de mail clicant al _hosting mail_ corresponent a coopdevs.org. Des d'aquí clica a _Gestión de cuentas_ i _Crear cuenta_. Recorda seguir la convenció de nom.cognom@coopdevs.org i genera una contrasenya aleatòria inicial.
 
