@@ -38,6 +38,7 @@
 **Ansible**
 * [[Publish a new module in Ansible Galaxy]]
 * [[Useful Ansible cli options]]
+* [[Uso de Ansible en Coopdevs]]
 
 **Odoo**
 * [[How to install modules for Odoo]]
@@ -64,3 +65,5 @@
 
 **Misc**
 * [[Gitlab and Github group member permissions]]
+* [[Uso de pyenv en Coopdevs]]
+* [[Devenv]]
