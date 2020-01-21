@@ -74,4 +74,4 @@ Welcome to the Coopdevs Handbook wiki!
 ## Misc
 * [[Gitlab and Github group member permissions]]
 * [[Uso de pyenv en Coopdevs]]
-* [[Devenv, ¿qué es y cómo funciona?]]
+* [[Devenv]]
