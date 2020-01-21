@@ -1,0 +1,1 @@
+Mentre la persona tècnica responsable de Katuma estigui fora, en aquest cas en Pau, qualsevol incidència de producció s'ha acordat que es comuniqui a la resta del Core team d'OFN a través del canal [#devops](https://openfoodnetwork.slack.com/messages/CEBMTRCNS) de Slack. El primer programador que estigui disponible respondrà.
