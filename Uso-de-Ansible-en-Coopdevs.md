@@ -22,7 +22,7 @@ Los roles son grupos de ficheros -como *templates* y variables- y *tasks* basado
 
 ### Tasks
 Son las unidades de acción en Ansible.
-Se definen en Tasks/main.yml dentro de la carpeta de cada rol.
+Se definen en `tasks/main.yml` dentro de la carpeta de cada rol.
 
 ## ¿Para qué lo usamos en Coopdevs?
 En Coopdevs usamos Ansible en nuestras instalaciones para asegurarnos de que los diferentes servidores que gestionamos están en el estado que queremos y, de esta manera, poder mantener nuestro software de manera más eficiente y sencilla; acortar el tiempo de *deploy* de nuevas máquinas, y de recuperación en caso de fallos graves; y facilitar la creación de entornos de trabajo paralelos: desarrollo, pruebas y producción.
