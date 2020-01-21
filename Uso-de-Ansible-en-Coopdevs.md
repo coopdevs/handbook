@@ -9,7 +9,7 @@ Para Ansible existen dos tipos de máquinas, el *control node* y el *managed nod
 El *control node* es la máquina desde la que comienza la orquestación, desde la que lanzamos las órdenes de Ansible y donde éste está instalado. El *managed node* es la máquina orquestada, es decir, aquella a la que accedemos por SSH y dónde se ejecutan las órdenes de Ansible, debe tener instalado Python.
 
 ### Modules
-Ansible está organizado en módulos que son las unidades de código que ejecuta. Se puede invocar un solo módulo con `ansible -m <module-name> o varios diferentes en un *playbook*. Existen módulos predefinidos que Ansible facilita, pero también se pueden crear propios.
+Ansible está organizado en módulos que son las unidades de código que ejecuta. Se puede invocar un solo módulo con `ansible -m <module-name>` o varios diferentes en un *playbook*. Existen módulos predefinidos que Ansible facilita, pero también se pueden crear propios.
 
 ### Inventory
 Es el fichero donde se define la lista de *managed nodes*, grupos de éstos y sus variables, como el puerto ssh. También se le llama *hostfile*.
