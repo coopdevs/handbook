@@ -1,4 +1,3 @@
-# Ansible
 ## ¿Qué es Ansible?
 [Ansible](https://github.com/ansible/ansible) es una herramienta de automatización con licencia GPL-3.0 que permite trabajar con aprovisionamiento de software, gestión de configuraciones y despliegue de aplicaciones de una forma sencilla.
 
