@@ -22,7 +22,7 @@ Per exemple, si el correu està dirigit a nuria@gmail.com, la segona MTA serà l
 
 ![smtp-mandrill](https://trello-attachments.s3.amazonaws.com/5ba263b6542ddf55e313f2b3/5c910535f97b3b6e51dd6408/c15d6deea41147099c0cafad60adbdaa/imatge.png)
 
-## Configura Odoo per a configurar-se a Mandrill
+## Configura Odoo per a connectar-se a Mandrill
 _[docs oficials](https://www.odoo.com/documentation/user/11.0/discuss/email_servers.html)_
 
 1. Inicia sessió amb un compte amb permisos d'admin
@@ -35,7 +35,14 @@ _[docs oficials](https://www.odoo.com/documentation/user/11.0/discuss/email_serv
 
 A diferència del que diu a la documentació, els registres SPF no s'han de tocar si volem fer servir el nostre Odoo per enviar correus. El registre de SPF verifica la MTA, és a dir, el servidor de correu (Mandrill) i no la MUA o client (Odoo en aquest cas).
 
-## Configurar el DNS a Cdmon per a permetre a Mandrill enviar correus en nom nostre
+## Configurar el DNS a Cdmon per a autoritzar i verificar Mandrill
+
+Per permetre a Mandrill que enviï correus amb una adreça remitent que pertanyi al nostre domini, hem d'afegir un registre TXT al nostre domini seguint el format SPF.
+
+A més a més, perquè els altres servidors de correu puguin comprovar que els correus que envia Mandrill no han estat modificats per intermediaris, afegirem un altre registre TXT al nostre domini amb el format DKIM.
+
+Aquestes dues configuracions faran més probable que els servidors de correu destinataris acceptin els correus rebuts com a vàlids i no els rebutgin o els etiquetin com SPAM (tot i que gmail i hotmail són molt estúpids i sovint exclouen servidors de correu poc populars).
+
 _[font](https://mandrill.zendesk.com/hc/en-us/articles/205582247-About-Domain-Verification)_
 
 1. A Mandrill, _[Sending Domains](https://mandrillapp.com/settings/sending-domains)_ comprova que  hi ha tres "tics" que falten
