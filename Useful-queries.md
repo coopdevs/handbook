@@ -36,3 +36,11 @@ from pg_class as c
     inner join pg_attribute as a on a.attrelid = c.oid
 where a.attname like '%operation%' and c.relkind = 'r';
 ```
+```
+               relname                |          attname          
+--------------------------------------+---------------------------
+ ar_account_operation                 | operation_date
+ ar_accounting_writing_acc_operations | account_operation_id
+ ar_matching_amount                   | account_operation_id
+ ar_other_transaction                 | operation_date
+```
