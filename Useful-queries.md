@@ -25,3 +25,14 @@ order by nsp.nspname, cls.relname;
 Note that the owner most of the times will be the user who created the object. 
 
 source: https://dba.stackexchange.com/questions/30061/how-do-i-list-all-tables-in-all-schemas-owned-by-the-current-user-in-postgresql
+
+### Find column in database
+
+The following query returns the column matching the specified pattern along with its table
+
+```sql
+select c.relname, a.attname
+from pg_class as c
+    inner join pg_attribute as a on a.attrelid = c.oid
+where a.attname like '%operation%' and c.relkind = 'r';
+```
