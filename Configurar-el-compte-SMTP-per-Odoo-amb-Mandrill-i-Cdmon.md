@@ -10,6 +10,8 @@ Per exemple, si el correu està dirigit a nuria@gmail.com, la segona MTA serà l
 
 ![Diagrama amb clients, servidors i protocols de correu electrònic](https://upload.wikimedia.org/wikipedia/commons/8/8c/Etapes_envoi_email.png)
 
+Sobre MDA, normalment està junta a la MTA, però solen ser softwares diferents. Per exemple, el software de MDA més famós és Dovecot, i el MTA més popular Postfix.
+
 ## Genera una clau a Mandrill per a Odoo
 
 1. Inicia sessió a https://mandrillapp.com/ a través de mailchimp
