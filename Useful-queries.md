@@ -26,6 +26,23 @@ Note that the owner most of the times will be the user who created the object.
 
 source: https://dba.stackexchange.com/questions/30061/how-do-i-list-all-tables-in-all-schemas-owned-by-the-current-user-in-postgresql
 
+### List permissions on an object
+
+```sql
+\dp <object_name>
+```
+
+Example:
+
+```sql
+=# \dp otrs_contract
+                                         Access privileges
+ Schema |     Name      | Type |          Access privileges          | Column privileges | Policies
+--------+---------------+------+-------------------------------------+-------------------+----------
+ public | otrs_contract | view | administrator=arwdDxt/administrator+|                   |
+        |               |      | otrs=r/administrator                |                   |
+```
+
 ### Find column in database
 
 The following query returns the column matching the specified pattern along with its table
