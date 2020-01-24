@@ -31,6 +31,8 @@ Fixar-se en el mail de l'Empresa que és per on per defecte s'enviaran els mails
 * SMTP Username Coopdevs
 * SMTP Password any valid API key (Entrar a mandrillapp.com)
 
+Per una explicació més extesa, vegeu [[Configurar-el-compte-SMTP-per-Odoo-amb-Mandrill-i-Cdmon]]
+
 ## Activar link de restablir contrasenya al login
 
 `Menú Principal > Configuració > Configuració general`
