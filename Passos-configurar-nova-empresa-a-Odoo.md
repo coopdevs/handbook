@@ -1,4 +1,4 @@
-Un cop creada la nova instància o base de dades de Odoo hem de realitzar les següents accions per tal de configurar la nova empresa. 
+Un cop creada la nova instància o base de dades de Odoo hem de realitzar les següents accions per tal de configurar la nova empresa. En les instàncies amb més d'una base de dades, necessitem haver fet [el procés de sistemes corresponent](https://github.com/coopdevs/handbook/wiki/Add-new-DB-to-a-multi-db-odoo-instance). En el cas d'instància dedicada, necessitem haver completat [aquest altre procés](https://gitlab.com/coopdevs/odoo-provisioning/-/wikis/How%20to%20create%20a%20new%20Odoo%20instance).
 
 ## Canviar password usuari admin
 Per defecte es crea un usuari admin/admin, entrem a l'usuari 
