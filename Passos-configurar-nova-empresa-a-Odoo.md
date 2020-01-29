@@ -39,10 +39,28 @@ Per una explicació més extesa, vegeu [[Configurar-el-compte-SMTP-per-Odoo-amb-
 
 Marcar check "Restablir contrasenya"
 
+## Plantilla del document
 
-##  Crear un usuari principal al Client 
+`Menú Principal > Configuració > Configuració general`
+
+Escollir la plantilla desitjada.
+
+##  Crear un usuari principal al Client
+
 A `Menú Principal > Configuració > Users & Companies > Usuaris`
 
 Amb accés top a tots els mòduls i `Administració` amb **poder assignar permisos**
 
-Enviar invitació a l'usuari per mail 
+Enviar invitació a l'usuari per mail
+
+## Fiscal Localization
+
+`Menú Principal > Configuració > Facturació`
+
+Escollir el paquet que la empresa necessita. Generalment "PGCE PYMEs 2008", pero s'ha de confirmar amb el client.
+
+## Impostos per defecte
+
+`Menú Principal > Configuració > Facturació`
+
+Si l'empresa fa servir com a productes majoritariament serveis, podem escollir els impostos que es faran servir per defecte durant la creació de nou productes. S'ha de confirmar amb el client.
