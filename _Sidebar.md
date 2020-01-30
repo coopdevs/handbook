@@ -32,6 +32,7 @@
 **PostgreSQL**
 * [[Investigar queries lentas]]
 * [[Postgresql Tuning Tools]]
+* [Postgres configuration for humans](https://postgresqlco.nf/en/doc/param/)
 * [[Secure TCP IP Connections with SSL]]
 * [[Useful queries]]
 
