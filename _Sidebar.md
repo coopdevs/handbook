@@ -62,6 +62,8 @@
 * [[Adding alerts in Grafana]]
 * [[Alerting from Grafana on events of log entries managed by Loki]]
 * [[Add monitoring to a new host]]
+* [[Disk monitoring alarm]]
+
 
 **Discourse**
 * [[Discourse Management]]

@@ -56,6 +56,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Adding alerts in Grafana]]
 * [[Alerting from Grafana on events of log entries managed by Loki]]
 * [[Add monitoring to a new host]]
+* [[Disk monitoring alarm]]
 
 ## Odoo
 
