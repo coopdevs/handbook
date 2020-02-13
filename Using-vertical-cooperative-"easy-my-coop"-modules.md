@@ -28,13 +28,13 @@ In reverse order:
 
 You can create and activate a venv:
 
-```shell
+```bash
 python -m venv venv
 source venv/bin/activate
 ```
 
 And install the tools
-```
+```bash
 pip install twine wheel setuptools-odoo
 ```
 
@@ -51,20 +51,20 @@ Assuming no previous work on pypi has been done, we need to check for the file s
 ### Execute
 
 Place yourself at the root of the repo:
-```shell
+```bash
 ls .
 addon1/
 addon2/
 ```
 And then run
-```shell
+```bash
 setuptools-odoo-make-default -d .
 ```
 
 ### Expected results:
 A new `setup/` folder with this structure:
 
-```
+```bash
 ...
 setup/addon1/odoo/addons/<addon1_name> -> ../../../../<addon1_name>
 setup/addon2/setup.py
@@ -76,7 +76,7 @@ This must be only once if no addons are added. Removed addons should remove too 
 
 This is the first half of cyclical packaging process.
 For each addon, do:
-```
+```bash
 cd setup/addon_name
 python setup.py bdist_wheel --universal sdist
 cd ../..
@@ -84,9 +84,9 @@ cd ../..
 
 ### Checks
 You can inspect the generated dir `setup/addon_name/odooXX_addon_addon_name.egg-info/`:
-* PKG-INFO: version, name, author, etc. Mostly compiled from Odoo manifest file. See [how and why weird version numbers like `···99.dev17` are computed](https://pypi.org/project/setuptools-odoo/2.5.3/#versioning)
-* requires.txt: pip dependencies.
-* SOURCES.txt: included files. Useful if you added a new translation or class and want to ensure it's there. Bear in 
+* `PKG-INFO`: version, name, author, etc. Mostly compiled from Odoo manifest file. See [how and why weird version numbers like `···99.dev17` are computed](https://pypi.org/project/setuptools-odoo/2.5.3/#versioning)
+* `SOURCES.txt`: included files. Useful if you added a new translation or class and want to ensure it's there. Bear in 
+* `requires.txt`: pip dependencies.
 
 This whole process is git-dependand. Both versions and sources depend on git: version to decide the devXX number, and sources to ignore untracked files.
 
@@ -94,9 +94,9 @@ For any doubt of what's inside, you can unzip the `whl` file in `dist/` to see w
 
 ## Upload to pypi
 
-If you are testing, you can use the [test pypi instance](https://test.pypi.org/) just by inserting `--repository-url https://test.pypi.org/legacy/` to the next command, before `dist`:
+If you are testing, you can use the [test pypi instance](https://test.pypi.org/) just by inserting `--repository-url https://test.pypi.org/legacy/` to the next command, just after `upload`:
 
-For each addon to upload, do:
+Otherwise, just do for each addon to upload:
 ```bash
 cd setup/addon_name
 twine upload dist/*
@@ -104,3 +104,7 @@ twine upload dist/*
 # wait for the upload
 cd ../..
 ```
+
+### Checks
+* visit the web repo linked by twine output, like the one for [easy-my-coop-website](https://pypi.org/project/odoo12-addon-easy-my-coop-website/12.0.1.0.0.99.dev23/)
+* install with pip. E.g. `pip install odoo12-addon-easy_my_coop_website==12.0.1.0.0.99.dev23`. If testing, just insert `--index-url https://test.pypi.org/simple/` after `install`.
