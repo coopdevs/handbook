@@ -71,6 +71,8 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Traduccions de plantilles de correu a Odoo]]
 * [[Add new DB to a multi db odoo instance]]
 * [How to create a new Odoo instance](https://gitlab.com/coopdevs/odoo-provisioning/-/wikis/How%20to%20create%20a%20new%20Odoo%20instance)
+* [[Packaging easy my coop Odoo addons]]
+* [[How to add easy my coop to an Odoo instance]]
 
 ## Discourse
 * [[Discourse Management]]
