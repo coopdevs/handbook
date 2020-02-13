@@ -69,6 +69,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Debugging Odoo]]
 * [[How to import postal codes for a country]]
 * [[Traduccions de plantilles de correu a Odoo]]
+* [[Com traduir un mòdul d'Odoo]]
 * [[Add new DB to a multi db odoo instance]]
 * [How to create a new Odoo instance](https://gitlab.com/coopdevs/odoo-provisioning/-/wikis/How%20to%20create%20a%20new%20Odoo%20instance)
 * [[Packaging easy my coop Odoo addons]]
