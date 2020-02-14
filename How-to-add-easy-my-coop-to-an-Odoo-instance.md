@@ -28,7 +28,7 @@ Until this is completed, the form won't work and will complain with a red text r
 
 ### Without any captcha
 
-When installing `easy_my_coop_website`, require version `12.0.1.0.0.99.dev24`. This one does not use any kind of captcha to slow down bots.
+When installing `easy_my_coop_website`, require version `12.0.1.0.0.99.dev28`. This one does not use any kind of captcha to slow down bots.
 
 The module already validates server-side the format of the input data, and the data itself is not posted as comments anywhere, thus removing the incentive for trying to post viagra ads. Nevertheless, an open form is something dangerous and should be avoided.
 
@@ -39,9 +39,9 @@ Captcha apart, the changes to install emc are minimal.
 Add to **files/requirements.txt**
 ```
 git+https://gitlab.com/coopdevs/dummy-odoo-pypi-package@12.0#egg=odoo
-odoo12-addon-easy-my-coop==12.0.3.0.1.99.dev37
+odoo12-addon-easy-my-coop==12.0.3.0.1.99.dev40
 # Uncomment the line below for captcha-free module
-# odoo12-addon-easy-my-coop-website==12.0.1.0.0.99.dev24
+# odoo12-addon-easy-my-coop-website==12.0.1.0.0.99.dev28
 # Uncomment the line below for captcha protected module
 # odoo12-addon-easy-my-coop-website==12.0.1.0.0.99.dev23
 ```
@@ -50,4 +50,4 @@ Then, to the ansible variable `odoo_role_odoo_community_modules`, insert with al
 
 Commit changes and provision to your test instance.
 
-Once deployed, if you are using the catpcha version, get the captcha keys and set them in Odoo.
+Once deployed, if you are using the captcha version, get the captcha keys and set them in Odoo.
