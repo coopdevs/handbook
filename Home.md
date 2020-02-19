@@ -40,6 +40,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [Postgres configuration for humans](https://postgresqlco.nf/en/doc/param/)
 * [[Secure TCP IP Connections with SSL]]
 * [[Useful queries]]
+* [PostgreSQL Cheat Sheet](https://postgrescheatsheet.com/)
 
 ## Ansible
 
