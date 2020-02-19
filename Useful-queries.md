@@ -61,3 +61,35 @@ where a.attname like '%operation%' and c.relkind = 'r';
  ar_matching_amount                   | account_operation_id
  ar_other_transaction                 | operation_date
 ```
+
+### Check how much space tables and indexes are taking up
+
+```sql
+SELECT
+   relname AS table_name,
+   pg_size_pretty(pg_total_relation_size(relid)) AS total,
+   pg_size_pretty(pg_relation_size(relid)) AS internal,
+   pg_size_pretty(pg_table_size(relid) - pg_relation_size(relid)) AS external,
+   pg_size_pretty(pg_indexes_size(relid)) AS indexes
+   FROM pg_catalog.pg_statio_user_tables
+   ORDER BY pg_total_relation_size(relid) DESC;
+```
+
+If you want to see details about each specific index:
+
+```sql
+SELECT
+  schema_name, rel_name, table_size,
+  pg_size_pretty(table_size) AS size
+FROM (
+  SELECT
+    nspname AS schema_name,
+    relname AS rel_name,
+    pg_table_size(pg_class.oid) AS table_size
+  FROM pg_class, pg_namespace
+  WHERE pg_class.relnamespace = pg_namespace.oid
+) _
+WHERE schema_name NOT LIKE 'pg_%'
+      AND schema_name != 'information_schema'
+ORDER BY table_size DESC;
+```
