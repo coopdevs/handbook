@@ -1,4 +1,4 @@
-Sometimes the auto-vacuum settings of your PostgreSQL server might not be able to keep the pace at which your app as marking rows as dead.
+Sometimes the auto-vacuum settings of your PostgreSQL server might not be able to keep the pace at which your app is marking rows as dead.
 
 Here's how to manually deal with this, heavily inspired by https://www.cybertec-postgresql.com/en/reasons-why-vacuum-wont-remove-dead-rows/.
 
