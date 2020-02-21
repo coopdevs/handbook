@@ -34,7 +34,9 @@
 * [[Postgresql Tuning Tools]]
 * [Postgres configuration for humans](https://postgresqlco.nf/en/doc/param/)
 * [[Secure TCP IP Connections with SSL]]
+* [[How to clean dead rows]]
 * [[Useful queries]]
+* [PostgreSQL Cheat Sheet](https://postgrescheatsheet.com/)
 
 **Ansible**
 * [[Publish a new module in Ansible Galaxy]]
