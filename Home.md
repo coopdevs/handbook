@@ -82,6 +82,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Discourse Management]]
 
 ## Misc
+* [[Gitlab bot to manage the mirrors]]
 * [[Gitlab and Github group member permissions]]
 * [[Uso de pyenv en Coopdevs]]
 * [[Devenv]]
