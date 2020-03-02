@@ -2,7 +2,7 @@
 
 This is also described at the "module info" webpage of "Base Location Geonames Import" and the module's [README](https://github.com/OCA/partner-contact/blob/12.0/base_location_geonames_import/README.rst#usage)
 
-1. Verify NGINX [timeout](https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country#in-case-of-a-timeout-or-a-server-restart)
+1. Verify Odoo [timeout settings](https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country#in-case-of-a-timeout-or-a-server-restart)
 1. Go to Contacts > Configuration > Localization > Import from Geonames, and click on it to open a wizard.
 1. When you start the wizard, it will ask you to select a country.
 1. Then, for the selected country, it will delete all not detected entries, download the latest version of the list of cities from geonames.org and create new city zip entries.
@@ -11,7 +11,7 @@ This is also described at the "module info" webpage of "Base Location Geonames I
 
 The place to launch the import is different. It's described also at the "module info" webpage and [README](https://github.com/OCA/partner-contact/blob/11.0/base_location_geonames_import/README.rst#usage)
 
-1. Verify NGINX [timeout](https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country#in-case-of-a-timeout-or-a-server-restart)
+1. Verify Odoo [timeout settings](https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country#in-case-of-a-timeout-or-a-server-restart)
 1. Go to Settings > Technical > Cities/Locations Management > Import from Geonames, and click on it to open a wizard.
 1. Follow step 2 and 3 for Odoo 12 and 13
 
