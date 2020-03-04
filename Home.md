@@ -27,6 +27,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Gestió del temps: Toggl]]
 * [[Procés d'alta de nova sòcia associació Coopdevs]]
 * [[Processos de treball]]
+* [Reserva espai a Cooplis](https://bcn.coop/formulari-espai/)
 
 ## Contractacions
 * [[Procés de contractació]]
