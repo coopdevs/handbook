@@ -72,6 +72,11 @@ setup/addon2/setup.py
 ```
 This must be only once if no addons are added. Removed addons should remove too their setup/ symlinks.
 
+### Commit the changes in setup/ directory
+Since `setuptools-odoo` relies on what's committed to your Git repository, you need to commit the changes occurred in the `setup/` directory before executing the next steps.
+
+If you don't do that, `setuptools` will create an empty `build/` directory and your package will be broken and not recognized by Odoo. More details [here](https://github.com/acsone/setuptools-odoo/issues/34#issuecomment-466789024).
+
 ## Build wheel
 
 This is the first half of cyclical packaging process.
