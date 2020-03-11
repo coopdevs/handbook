@@ -17,12 +17,10 @@ We have already done this with some [non-odoo python works](https://gitlab.com/c
 
 ## Process outline
 
-In reverse order:
-
-1. upload package(s) to pypi with `twine`
-2. build wheel package with `python setup.py ...`
-3. create the `setup.py` with info from odoo files
-4. install needed tools
+1. Install needed tools
+1. Create the `setup.py` with info from Odoo files
+1. Build wheel package with `python setup.py ...`
+1. Upload package(s) to pypi with `twine`
 
 ## Install tools
 
