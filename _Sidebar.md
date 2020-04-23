@@ -42,6 +42,7 @@
 * [[Publish a new module in Ansible Galaxy]]
 * [[Useful Ansible cli options]]
 * [[Uso de Ansible en Coopdevs]]
+* [[Ansible vault]]
 
 **Odoo**
 
