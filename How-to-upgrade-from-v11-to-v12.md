@@ -66,6 +66,14 @@ git clone --depth 1 --branch 12.0 https://github.com/OCA/OpenUpgrade.git
 Minimum Python version 3.5
 
 ## Install OpenUpgrade in new virtualenv
+```
+python setup.py install
+```
+
+## Install Odoo modules in Openupgrade virtualenv
+```sh
+/opt/odoo_modules_v12 $ pip install -r requirements.txt 
+```
 
 
 ---
