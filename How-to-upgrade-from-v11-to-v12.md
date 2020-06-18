@@ -75,6 +75,32 @@ python setup.py install
 /opt/odoo_modules_v12 $ pip install -r requirements.txt 
 ```
 
+## Create /etc/odoo/odoo_upg_11_12.conf
+```
+[options]
+; Log Settings
+logfile = /var/log/odoo/odoo-upg.log
+log_level = debug
+
+; Custom Modules
+addons_path = /opt/OpenUpgrade/addons,/opt/odoo_modules_v12
+
+; Master password to manage dbs
+admin_passwd = 1234
+
+; HTTP server settings
+http_interface = 0.0.0.0
+proxy_mode = True
+; prod es el nombre del backup de odoo v11 en producción actual
+db_name = prod
+; Postgresql 9.6 port (9.5=5432)
+db_port = 5433
+; Allow to select another (not filtered by dbfilter) existing database and enable db manager
+list_db = False
+```
+## Install Postgresql 9.6 from Ubuntu repos 
+`https://www.postgresql.org/download/linux/ubuntu/`
+postgresql >= 9.6 is needed by upgrade scripts
 
 ---
 
