@@ -102,6 +102,12 @@ list_db = False
 `https://www.postgresql.org/download/linux/ubuntu/`
 postgresql >= 9.6 is needed by upgrade scripts
 
+## Change Odoo v11 Postgresql port
+Using Postgresql 9.6 db directly in restore phase makes the DB upgrade to 9.6 unnecessary.
+```
+db_port = 5433
+```
+
 ## Restore DB backup of v11 that it is going to be updated
 From `/web/database/manager`
 
@@ -111,6 +117,46 @@ Using the db name we have just restored. From the dir where the OpenUpgrade repo
 odoo@odoo-coopdevs:/opt/OpenUpgrade$ ./odoo-bin -c /etc/odoo/odoo_upg_11_12.conf --stop-after-init -d db_name --update all
 ```
 
+## Uncompress selected OCA/OCB Odoo version
+In `/opt/odoo_12`
+
+## Create the v12 definitive conf file
+In `/etc/odoo/odoo_12.conf`
+```
+[options]
+; Log Settings
+logfile = /var/log/odoo/odoo-12.log
+log_level = debug
+
+; Custom Modules
+addons_path = /opt/odoo_12/addons,/opt/odoo_modules_v12
+
+; Master password to manage dbs
+admin_passwd = 1234
+
+; HTTP server settings
+http_interface = 0.0.0.0
+proxy_mode = True
+
+db_name = [[ db_name ]]
+db_port = 5433
+; Allow to select another (not filtered by dbfilter) existing database and enable db manager
+list_db = True
+```
+## Update all modules with OCB v12 version
+
+```sh
+odoo@odoo-coopdevs:/opt/odoo_12$ ./odoo-bin -c /etc/odoo/odoo_12.conf --stop-after-init -d prod --update all
+```
+
+## Use pg_dump 9.6 to export migrated db
+```
+/opt/odoo_12/odoo/service/db.py:L212:
+cmd = ['/usr/lib/postgresql/9.6/bin/pg_dump', '--no-owner']
+```
+
+## Export db from db manager
+url `/web/database/manager`
 ---
 
 ## Sources
