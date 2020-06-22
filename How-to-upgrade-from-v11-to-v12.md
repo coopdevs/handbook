@@ -1,5 +1,5 @@
 ## Uninstall account\_budget from v11
-It is not in v12 and makes problems
+It is not in v12 and it makes problems
 
 ## Update module list from v11 to v12
 This is an example from odoo-coopdevs-treball-inventory
@@ -101,6 +101,15 @@ list_db = False
 ## Install Postgresql 9.6 from Ubuntu repos 
 `https://www.postgresql.org/download/linux/ubuntu/`
 postgresql >= 9.6 is needed by upgrade scripts
+
+## Restore DB backup of v11 that it is going to be updated
+From `/web/database/manager`
+
+## Launch Odoo migration
+Using the db name we have just restored. From the dir where the OpenUpgrade repo is located.
+```
+odoo@odoo-coopdevs:/opt/OpenUpgrade$ ./odoo-bin -c /etc/odoo/odoo_upg_11_12.conf --stop-after-init -d db_name --update all
+```
 
 ---
 
