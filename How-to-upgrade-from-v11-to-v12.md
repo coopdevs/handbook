@@ -156,7 +156,8 @@ cmd = ['/usr/lib/postgresql/9.6/bin/pg_dump', '--no-owner']
 ```
 
 ## Export db from db manager
-url `/web/database/manager`
+Use url `/web/database/manager`
+
 ---
 
 ## Sources
