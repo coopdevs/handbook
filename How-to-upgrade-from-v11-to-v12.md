@@ -103,7 +103,7 @@ list_db = False
 postgresql >= 9.6 is needed by upgrade scripts
 
 ## Change Odoo v11 Postgresql port
-Using Postgresql 9.6 db directly in restore phase makes the DB upgrade to 9.6 unnecessary.
+Using Postgresql 9.6 db directly in restore phase makes the DB upgrade to 9.6 unnecessary. NOT SURE
 ```
 db_port = 5433
 ```
