@@ -79,7 +79,7 @@ Welcome to the Coopdevs Handbook wiki!
   * [How to create a new Odoo instance](https://gitlab.com/coopdevs/odoo-provisioning/-/wikis/How%20to%20create%20a%20new%20Odoo%20instance)
   * [[Packaging easy my coop Odoo addons]]
   * [[How to add easy my coop to an Odoo instance]]
-
+  * [[How to upgrade from v11 to v12]]
 ## Discourse
 * [[Discourse Management]]
 
