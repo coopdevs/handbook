@@ -149,6 +149,17 @@ list_db = True
 odoo@odoo-coopdevs:/opt/odoo_12$ ./odoo-bin -c /etc/odoo/odoo_12.conf --stop-after-init -d prod --update all
 ```
 
+## Fix timesheet_uom bug in migration
+
+```sh
+odoo@odoo-coopdevs:/opt/odoo_12$ psql prod
+```
+
+```
+update uom_uom set timesheet_widget = 'float_time' where name='Hour(s)';
+update uom_uom set timesheet_widget = 'float_toggle' where name='Day(s)';
+```
+
 ## Use pg_dump 9.6 to export migrated db
 ```
 /opt/odoo_12/odoo/service/db.py:L212:
