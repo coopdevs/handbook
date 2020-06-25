@@ -14,6 +14,10 @@ Canviar també la llengua de l'usuari admin al català, si es vol, tota la docum
 Per defecte ve instal·lat l'anglès. Afegim habitualment castellà (es_ES) i català (ca_ES)
 Cal fer clic al "botó d'actualitzar termes" 🔄
 
+## Importar ciutats i codis postals
+
+Per importar la base de dades de ciutats seguir els passos indicats a https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country
+
 ##  Editar empresa, nom, logo, altres dades...
 
 `Menú Principal > Configuració > Users & Companies > Empreses`
@@ -64,7 +68,3 @@ Escollir el paquet que la empresa necessita. Generalment "PGCE PYMEs 2008", pero
 `Menú Principal > Configuració > Facturació`
 
 Si l'empresa fa servir com a productes majoritariament serveis, podem escollir els impostos que es faran servir per defecte durant la creació de nou productes. S'ha de confirmar amb el client.
-
-## Importar ciutats i codis postals
-
-Per importar la base de dades de ciutats seguir els passos indicats a https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country
