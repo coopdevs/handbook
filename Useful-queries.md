@@ -110,4 +110,16 @@ FROM pg_stat_all_tables
 WHERE schemaname = 'public' AND pg_relation_size(relname::regclass) > 80000 
 ORDER BY too_much_seq DESC;
 ```
+
+you'll get something like
+
+```
+                 relname                 | too_much_seq |      case       | rel_size | seq_scan | idx_scan 
+-----------------------------------------+--------------+-----------------+----------+----------+----------
+ decidim_action_logs                     |            7 | Missing Index ? | 1128 kB  |       13 |        6
+ decidim_accountability_timeline_entries |            3 | Missing Index ? | 80 kB    |        3 |        0
+ decidim_attachments                     |         -110 | OK              | 112 kB   |        9 |      119
+ decidim_comments_comments               |         -355 | OK              | 472 kB   |       16 |      371
+ decidim_accountability_results          |         -682 | OK              | 152 kB   |       29 |      711
+```
 source: https://salayhin.wordpress.com/2018/01/02/finding-missing-index-in-postgresql/ plus `pg_size_pretty` taken from https://www.tutorialdba.com/2017/11/find-missing-indexes-of-schema.html.
