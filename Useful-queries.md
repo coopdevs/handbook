@@ -93,3 +93,21 @@ WHERE schema_name NOT LIKE 'pg_%'
       AND schema_name != 'information_schema'
 ORDER BY table_size DESC;
 ```
+
+## Finding missing index
+
+```sql
+SELECT
+  relname,
+  seq_scan - idx_scan AS too_much_seq,
+  CASE
+    WHEN seq_scan - coalesce(idx_scan, 0) > 0 THEN 'Missing Index ?'
+    ELSE 'OK'
+  END,
+  pg_size_pretty(pg_relation_size(relname::regclass)) AS rel_size, 
+  seq_scan, idx_scan
+FROM pg_stat_all_tables
+WHERE schemaname = 'public' AND pg_relation_size(relname::regclass) > 80000 
+ORDER BY too_much_seq DESC;
+```
+source: https://salayhin.wordpress.com/2018/01/02/finding-missing-index-in-postgresql/ plus `pg_size_pretty` taken from https://www.tutorialdba.com/2017/11/find-missing-indexes-of-schema.html.
