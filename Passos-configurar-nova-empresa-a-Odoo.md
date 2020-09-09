@@ -57,6 +57,12 @@ Amb accés top a tots els mòduls i `Administració` amb **poder assignar permis
 
 Enviar invitació a l'usuari per mail
 
+##  Assignar idioma i altres valors per defecte pels nous usuaris
+
+A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari > Usuaris`
+
+Cal afegir o editar el camp Idioma (res.partner) i assignar el codi ISO de l'idioma predeterminat "ca_ES", "es_ES" o el que correspongui. De la mateixa manera es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  
+
 ## Fiscal Localization
 
 `Menú Principal > Configuració > Facturació`
