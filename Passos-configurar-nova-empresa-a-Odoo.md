@@ -68,6 +68,7 @@ Cal afegir o editar el camp Idioma (res.partner) i assignar el codi ISO de l'idi
 `Menú Principal > Configuració > Configuració general > Facturació`
 
 Escollir el paquet que la empresa necessita. Generalment "PGCE PYMEs 2008", pero s'ha de confirmar amb el client.
+Nomes surt si no hi ha assentaments contables fixats.
 
 ## Impostos per defecte
 
