@@ -65,12 +65,12 @@ Cal afegir o editar el camp Idioma (res.partner) i assignar el codi ISO de l'idi
 
 ## Fiscal Localization
 
-`Menú Principal > Configuració > Facturació`
+`Menú Principal > Configuració > Configuració general > Facturació`
 
 Escollir el paquet que la empresa necessita. Generalment "PGCE PYMEs 2008", pero s'ha de confirmar amb el client.
 
 ## Impostos per defecte
 
-`Menú Principal > Configuració > Facturació`
+`Menú Principal > Configuració > Configuració general > Facturació`
 
 Si l'empresa fa servir com a productes majoritariament serveis, podem escollir els impostos que es faran servir per defecte durant la creació de nou productes. S'ha de confirmar amb el client.
