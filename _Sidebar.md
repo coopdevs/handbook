@@ -74,6 +74,7 @@
 * [[Add monitoring to a new host]]
 * [[Disk monitoring alarm]]
 * [[Useful commands]]
+* [[Funcionamiento de colas y jobs en Odoo]]
 
 **Discourse**
 * [[Discourse Management]]
