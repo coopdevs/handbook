@@ -62,6 +62,7 @@
 * [How to create a new Odoo instance](https://gitlab.com/coopdevs/odoo-provisioning/-/wikis/How%20to%20create%20a%20new%20Odoo%20instance)
 * [[Packaging easy my coop Odoo addons]]
 * [[How to add easy my coop to an Odoo instance]]
+* [[Funcionamiento de colas y jobs en Odoo]]
 
 **Sysadmin**
 * [[How to manage fail2ban]]
@@ -74,7 +75,6 @@
 * [[Add monitoring to a new host]]
 * [[Disk monitoring alarm]]
 * [[Useful commands]]
-* [[Funcionamiento de colas y jobs en Odoo]]
 
 **Discourse**
 * [[Discourse Management]]
