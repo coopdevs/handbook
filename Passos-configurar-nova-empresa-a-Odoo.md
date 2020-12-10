@@ -59,6 +59,7 @@ Enviar invitació a l'usuari per mail
 A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari`
 
 Cal afegir o editar el camp Idioma (res.partner) i assignar el codi ISO de l'idioma predeterminat "ca_ES", "es_ES" o el que correspongui. De la mateixa manera es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  
+Definir País (res.partner) com a 68, corresponent a Espanya. 
 
 ## Fiscal Localization
 
