@@ -2,7 +2,7 @@ Des d'un compte d'admin, anem a Configuració > Tècnic > Correu electrònic / P
 
 Des d'allà podem escriure el filtre segons a què apliquen les plantilles. Per exemple, a correus relacionats amb "Factura".
 
-Com **NO** traduir les plantilles (Odoo 11)
+Com **NO** traduir les plantilles 
 * Clicant Edita, i fent servir l'editor gràfic. Depèn dels canvis fets, pot canviar l'HTML d'una manera que des de la mateix editor no es pot desfer. A més, afegeix atributs style="" llargs i redundants.
 * Picar el botó "Previsualitzar" amb canvis no desats, sobreescriu i desa automàticament amb els canvis.
 
