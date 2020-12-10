@@ -14,9 +14,6 @@ Canviar també la llengua de l'usuari admin al català, si es vol, tota la docum
 Per defecte ve instal·lat l'anglès. Afegim habitualment castellà (es_ES) i català (ca_ES)
 Cal fer clic al "botó d'actualitzar termes" 🔄
 
-## Importar ciutats i codis postals
-
-Per importar la base de dades de ciutats seguir els passos indicats a https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country
 
 ##  Editar empresa, nom, logo, altres dades...
 
