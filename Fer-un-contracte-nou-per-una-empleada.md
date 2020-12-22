@@ -4,7 +4,7 @@
 3. Passar tota la info a laboral@facto.cat
 4. Fer tres copies (copia basica i dos normals) i firmar el contracte (tant Coopdevs com la nova empleada)
 5. La copia basica i una copia normal queda a Coopdevs i l'altra normal va a la treballadora
-6. Crear fitxa empleada a Odoo. Afegir el compte bancari relacionat a la fitxa d'empleat (es compiarà automàticament a la fitxa del contacte)
+6. [Crear fitxa empleada a Odoo.](https://github.com/coopdevs/handbook/wiki/Proc%C3%A9s-d%27onboarding#usuari-i-empleat-a-odoo) Afegir el compte bancari relacionat a la fitxa d'empleat (es compiarà automàticament a la fitxa del contacte)
 7. Adjuntar contracte signat a la fitxa de la empleada a Odoo
 8. Notificarem a la gestoria que ja tenim el contracte signat i ens assegurem que ells faran càrrec de l'alta de la treballadora a la seguretat social i prepararan la seva nòmina. 
 
