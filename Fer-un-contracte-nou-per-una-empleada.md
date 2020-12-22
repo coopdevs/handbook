@@ -6,6 +6,7 @@
 5. La copia basica i una copia normal queda a Coopdevs i l'altra normal va a la treballadora
 6. Crear fitxa empleada a Odoo. Afegir el compte bancari relacionat a la fitxa d'empleat (es compiarà automàticament a la fitxa del contacte)
 7. Adjuntar contracte signat a la fitxa de la empleada a Odoo
+8. Notificarem de que ja tenim el contracte signat i ens assegurem que ells es faran càrrec de l'alta de la treballadora a la seguretat social i prepararan la seva nòmina. 
 
 ### Detalls del contracte
 ```
