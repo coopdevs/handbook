@@ -1,4 +1,4 @@
-Per cada treballadora que comenci a treballar amb nosaltres necessitem tenir un pla d'acollida que inclogui:
+Per cada treballadora que comenci a treballar amb nosaltres necessitem tenir un document: pla d'acollida, que inclogui:
 
 * Període integració a Coopdevs 
 * Pla d’actuació
