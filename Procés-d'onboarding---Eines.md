@@ -9,8 +9,6 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 [Permisos per repositoris](#permisos-per-repositoris)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Github](#github)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Gitlab](#gitlab)<br>
-[Gestió de projectes](#gestió-de-projectes)<br>
-[Time tracking](#time-tracking)<br>
 [Calendari](#calendari)
 
 ## Compte d'email
@@ -90,18 +88,6 @@ Cal afegir l'usuari a l'equip de _Contributors_ de l'organització de Coopdevs a
 Idealment el millor seria poder replicar els dos equips que tenim configurats a Github però sembla que els permisos de Gitlab a nivell d'organització només funcionen amb rols. Així doncs, tant en Dani com l'Enrico i en Pau són _Owners_ de de coopdevs. La resta han de ser _Maintainers_. Això els atorga permisos suficients per no haver de dependre de la resta.
 
 Navega a _Members_ des del menú lateral de la [pàgina d'organització](https://gitlab.com/coopdevs). Des de la nova pàgina senzillament afegeix el nom d'usuari o mail de la persona, assignali el rol _Mantainer_ i clica a _Add to group_.
-
-## Gestió de projectes
-
-Per poder donar accés a Trello i poder assignar-li cards ha de formar part de l'equip de Coopdevs de Trello.
-
-Navega a la pàgina inicial del teu compte de Trello. A la secció _Teams_ del menú lateral selecciona coopdevs i _Member_. Des d'aquesta nova pàgina, clica a _Invite Team Members_ i introdueix el seu email. Això li donarà accés a tots els boards que tinguin visibilitat _Team_ assignada, és a dir, tots els membres de l'equip poden veure i editar el board. Assegura't que el board on començarà treballant tingui aquesta visibilitat.
-
-## Time tracking
-
-Per afegir a un usuari nou a Toggl cal primer de tot seleccionar el workspace de Coopdevs, com és habitual.
-
-Tot seguit, selecciona _Team_ des del menú lateral, introdueix el mail de la persona i clica a _Invite_.
 
 ## Calendari
 
