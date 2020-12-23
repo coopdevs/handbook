@@ -4,7 +4,7 @@ Per cada treballadora que comenci a treballar amb nosaltres necessitem tenir un 
 * Pla d’actuació
 * Agenda setmanal
 
-Podem fer servir algun document de treballadores anteriors com a referència.
+*Podem fer servir algun document de treballadores anteriors com a referència.*
 
 ## Període integració a Coopdevs 
 Definim un període de temps concret on realitzarem un seguiment especial facilitar l'integració de la treballadora dins de Coopdevs.
