@@ -27,7 +27,8 @@
 **Contractacions**
 * [[Procés de contractació]]
 * [[Fer un contracte nou per una empleada]]
-* [[Procés d'onboarding]]
+* [[Procés d'onboarding - Eines]]
+* [[Procés d'onboarding - Pla d'acollida]]
 
 **PostgreSQL**
 * [[Investigar queries lentas]]
