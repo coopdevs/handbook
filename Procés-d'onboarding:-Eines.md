@@ -10,6 +10,7 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 &nbsp;&nbsp;&nbsp;&nbsp;[Github](#github)<br>
 &nbsp;&nbsp;&nbsp;&nbsp;[Gitlab](#gitlab)<br>
 [Calendari](#calendari)
+[Drive/Nextcloud]() **PENDENT**
 
 ## Compte d'email
 
