@@ -34,6 +34,8 @@ Fixar-se en el mail de l'Empresa que és per on per defecte s'enviaran els mails
 
 Per una explicació més extesa, vegeu [[Configurar-el-compte-SMTP-per-Odoo-amb-Mandrill-i-Cdmon]]
 
+Ens hem trobat algun cas en el qual el correu no sortia sense configurar als paràmetres generals mail.catchall.domain = "eldomini.xxx" i mail.catch.alias = "compte" (pe. foddcoopbcn.cat)
+
 ## Activar link de restablir contrasenya al login
 
 `Menú Principal > Configuració > Configuració general`
