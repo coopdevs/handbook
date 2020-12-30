@@ -76,5 +76,5 @@ Nomes surt si no hi ha assentaments contables fixats.
 
 Si l'empresa fa servir com a productes majoritariament serveis, podem escollir els impostos que es faran servir per defecte durant la creació de nou productes. S'ha de confirmar amb el client.
 
-##Importar listado de bancos españoles
+## Importar listado de bancos españoles
 Incorporar la lista de bancos españoles
