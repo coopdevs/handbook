@@ -28,6 +28,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Procés d'alta de nova sòcia associació Coopdevs]]
 * [[Processos de treball]]
 * [Reserva espai a Coòpolis](https://bcn.coop/formulari-espai/)
+* [[Solicitar vacances i informar de dies de baixa]]
 
 ## Contractacions
 * [[Procés de contractació]]
