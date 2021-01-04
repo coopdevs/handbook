@@ -23,6 +23,7 @@
 * [[Crear un projecte a Toggl]]
 * [[Gestió del temps: Toggl]]
 * [[Processos de treball]]
+* [[Solicitar vacances i informar de dies de baixa]]
 
 **Contractacions**
 * [[Procés de contractació]]
