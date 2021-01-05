@@ -11,6 +11,7 @@ A continuació es descriuen els passos per incorporar a un nou treballador a la 
 &nbsp;&nbsp;&nbsp;&nbsp;[Gitlab](#gitlab)<br>
 [Calendari](#calendari)
 [Drive/Nextcloud]() **PENDENT**
+Demanar dades per publicar a la Web (potser crear pàgina "Procés d'onboarding: comunicació"
 
 ## Compte d'email
 
