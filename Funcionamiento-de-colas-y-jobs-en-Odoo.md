@@ -35,6 +35,30 @@ Al generar un nuevo job en la tabla, PostgreSQL notifica al JobRunner de que hay
 5. Odoo (HTTP) ejecuta la tarea.
 6. Envia la respuesta con el resultado de la tarea. Si esta no es con un status code de entre 400 y 600 la tarea se da por ejecutada, si no se vuelve a intentar o se da por fallida.
 
+## Configuración
+
+https://github.com/OCA/queue/tree/12.0/queue_job#id12
+
+* Workers
+
+Define el número de procesos de HTTPWorker que quieres levantar.
+
+```
+[options]
+(...)
+workers = 6
+(...)
+```
+
+* Channel
+
+Define los canales y los jobs que se pueden definir en paralelo de cada canal:
+
+```
+[queue_job]
+channels = root:2
+```
+
 ## Monitoring
 
 Tenemos dos puntos que pueden generar problemas:
