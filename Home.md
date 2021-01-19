@@ -70,6 +70,7 @@ Welcome to the Coopdevs Handbook wiki!
 ### Funcional - català
   * [[Passos configurar nova empresa a Odoo]]
   * [[Configurar el compte SMTP per Odoo amb Mandrill i Cdmon]]
+  * [[Configurar el compte SMTP per Odoo amb Gmail]]
   * [[Traduccions de plantilles de correu a Odoo]]
   * [[Com traduir un mòdul d'Odoo]]
 ### Sysadmin - english
