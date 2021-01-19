@@ -5,5 +5,5 @@ Cal anar a la configuració del compte de google i a la secció de Seguretat->In
 2. Generar contrasenya d’aplicació
 Al quadre de diàleg:
 
-*. A "Selecciona una aplicació" cal triar “Un altra”, posar-li un nom "Odoo test" p.e. 
-*. Guardar la contrasenya que genera Google i usar-la a Odoo. 
+* A "Selecciona una aplicació" cal triar “Un altra”, posar-li un nom "Odoo test" p.e. 
+* Guardar la contrasenya que genera Google i usar-la a Odoo. 
