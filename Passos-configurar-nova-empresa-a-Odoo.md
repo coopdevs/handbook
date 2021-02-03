@@ -19,7 +19,7 @@ Cal fer clic al "botó d'actualitzar termes" 🔄
 
 `Menú Principal > Configuració > Users & Companies > Empreses`
 
-Fixar-se en el mail de l'Empresa que és per on per defecte s'enviaran els mails d'Odoo. Per exemple: odoo@processos.org
+IMPORTANT! Modificar el mail per defecte de la fitxa de contacte de l'Empresa (admin@exemple.com) que és per on per defecte s'enviaran els mails d'Odoo. Per exemple: odoo@processos.org Si no es fa mandril i altres servidors de correu bloquegen les trameses.
 
 ##  Configurar SMTP: Configuració/Servidors de correu sortint
 
