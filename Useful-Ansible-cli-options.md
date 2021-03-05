@@ -142,3 +142,7 @@ ansible-playbook \
   --port 2255 \
   playbooks/provision.yml
 ```
+
+## Ansible profile
+
+https://github.com/jlafon/ansible-profile
