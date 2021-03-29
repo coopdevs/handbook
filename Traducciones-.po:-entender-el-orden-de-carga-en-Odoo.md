@@ -11,14 +11,14 @@ En comentarios podemos ver las diferentes jerarquías:
 En resumen:
 - los strings/cadenas no traducidos (msgstr "") dentro del .po se ignoran y se buscan traducciones en el siguiente nivel de .po 
 - si por ejemplo tenemos "ca_ES" como idioma activo en nuestro odoo, el orden de mayor a menor prioridad de búsqueda de cadenas es:
-i18n/ca_ES.po
-i18n_extra/ca.po
-i18n/ca.po
 
-Ejemplo: si ca_ES.po contiene una cadena vacía, se coge la cadena de ca.po : 
+i18n/ca_ES.po  ->  i18n_extra/ca.po -> i18n/ca.po
+
+Ejemplo: si ca_ES.po contiene una cadena vacía, se coge la cadena de ca.po :
+
+![Selección_209](https://user-images.githubusercontent.com/56868560/112803643-d559c100-9073-11eb-8d3d-719c21acfce9.jpg)
 
 ![Selección_208](https://user-images.githubusercontent.com/56868560/112803640-d4c12a80-9073-11eb-8792-6700e9c470fc.jpg)
-![Selección_209](https://user-images.githubusercontent.com/56868560/112803643-d559c100-9073-11eb-8d3d-719c21acfce9.jpg)
 
 pero si ca_ES.po contiene la misma cadena también traducida, entonces esta tendrá prioridad frente a la de ca.po : 
 
