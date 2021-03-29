@@ -94,3 +94,4 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Gitlab and Github group member permissions]]
 * [[Uso de pyenv en Coopdevs]]
 * [[Devenv]]
+* [[Traducciones .po: entender el orden de carga en Odoo]]
