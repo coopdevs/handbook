@@ -65,6 +65,7 @@
 * [[Packaging easy my coop Odoo addons]]
 * [[How to add easy my coop to an Odoo instance]]
 * [[Funcionamiento de colas y jobs en Odoo]]
+* [[Recuperar una máquina Hetzner sin acceso por SSH]]
 
 **Sysadmin**
 * [[How to manage fail2ban]]
