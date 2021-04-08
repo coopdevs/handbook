@@ -16,6 +16,8 @@ Si nos encontramos en esta situación debemos seguir los siguientes pasos:
 ```
 6. Para asegurar que todo está correcto, podemos listar todas las reglas del firewall:
 ```
+
+La consola de Hetzner se connecta utilizando el [`qemu-ga` QEMU Guest Agent](https://wiki.qemu.org/Features/GuestAgent), por lo que debemos tener el servicio activo y configurado tal cual nos lo proporciona Hetzner.
 # iptables -L
 Chain INPUT (policy ACCEPT)
 target     prot opt source               destination         
