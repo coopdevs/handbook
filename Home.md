@@ -64,6 +64,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Add monitoring to a new host]]
 * [[Disk monitoring alarm]]
 * [[Useful commands]]
+* [[Recuperar una máquina Hetzner sin acceso por SSH]]
 
 ## Odoo
 
