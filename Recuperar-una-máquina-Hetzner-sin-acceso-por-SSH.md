@@ -4,6 +4,9 @@ Esto es debido a que el rol que usamos para configurar el firewall empieza hacie
 
 https://github.com/geerlingguy/ansible-role-firewall/blob/master/tasks/main.yml#L5
 
+
+La consola de Hetzner se conecta utilizando el [`qemu-ga` QEMU Guest Agent](https://wiki.qemu.org/Features/GuestAgent), por lo que debemos tener el servicio activo y configurado tal cual nos lo proporciona Hetzner.
+
 Si nos encontramos en esta situación debemos seguir los siguientes pasos:
 
 1. Acceder al panel de administración de Hetzner.
@@ -16,8 +19,6 @@ Si nos encontramos en esta situación debemos seguir los siguientes pasos:
 ```
 6. Para asegurar que todo está correcto, podemos listar todas las reglas del firewall:
 ```
-
-La consola de Hetzner se connecta utilizando el [`qemu-ga` QEMU Guest Agent](https://wiki.qemu.org/Features/GuestAgent), por lo que debemos tener el servicio activo y configurado tal cual nos lo proporciona Hetzner.
 # iptables -L
 Chain INPUT (policy ACCEPT)
 target     prot opt source               destination         
