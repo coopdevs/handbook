@@ -17,7 +17,3 @@ That recipient needs to be defined beforehand as _Channel_ at https://coopdevs.g
 ## Grafana docs
 
 You will find this and many more details around the Alert rule configuration and queries at https://grafana.com/docs/alerting/rules/.
-
-## World Ping
-
-World Ping alerts work the same as described above. The only thing to take into account is that you'll likely need to navigate to the World Ping plugin from the sidebar to reach its dashboards and add alerts on them.
