@@ -86,6 +86,7 @@ Welcome to the Coopdevs Handbook wiki!
   * [[How to add easy my coop to an Odoo instance]]
   * [[How to upgrade from v11 to v12]]
   * [[Funcionamiento de colas y jobs en Odoo]]
+  * [[Execute module tests]]
 
 ## Discourse
 * [[Discourse Management]]
