@@ -56,9 +56,15 @@ A la pestanya "Configuració RH", **vinculem l'empleat al usuari en qüestió**.
 
 ## Xat de treball
 
+### Telegram
+
 Ara per ara encara fem servir Telegram per a les comunicacions de feina, tot i que estem valorant alternatives.
 
 Per a afegir a la nova persona, des del client web, cal que la tinguis als contactes del telèfon prèviament. Un cop fet, entra al grup, accedeix a la seva informació clicant a la capçalera i a continuació a _Add member_. En aquest punt et permetrà cercar i seleccionar el contacte del teu telèfon. Un cop n'estiguis segur clica _Next_ i ja estarà fet.
+
+### Mattermost
+
+Alguns projectes ja fan servir Mattermost https://coopdevs.cloud.mattermost.com/, per convidar a nous membres cal anar al menú principal, a dalt a la esquerra -> "invite people" 
 
 ## Accés al gestor de contrasenyes
 
