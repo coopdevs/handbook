@@ -22,6 +22,7 @@ Definir una agenda setmanal pel període de integració on quedi clar quines tas
 
 ## Seguiment
 
-SEPRA
-FORMACIÓ
+* reunions one to one
+* Prevenció de riscos laborals
+* Formació 
   
