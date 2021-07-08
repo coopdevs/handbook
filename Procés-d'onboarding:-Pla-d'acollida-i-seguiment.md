@@ -1,4 +1,4 @@
-### Pla d'acollida
+## Pla d'acollida
 
 Per cada treballadora que comenci a treballar amb nosaltres necessitem tenir un document: pla d'acollida, que inclogui:
 
