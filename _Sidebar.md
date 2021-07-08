@@ -29,7 +29,7 @@
 * [[Procés de contractació]]
 * [[Fer un contracte nou per una empleada]]
 * [[Procés d'onboarding: Eines]]
-* [[Procés d'onboarding: Pla d'acollida]]
+* [[Procés d'onboarding: Pla d'acollida i seguiment]]
 
 **PostgreSQL**
 * [[Investigar queries lentas]]
