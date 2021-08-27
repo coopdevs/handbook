@@ -1,1 +1,1 @@
-First of all crypt your email, user and password using `ansible-vault` 
+First of all crypt your email, user and password using `ansible-vault` [see wiki link](https://github.com/coopdevs/handbook/wiki/Ansible-vault)
