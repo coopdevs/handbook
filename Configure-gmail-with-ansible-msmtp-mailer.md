@@ -1,0 +1,1 @@
+First of all crypt your email, user and password using `ansible-vault` 
