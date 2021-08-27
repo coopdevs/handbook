@@ -65,6 +65,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Disk monitoring alarm]]
 * [[Useful commands]]
 * [[Recuperar una máquina Hetzner sin acceso por SSH]]
+* [[Configure gmail with ansible-msmtp-mailer ]]
 
 ## Odoo
 
