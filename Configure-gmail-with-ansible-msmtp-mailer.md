@@ -1,4 +1,4 @@
-First of all crypt your email, user and password using `ansible-vault` [see wiki link](https://github.com/coopdevs/handbook/wiki/Ansible-vault). In example, the resulting vars can be named as this:
+1. First of all encrypt your email, user and password using `ansible-vault` [see wiki link](https://github.com/coopdevs/handbook/wiki/Ansible-vault). In example, the resulting vars can be named as this:
 ```
 smtp_account_gmail_from: !vault |
           $ANSIBLE_VAULT;1.1;AES256
@@ -17,4 +17,21 @@ msmtp_account_gmail_password: !vault |
           66303933353539323464306133366663313266323132663762386239353163393064653734623065
           ... numbers ...
           3336
+```
+
+2. Add this vars to your inventory:
+```
+msmtp_default_account: "gmail"                                                                       
+msmtp_alias_default : your.email@your.domain                                                       
+msmtp_alias_root : your.email@your.domain                                                          
+                                                                                                     
+msmtp_accounts:                                                                                      
+  - account: gmail                                                                                   
+    host: smtp.gmail.com                                                                             
+    port: 587                                                                                        
+    auth: "on"                                                                                       
+    from: "{{ msmtp_account_gmail_from }}"                                                           
+    user: "{{ msmtp_account_gmail_user }}"                                                           
+    password: "{{ msmtp_account_gmail_password }}"                                                   
+
 ```
