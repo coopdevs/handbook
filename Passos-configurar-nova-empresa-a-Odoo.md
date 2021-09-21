@@ -58,10 +58,9 @@ Enviar invitació a l'usuari per mail
 
 ##  Assignar idioma i altres valors per defecte pels nous usuaris
 
-A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari`
+La configuració per defecte dels nous usuaris es pot fer a Configuració General->Configuració General->Usuaris->Permisos d’accés. Accedim a la plantilla de permisos d'usuari
 
-Cal afegir o editar el camp Idioma (res.partner) i assignar el codi ISO de l'idioma predeterminat "ca_ES", "es_ES" o el que correspongui. De la mateixa manera es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  
-Definir País (res.partner) com a 68, corresponent a Espanya. 
+A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari` es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  P.e. definir País (res.partner) com a 68, corresponent a Espanya. 
 
 També es poden importar les dades de codis postals i localitats des de Geonames a Contactes->Configuració->Importar de Geonames
 
