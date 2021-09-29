@@ -1,6 +1,6 @@
 ## Intro
 
-This is a guide of how to package Odoo addons, while our case study is Coopiteasy, it is perfectly valid for any kind of Odoo Addon.
+This is a guide of how to package Odoo addons, while our case study is Coopiteasy, it is perfectly valid for any Odoo addon.
 
 [Coopiteasy](https://github.com/coopiteasy) developed a bunch of modules to easy the management of consumer cooperatives, the [_Vertical cooperative_ or _Easy my coop_](https://github.com/coopiteasy/vertical-cooperative).
 
