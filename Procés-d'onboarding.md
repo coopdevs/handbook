@@ -25,4 +25,13 @@ Definir una agenda setmanal pel període de integració on quedi clar quines tas
 * reunions one to one
 * Prevenció de riscos laborals
 * Formació 
+
+
+## Compra de material
+
+Hem de tenir en compte que el nou empleat necessitarà material per treballar. Excepte casos excepcionals, haurem de comprar un ordinador així com una pantalla i possiblement un teclat i ratolí, segons les seves preferències.
+
+Fins a la data els primers els hem comprat a [Backmarket](https://www.backmarket.es/) i els segons a Dell. Concretament el model que comprem sempre és el [Dell 24 E2417H](https://www.dell.com/es-es/work/shop/monitor-dell-24-e2417h/apd/210-ajxq/monitores-y-accesorios). Està força bé de preu i té una bona qualitat. Per la resta de material, hem de recordar que tenim comptes d'Amazon i Life Informàtica, tots disponibles a Bitwarden.
+
+A més, per poder tenir la pantalla elevada, fora bo demanar a l'Anna d'el coworking un nou estan com els que ens van fer a nosaltres.
   
