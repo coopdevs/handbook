@@ -26,7 +26,7 @@ Cal tenir una agenda clara pels primers dies i comunicar-ho a la treballadora, e
 1. [Presentació benvinguda Coopdevs](https://docs.google.com/presentation/d/1AqxdN-fFd3-LeAzl9m_nXrS1h6qlbHbmr_tpcOhvqo4/edit)
 2. Revisar plegades la agenda setmanal
 3. Revisar plegades les eines d'ús habitual de Coopdevs [[Procés d'onboarding: Eines]]
-4. Organitzar reunions amb els comissions on participarà
+4. Organitzar reunions amb les comissions on participarà
 5. Preveure reunions de seguiment
 
 ## Seguiment
