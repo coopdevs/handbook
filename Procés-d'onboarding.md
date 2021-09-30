@@ -23,11 +23,11 @@ Definir una agenda setmanal pel període de integració on quedi clar quines tas
 ## Els primers dies
 Cal tenir una agenda clara pels primers dies i comunicar-ho a la treballadora, el primer dia el podem dedicar a: 
 
-1 Presentació benvinguda Coopdevs https://docs.google.com/presentation/d/1AqxdN-fFd3-LeAzl9m_nXrS1h6qlbHbmr_tpcOhvqo4/edit#slide=id.geea654c55e_0_21
-2 Revisar plegades la agenda setmanal
-3 Revisar plegades les eines d'ús habitual de Coopdevs [[Procés d'onboarding: Eines]]
-4 Organitzar reunions amb els comissions on participarà
-5 Preveure reunions de seguiment
+1. [Presentació benvinguda Coopdevs](https://docs.google.com/presentation/d/1AqxdN-fFd3-LeAzl9m_nXrS1h6qlbHbmr_tpcOhvqo4/edit)
+2. Revisar plegades la agenda setmanal
+3. Revisar plegades les eines d'ús habitual de Coopdevs [[Procés d'onboarding: Eines]]
+4. Organitzar reunions amb els comissions on participarà
+5. Preveure reunions de seguiment
 
 ## Seguiment
 
