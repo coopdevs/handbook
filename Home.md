@@ -30,7 +30,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [Reserva espai a Coòpolis](https://bcn.coop/formulari-espai/)
 * [[Solicitar vacances i informar de dies de baixa]]
 
-## Contractacions
+## Recursos Humans
 * [[Procés de contractació]]
 * [[Fer un contracte nou per una empleada]]
 * [[Procés d'onboarding: Eines]]
