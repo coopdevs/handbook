@@ -1,3 +1,5 @@
+[en revisió, ho hem canviat a Odoo]
+
 Totes les feines involucrades en trobar una nova treballadora les hem sistematitzat en el procés que es detalla a continuació. Són els passos que hem als que hem arribat després de consultar a companys que tenen experiència en aquest àmbit.
 
 ## Pipeline
