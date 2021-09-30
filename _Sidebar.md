@@ -25,7 +25,7 @@
 * [[Processos de treball]]
 * [[Solicitar vacances i informar de dies de baixa]]
 
-**Contractacions**
+**Recursos Humans**
 * [[Procés de contractació]]
 * [[Fer un contracte nou per una empleada]]
 * [[Procés d'onboarding: Eines]]
