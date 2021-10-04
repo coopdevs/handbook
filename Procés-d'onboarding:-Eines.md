@@ -72,11 +72,11 @@ Fem servir BitWarden. Això és necessari per disposar de les credencials d'acc�
 
 Primer de tot, navega a l'administració de l'organització Coopdevs clicant al nom al menú lateral anomenat _Organitzacions_ de la pàgina inicial del teu compte de Bitwarden. Seguidament desplaçat a la pestanya _Administra_. Des d'aquí pots convidar a la persona clicant a _Convida usuari_. 
 
-Al modal que t'apereixerà, introdueix el correu electrònic de la persona, selecciona el tipus d'usuari _Usuari_ i marca _Aquest usuari pot accedir i modificar tots els elements._ com a control d'accés. Per ara, confiem plenament en els companys que contractem, cosa que simplifica la gestió. Un cop la persona convidada accepti l'administrador haurà de confirmar-la. 
+Al modal que t'apereixerà, introdueix el correu electrònic de la persona, selecciona el tipus d'usuari _Usuari_ i marca _Aquest usuari pot accedir i modificar tots els elements._ com a control d'accés. Per ara, confiem plenament en els companys que contractem, cosa que simplifica la gestió.
 
 Per acabar, clica a _Guardar_.
 
-### Confirmar usuari
+**Confirmar usuari**
 
 Per poder finalitzar el procés, un cop la persona hagi acceptat la invitació caldrà que des del compte de Coopdevs de Bitwarden la confirmem.
 
