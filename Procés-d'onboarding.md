@@ -29,7 +29,7 @@ Cal tenir una agenda clara pels primers dies i comunicar-ho a la treballadora, e
 4. Organitzar reunions amb les comissions on participarà
 5. Preveure reunions de seguiment
 
-Nota: una reunió de 2h hauria de ser suficient
+Nota: una reunió de 2h el primer dia hauria de ser suficient
 
 ## Seguiment
 
