@@ -82,6 +82,10 @@ Per poder finalitzar el procés, un cop la persona hagi acceptat la invitació c
 
 Des de la mateixa secció d'administració del compte esmentada al punt anterior, clica a la pestanya Acceptat i a l'engranatge que apareix sobre el nou usuari. Si selecciones confirma, això obrirà un diàleg per confirmar definitivament l'acceptació de l'usuari. Fins que no facis aquest pas no hi podrà accedir.
 
+**Donar accés a les col·leccions**
+
+Les contrasenyes les agrupem per col·leccions. Perquè la nova usuària pugui accedir a les dades cal donar permisos a les col·leccions que es vulguin exposar. Per fer-ho anem a la secció de configuració de la nostra organització i accedim a l'espai d'_Administra_ i seguidament a _Col·leccions_. Ací veiem un llistat de totes les col·leccions i accedint a la configuració de la col·lecció amb el botó d'engranatge de la dreta, seleccionem _Usuari_. Aquí podrem marcar els usuaris que tinguin accés i quin tipus d'accés a la col·lecció.
+
 ## Permisos per repositoris
 
 A diferència de la resta de punts és millor evitar crear un compte nou associat al nou correu electrònic. Normalment, al tractar-se de programadors, és molt probable que la persona ja tingui compte com a mínim a Github. A banda, és millor tenir-hi una única identitat. En cas que no en tingui, cal que el creï previament.
