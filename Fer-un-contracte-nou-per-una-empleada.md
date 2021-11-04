@@ -35,3 +35,5 @@ Telèfon
 Email
 IBAN
 ```
+
+NOTA: Si el contracte es fa amb l'any ja començat i la persona ha treballat durant aquest any, és important que Facto ho sapigui per calcular el IRPF de les noves nómines, la treballadora ens pot indicar quan es vol retenir o donar-nos una idea dels ingressos previs per poder calcular un percentatge de IRPF raonable.  
