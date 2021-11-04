@@ -54,6 +54,10 @@ Feu clic al submenú "empleats" de l'esquerra (hi ha els empleats existents) i d
 
 A la pestanya "Configuració RH", **vinculem l'empleat al usuari en qüestió**. 
 
+### Afegir dies disponibles de vacances a Odoo
+
+A Absències, assignar dies de vacances restants del any en curs
+
 ## Xat de treball
 
 ### Telegram
