@@ -18,7 +18,7 @@ Note that the `restore-to-controller` task list is intended to install restic an
 
 ## Prepare restic
 
-1. [Install restic](https://restic.readthedocs.io/en/latest/020_installation.html) on your workstation and check it executing `restic --version`
+1. [Install restic](https://restic.readthedocs.io/en/latest/020_installation.html) on your workstation and check it executing `restic version`
 2. Set environment variables:
 ```bash
 export RESTIC_REPOSITORY='b2:BUCKET_NAME:REPO_PATH'
