@@ -42,3 +42,22 @@ WARNING, a better procedure must be studied, one that only deletes current db on
   * Database manager webpage shows your db again with no warnings or errors
   * Log in to your odoo instance and check that you have restored the state you wished
 
+
+## Other restic useful commands
+
+
+#### View files inside the backup
+The -l option gives the file size
+```bash
+restic  ls -l <snapshot> 
+```
+View the files inside the backup with then name <file>
+```bash
+restic  ls -l <snapshot>  <file>
+```
+
+
+#### Download one file
+```bash
+restic restore <snapshot> --target <backup destination folder> --include <file to download>
+```
