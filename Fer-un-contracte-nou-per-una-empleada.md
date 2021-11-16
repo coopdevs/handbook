@@ -8,7 +8,7 @@
 7. Adjuntar contracte signat a la fitxa de la empleada a Odoo
 8. Notificarem a la gestoria que ja tenim el contracte signat i ens assegurem que ells faran càrrec de l'alta de la treballadora a la seguretat social i prepararan la seva nòmina. 
 
-NOTA: el conveni col·lectiu en el que ens basem és Convenio colectivo estatal de empresas de consultoría, y estudios de mercados y de la opinión pública
+NOTA: el conveni col·lectiu en el que ens basem és **Convenio colectivo estatal de empresas de consultoría, y estudios de mercados y de la opinión pública**
 
 ### Detalls del contracte
 ```
