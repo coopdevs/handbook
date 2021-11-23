@@ -18,7 +18,7 @@ Data finalització
 Dedicació(hores/setmana)
 Posició
 Conveni
-Tipus (obra i servei o eventual)
+Tipus (obra i servei o eventual) (normalment fem obra i servei, cal especificar en què consistirà la obra i servei)
 Període de prova (fins ara hem fet 3 mesos)
 Sou brut (mensual o anual)
 ```
