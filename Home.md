@@ -77,6 +77,7 @@ Welcome to the Coopdevs Handbook wiki!
   * [[Com traduir un mòdul d'Odoo]]
 ### Sysadmin - english
   * [[How to install modules for Odoo]]
+  * [[Add backups to Odoo instance]]
   * [[How to restore an Odoo backup]]
   * [How to extract the list of Odoo modules from a running instance](https://gitlab.com/coopdevs/odoo-provisioning/wikis/How-to-extract-the-list-of-Odoo-modules-from-a-running-instance)
   * [[How to recover Odoo users permissions]]
