@@ -72,7 +72,7 @@ La configuració per defecte dels permisos dels nous usuaris es pot fer a `Confi
 
 Anar a `Contactes > Configuració > Importar de Geonames`.
 
-Es necessita intervenció per part d'una persona tecnica: ![](https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country)
+Es necessita intervenció per part d'una persona tecnica: [guia tecnica](https://github.com/coopdevs/handbook/wiki/How-to-import-postal-codes-for-a-country).
 
 ## Fiscal Localization
 
