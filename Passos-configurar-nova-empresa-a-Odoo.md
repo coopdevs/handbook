@@ -58,13 +58,19 @@ Enviar invitació a l'usuari per mail
 
 ##  Assignar idioma i altres valors per defecte pels nous usuaris
 
-La configuració per defecte dels nous usuaris es pot fer a `Configuració General > Configuració General > Usuaris > Permisos d’accés`. Accedim a la plantilla de permisos d'usuari.
+A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari` es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  P.e. definir País (res.partner) com a 68, corresponent a Espanya.
+
+![](img/odoo-users-defaults.png)
+
+##  Assignar permisos per defecte pels nous usuaris
+
+La configuració per defecte dels permisos dels nous usuaris es pot fer a `Configuració General > Configuració General > Usuaris > Permisos d’accés`.
 
 ![](img/odoo-users-access-rights.png)
 
-A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari` es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  P.e. definir País (res.partner) com a 68, corresponent a Espanya. 
+## Importar les dades de codis postals i localitats des de Geonames
 
-També es poden importar les dades de codis postals i localitats des de Geonames a Contactes->Configuració->Importar de Geonames
+Anar a `Contactes > Configuració > Importar de Geonames`.
 
 ## Fiscal Localization
 
