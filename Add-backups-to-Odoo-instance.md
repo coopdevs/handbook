@@ -8,4 +8,4 @@
    1. Using Backblaze UI
    ![](img/b2-create-app-key.png)
 1. Take note of the application key ID and the application key
-1. Follow instructions on [odoo-provisioning](https://gitlab.com/coopdevs/odoo-provisioning/-/blob/master/README.md#backups-backups)
+1. Follow instructions on [odoo-provisioning#backups](https://gitlab.com/coopdevs/odoo-provisioning/-/blob/master/README.md#backups-backups)
