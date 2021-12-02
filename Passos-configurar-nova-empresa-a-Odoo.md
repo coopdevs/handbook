@@ -60,7 +60,7 @@ Enviar invitació a l'usuari per mail
 
 La configuració per defecte dels nous usuaris es pot fer a `Configuració General > Configuració General > Usuaris > Permisos d’accés`. Accedim a la plantilla de permisos d'usuari.
 
-![](img/odoo-users-access-rights.gif)
+![](img/odoo-users-access-rights.png)
 
 A `Configuració general > Tècnic > Accions > Valors per defecte de l'usuari` es poden assignar els valors per defecte d'altres camps en el moment de crear nous usuaris.  P.e. definir País (res.partner) com a 68, corresponent a Espanya. 
 
