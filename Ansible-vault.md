@@ -13,3 +13,8 @@ Since `ansible-vault view` doesn't work with inline vaults, we need to execute t
 ```sh
 $ ansible localhost -m debug -a var="vault_key" -e "@path/to/file.yml" --ask-vault-pass
 ```
+
+If you need to decrypt a whole file with no defined variables you should use ansible-vault command edit:
+```
+$ ansible-vault edit path/to/file.yml --ask-vault-pass
+```
