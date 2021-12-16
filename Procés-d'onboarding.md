@@ -28,6 +28,10 @@ Cal tenir una agenda clara pels primers dies i comunicar-ho a la treballadora, e
 3. Revisar plegades les eines d'ús habitual de Coopdevs [[Procés d'onboarding: Eines]]
 4. Organitzar reunions amb les comissions on participarà
 5. Preveure reunions de seguiment
+6. Revisar plegades aspectes més urgents
+> Veure si cal material ara mateix per començar a treballar
+> Si vol sumar-se a formacions continues (Anglès)
+> Espai de treball
 
 Nota: una reunió de 2h el primer dia hauria de ser suficient
 
