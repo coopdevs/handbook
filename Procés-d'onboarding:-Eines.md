@@ -120,6 +120,6 @@ Per compartir el calendari de Coopdevs, actualment de Google, navega a _Configur
 
 Per aquells que vulguin configurar-se el calendari al seu gestor local, des de la mateixa pàgina de configuració, desplaça't a la secció _Integra el calendari_ i comparteix les adreces en format iCal amb la persona interessada. Amb això hauria de ser suficient.
 
-### Documents
+## Documents
 
 Donar accés al Drive i al NextCloud de Coopdevs Treball SCCL
