@@ -62,9 +62,15 @@ A Absències, assignar dies de vacances restants del any en curs
 
 ### Telegram
 
-Ara per ara encara fem servir Telegram per a les comunicacions de feina, tot i que estem valorant alternatives.
+Fem servir Telegram i Zulip per a les comunicacions de la cooperativa. Telegram més aviat per una comunicació informal amb tota la cooperativa i Zulip per coordinar feina. 
+
+**Telegram**
 
 Per a afegir a la nova persona, des del client web, cal que la tinguis als contactes del telèfon prèviament. Un cop fet, entra al grup, accedeix a la seva informació clicant a la capçalera i a continuació a _Add member_. En aquest punt et permetrà cercar i seleccionar el contacte del teu telèfon. Un cop n'estiguis segur clica _Next_ i ja estarà fet.
+
+**Zulip**
+https://coopdevs.zulipchat.com > "Invite more users" afegim a les persones, normalment com a members i els donem acces als Streams que ja sabem que hi participaran 
+
 
 ### Mattermost
 
