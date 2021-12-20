@@ -123,3 +123,6 @@ Per aquells que vulguin configurar-se el calendari al seu gestor local, des de l
 ## Documents
 
 Donar accés al Drive i al NextCloud de Coopdevs Treball SCCL
+
+###Nextclou### d
+Cal accedir al Nextcloud amb un usuari del grup «admin» i accedir a la secció "Usuaris" afegir un nou usuari.
