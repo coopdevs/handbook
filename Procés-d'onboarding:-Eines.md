@@ -54,6 +54,12 @@ Feu clic al submenú "empleats" de l'esquerra (hi ha els empleats existents) i d
 
 A la pestanya "Configuració RH", **vinculem l'empleat al usuari en qüestió**. 
 
+### Afegir compte bancari de la treballadora a Odoo
+
+A **Contactes**, cerquem el contacte de la treballadora, pestanya **Facturació** -> **Editar**
+
+Afegim una línia a **Comptes bancaris** i afegim el compte bancari de la treballadora
+
 ### Afegir dies disponibles de vacances a Odoo
 
 A Absències, assignar dies de vacances restants del any en curs
