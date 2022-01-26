@@ -1,12 +1,6 @@
-[en revisió, ho hem canviat a Odoo]
+Publiquem les ofertes de feina al mòdul "Procés de selecció" a Odoo
 
-Totes les feines involucrades en trobar una nova treballadora les hem sistematitzat en el procés que es detalla a continuació. Són els passos que hem als que hem arribat després de consultar a companys que tenen experiència en aquest àmbit.
-
-## Pipeline
-
-A Trello tenim un board anomenat "Pipeline contractacions" pensat per portar el control de tot el procés de selecció i contractació. Consta de les columnes "Candidats", "Contactats", "primera entrevista", "Prova tècnica", "segona entrevista" i "contracte". Cada una d'aquestes representa la fase del procés que hem ideat. Per tant, comencem creant un card amb el nom de la persona a la primera columna. A mesura que anem avançant a través de les etapes, anem movent la card per reflexar-ne l'estat actual. Això permet a la resta de l'equip tenir una visió de com va el procés.
-
-A la mateixa card hi anem describint tot allò que cal que quedi constància, ja siguin mails que ens envia, opinions i comentaris que valgui la pena compartir i tenir en compte.
+Això fa que apareguin publicades les ofertes a la Web de Coopdevs https://odoo12.coopdevs.org/jobs i rebem les candidatures a Odoo
 
 ### Fases
 
@@ -14,6 +8,20 @@ A la mateixa card hi anem describint tot allò que cal que quedi constància, ja
 
 Aquesta és la primera fase, que va des que algú ens ha contactat i és un potencial candidat fins que li responem proposant una entrevista. En tal cas movem la card a la següent fase.
 
+#### Guió Entrevista 
+
+Quan fem una entrevista hem de passar per tots aquests punts: 
+
+* Presentacions assistents
+* Com et va arribar la oferta?
+* Suposo que has fet un cop d'ull a la Web de Coopdevs? Tens algun dubte sobre què fem?
+* Expliquem de les tasques requerides de la oferta de feina
+* Com s'adapten la teva experiència i formació a les tasques del lloc de treball?
+* Coneixies l'ESS? Et motiva? Cooperativa coopdevs, idea de creixement i nous socis
+* Condicions laborals, explicar política salarial de Coopdevs. Contracte 1 any i després possibilitat de ser sòcia
+* Algun dubte?
+* Tenim l'intenció d'acabar les entrevistes... donar una previsió temporal de quan es resoldrà el procés
+ 
 #### Contactats
 
 Mentre no haguem acordat una primera data de reunió mantindrem la card en aquesta columna i l'anirem actualitzant.
@@ -37,9 +45,5 @@ En aquesta entrevista acordem els detalls contractuals i aclarim qualsevol dubte
 Finalment, quan la persona ja ens ha enviat la informació i l'hem passat als gestor per a la redacció del contracte, passem la card a la fase final. Aquí si quedarà fins que acabem la comunicació amb la gestoria i acabem signant el contracte. Un cop fet ja podem arxivar la tasca.
 
 [fer un contracte nou per una empleada]: https://github.com/coopdevs/handbook/wiki/Fer-un-contracte-nou-per-una-empleada
-
-## Board Contractacions
-
-Aquest board el dediquem a totes aquelles tasques que no formen part del propi procés de selecció però que són necessàries o bé per publicar una oferta, fer millores al web de cara a la seva publicació, etc. o bé per millorar el propi procés. Des de tota la comunicació previa fins a aquesta documentació, per exemple, s'ha portat a terme des de aquest board.
 
 
