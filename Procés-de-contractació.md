@@ -4,6 +4,30 @@ Això fa que apareguin publicades les ofertes a la Web de Coopdevs https://odoo1
 
 ### Fases
 
+#### Difusió oferta de feina
+
+Per difondre una oferta de feina prioritzem sempre canals afins (on trobar persones amb interés per l'ESS i FLOSS
+
+* Twitter, demanant difussió https://twitter.com/coopdevs/status/1481950921944875010
+* El nostre community https://community.coopdevs.org/t/buscamos-perfiles-senior-sysadmin-y-senior-python-developer/1204
+* Linkedin https://www.linkedin.com/feed/update/urn:li:activity:6888774558430633984 
+
+IT
+* EN Cotech https://community.coops.tech/t/hiring-senior-syadmin-and-senior-python-developer/3066/3
+* Zulip IT ESS https://chat.coophub.org/
+* EN https://patio.ica.coop/c/the-future/8
+
+IT Python
+* Python ES https://comunidad.es.python.org/t/coopdevs-senior-ptython-developer-remote-29k/678
+* PyLadies Send it to pyladies-bcn+jobs at googlegroups.com normes -> https://pybcn.org/pyladies_bcn/job-offers/
+
+Social
+* Torre Jussana https://www.tjussana.cat/ofertesfeina.php 
+
+Pràctiques
+* Tecnocampus https://borsatalent.tecnocampus.cat/panel (tenim usuari)
+* FP, es poden trobar al historic de Odoo RRHH / Mails 
+
 #### Candidats
 
 Aquesta és la primera fase, que va des que algú ens ha contactat i és un potencial candidat fins que li responem proposant una entrevista. En tal cas movem la card a la següent fase.
@@ -45,5 +69,7 @@ En aquesta entrevista acordem els detalls contractuals i aclarim qualsevol dubte
 Finalment, quan la persona ja ens ha enviat la informació i l'hem passat als gestor per a la redacció del contracte, passem la card a la fase final. Aquí si quedarà fins que acabem la comunicació amb la gestoria i acabem signant el contracte. Un cop fet ja podem arxivar la tasca.
 
 [fer un contracte nou per una empleada]: https://github.com/coopdevs/handbook/wiki/Fer-un-contracte-nou-per-una-empleada
+
+
 
 
