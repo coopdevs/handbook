@@ -73,3 +73,5 @@ Finalment, quan la persona ja ens ha enviat la informació i l'hem passat als ge
 
 
 
+
+
