@@ -78,10 +78,6 @@ Per a afegir a la nova persona, des del client web, cal que la tinguis als conta
 https://coopdevs.zulipchat.com > "Invite more users" afegim a les persones, normalment com a members i els donem acces als Streams que ja sabem que hi participaran 
 
 
-### Mattermost
-
-Alguns projectes ja fan servir Mattermost https://coopdevs.cloud.mattermost.com/, per convidar a nous membres cal anar al menú principal, a dalt a la esquerra -> "invite people" 
-
 ## Accés al gestor de contrasenyes
 
 Fem servir BitWarden. Això és necessari per disposar de les credencials d'accés als serveis externs que usem a Coopdevs.
