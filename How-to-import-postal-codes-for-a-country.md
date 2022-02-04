@@ -24,11 +24,12 @@ If the import process takes too long, Odoo [may kill itself the worker thread an
 1. Add this to your odoo.config:
    ```
    ; Increase timeout of thread worker from 2 to 10 minutes
+   limit_time_cpu = 6000
    limit_time_real = 6000
    ```
 2. Restart Odoo
 3. Perform import as specified above
-4. Reset the timeout to the default value to avoid side effects.
+4. Reset the timeout to the [default value](https://github.com/coopdevs/odoo-role/blob/master/defaults/main.yml#L80) to avoid side effects.
 5. Restart Odoo
 
 ### In case of 404 error
