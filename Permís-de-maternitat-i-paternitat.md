@@ -1,0 +1,3 @@
+El permís de maternitat i paternitat, actualment es de 16 setmanes i les 6 primeres setmanes les has de gaudir en el moment del naixement, la resta es poden ajornar, i es poden gaudir fins que el bebe faci 12 mesos, a jornada completa o jornada parcial, de forma continuada o interrompuda
+
+Per poder fer el tramit, en el moment del naixement ho comuniquem a RRHH i Facto perquè Facto passi un certificat a la Seguretat Social i es pugui demanar la prestació.
