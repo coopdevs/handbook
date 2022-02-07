@@ -30,6 +30,7 @@
 * [[Fer un contracte nou per una empleada]]
 * [[Procés d'onboarding]]
 * [[Procés d'onboarding: Eines]]
+* [[Permís de maternitat i paternitat]]
 
 **PostgreSQL**
 * [[Investigar queries lentas]]
