@@ -77,6 +77,7 @@ Welcome to the Coopdevs Handbook wiki!
   * [[Traduccions de plantilles de correu a Odoo]]
   * [[Com traduir un mòdul d'Odoo]]
 ### Sysadmin - english
+  * [[How to duplicate a production DB and use it to test]]
   * [[How to install modules for Odoo]]
   * [[Add backups to Odoo instance]]
   * [[How to restore an Odoo backup]]
