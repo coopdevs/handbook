@@ -67,6 +67,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Useful commands]]
 * [[Recuperar una máquina Hetzner sin acceso por SSH]]
 * [[Configure gmail with ansible-msmtp-mailer ]]
+* [[Access to Blackbox Exporter UI]]
 
 ## Odoo
 
