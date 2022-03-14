@@ -69,6 +69,7 @@
 * [[Funcionamiento de colas y jobs en Odoo]]
 
 **Sysadmin**
+* [[Create/Delete a server]]
 * [[How to manage fail2ban]]
 * [[Virtualization with libvirt, qemu and kvm]]
 * [[Loki, Promtail and Grafana Cloud]]
