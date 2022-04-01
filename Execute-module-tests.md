@@ -69,7 +69,7 @@ collected 3 items
 
 ```
 
-### Generate an HTML coverage report
+### Generate a HTML coverage report
 
 1.  make directory
 ```bash
