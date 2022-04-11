@@ -64,7 +64,7 @@ Welcome to the Coopdevs Handbook wiki!
 * [[Adding alerts in Grafana]]
 * [[Alerting from Grafana on events of log entries managed by Loki]]
 * [[Add monitoring to a new host]]
-* [[Disk monitoring alarm]]
+* [[Monitoring alarms]]
 * [[Useful commands]]
 * [[Recuperar una máquina Hetzner sin acceso por SSH]]
 * [[Configure gmail with ansible-msmtp-mailer ]]
@@ -94,6 +94,7 @@ Welcome to the Coopdevs Handbook wiki!
   * [[How to upgrade from v11 to v12]]
   * [[Funcionamiento de colas y jobs en Odoo]]
   * [[Execute module tests]]
+  * [[Listing active certs]]
 
 ## Discourse
 * [[Discourse Management]]
