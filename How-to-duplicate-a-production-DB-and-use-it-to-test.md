@@ -33,7 +33,7 @@ It should be stored in Bitwarden. If it's not there... please ask a sysadmin to 
 1. At the end of the form, choose to **restore a database**
 1. Fill in the *DB master password*, browse and select the zip file with the old prod DB of the first point, use the **new prod** DB name (e.g. `odoo-new-prod`) and select "This database is a copy" option. Make sure that the DB name you choose is the same as the DB deleted in *point 5*.
 1. Repeat the previous steps for the **new test subdomain** and *new test DB name* using again old prod DB backup of first step.
-1. Disable cron jobs and ingoing and outgoing mail servers for test DB.
+1. Disable cron jobs and ingoing and outgoing mail servers for test DB. (`UPDATE ir_cron SET active='f'` `DELETE FROM ir_mail_server` `DELETE FROM fetchmail_server` in `psql [[*new test DB name**]]`
 1. Run provisioning again to install unaccent psql extension and enable ribbon in test (ensure that `web_environment_ribbon` Odoo module is in inventory.
 
 ### Alternative steps if you forget to backup the old prod DB at first
