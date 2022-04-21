@@ -95,6 +95,7 @@ Welcome to the Coopdevs Handbook wiki!
   * [[Funcionamiento de colas y jobs en Odoo]]
   * [[Execute module tests]]
   * [[Listing active certs]]
+  * [[How to upgrade python version on an Odoo Server]]
 
 ## Discourse
 * [[Discourse Management]]

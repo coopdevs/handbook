@@ -68,6 +68,7 @@
 * [[Packaging Odoo addons]]
 * [[How to add easy my coop to an Odoo instance]]
 * [[Funcionamiento de colas y jobs en Odoo]]
+* [[How to upgrade python version on an Odoo Server]]
 
 **Sysadmin**
 * [[Create/Delete a server]]
